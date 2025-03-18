@@ -2,6 +2,7 @@
 using SocialStuff.Database;
 using System;
 using System.Collections.Generic;
+using System.Xml.Serialization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -49,7 +50,7 @@ namespace SocialStuff.Model
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                //MessageBox.Show(ex.Message, "Message", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
             
             finally { dbConnection.CloseConnection(); }
@@ -62,9 +63,9 @@ namespace SocialStuff.Model
 
         public string getChatName() { return this.ChatName; }
 
-        public DateTime getLastMessageTimeStamp()
-        {
+        //public DateTime getLastMessageTimeStamp()
+        //{
 
-        }
+        //}
     }
 }

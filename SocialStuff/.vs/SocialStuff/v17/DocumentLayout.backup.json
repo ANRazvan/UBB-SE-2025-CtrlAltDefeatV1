@@ -1,10 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\alexe\\source\\repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\",
+  "WorkspaceRootPath": "D:\\ISS\\SocialStuff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|c:\\users\\alexe\\source\\repos\\ubb-se-2025-ctrlaltdefeat\\socialstuff\\socialstuff\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
-      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\model\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\model\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,24 +18,49 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Chat.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Model\\Chat.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Chat.cs*",
+              "RelativeToolTip": "SocialStuff\\Model\\Chat.cs*",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:51:48.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Database\\DatabaseConnection.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Database\\DatabaseConnection.cs*",
+              "RelativeToolTip": "SocialStuff\\Database\\DatabaseConnection.cs*",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAswJ4AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T14:48:49.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": ".gitignore",
-              "DocumentMoniker": "C:\\Users\\alexe\\source\\repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\SocialStuff\\.gitignore",
-              "RelativeDocumentMoniker": "SocialStuff\\.gitignore",
-              "ToolTip": "C:\\Users\\alexe\\source\\repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\SocialStuff\\.gitignore",
-              "RelativeToolTip": "SocialStuff\\.gitignore",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-17T13:42:56.156Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             }
           ]
         }

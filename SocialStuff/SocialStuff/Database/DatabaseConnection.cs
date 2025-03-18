@@ -154,6 +154,11 @@ namespace SocialStuff.Database
             }
         }
 
+        public SqlConnection getConnection()
+        {
+            return conn;
+        }
+
     }
 
 
