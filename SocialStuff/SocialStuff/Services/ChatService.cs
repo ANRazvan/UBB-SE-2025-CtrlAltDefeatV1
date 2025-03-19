@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
 using Microsoft.UI.Xaml.Controls;
-using SocialStuff.Database;
-using SocialStuff.Repository;
+using SocialStuff.Data;
+using SocialStuff.Model;
 
 namespace SocialStuff.Services
 {
     public class ChatService
     {
-        private Repository.Repository repository;
+        private Repository repository;
         
         public ObservableCollection<int> FilteredFriends { get; set; } = new ObservableCollection<int>();
         public Dictionary<int, string> friendsDict = new Dictionary<int, string>();
@@ -22,7 +22,7 @@ namespace SocialStuff.Services
 
         public ChatService()
         {
-            this.repository = new Repository.Repository();
+            this.repository = new Repository    ();
         }
 
         public void NotifyChatsUpdated()
@@ -34,13 +34,21 @@ namespace SocialStuff.Services
         {
             try
             {
-                repository.AddChat(usersIDs, chatName);
+                int chatID;
+                repository.AddChat(chatName, out chatID);
                 ChatsUpdated?.Invoke();
 
-                int newChatID = repository.GetChatID(usersIDs, chatName);
-                var addedUsers = repository.GetChatParticipants(newChatID);
+                foreach (var userID in usersIDs)
+                {
+                    repository.AddUserToChat(userID, chatID);
+                }
 
-                return usersIDs.All(id => addedUsers.Contains(id));
+                var addedUsers = repository.GetChatParticipants(chatID);
+
+                if (addedUsers.Count == usersIDs.Count)
+                    return true;
+                else
+                    return false;
             }
             catch (Exception ex)
             {
@@ -74,7 +82,7 @@ namespace SocialStuff.Services
                     repository.RemoveUserFromChat(userID, chatID);
                     if (repository.GetChatParticipants(chatID).Count == 0)
                     {
-                        repository.RemoveChat(chatID);
+                        repository.DeleteChat(chatID);
                     }
                 }
                 catch (Exception ex)
@@ -89,7 +97,7 @@ namespace SocialStuff.Services
         {
             try
             {
-                repository.RemoveChat(chatID);
+                repository.DeleteChat(chatID);
                 return;
             }
             catch (Exception ex)
@@ -101,7 +109,7 @@ namespace SocialStuff.Services
 
         public void loadFriends(int userID)
         {
-            friendsDict = repository.GetFriends(userID).ToDictionary(friend => friend.id, friend => friend.name);
+            friendsDict = repository.GetUserFriendsList(userID).ToDictionary(friend => friend.GetUserId(), friend => friend.GetUsername());
             FilteredFriends.Clear();
             foreach(var id in friendsDict.Keys)
             {
@@ -122,7 +130,7 @@ namespace SocialStuff.Services
 
         }
 
-        public List<int> getChatParticipants(int chatID)
+        public List<User> getChatParticipants(int chatID)
         {
             try
             {
@@ -135,11 +143,11 @@ namespace SocialStuff.Services
             return null;
         }
 
-        public List<int> getFriends(int userID)
+        public List<User> getFriends(int userID)
         {
             try
             {
-                return repository.GetFriends(userID);
+                return repository.GetUserFriendsList(userID);
             }
             catch (Exception ex)
             {

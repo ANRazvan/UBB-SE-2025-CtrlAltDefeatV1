@@ -3,16 +3,56 @@
   "WorkspaceRootPath": "D:\\ISS\\SocialStuff\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\data\\database\\storedprocedures\\procs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\data\\database\\storedprocedures\\procs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\services\\chatservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\model\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\data\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\data\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\data\\database\\databaseconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\model\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\model\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\model\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\model\\chat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\viewmodels\\chatviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|d:\\iss\\socialstuff\\socialstuff\\data\\database\\storedprocedures\\procs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{CB7F2FD0-7F7E-4C40-B094-522416594283}|SocialStuff\\SocialStuff.csproj|solutionrelative:socialstuff\\data\\database\\storedprocedures\\procs.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +62,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 249,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 9,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\User.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Model\\User.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\User.cs*",
+              "RelativeToolTip": "SocialStuff\\Model\\User.cs*",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswCYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:47:25.542Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
@@ -49,6 +102,122 @@
               "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ChatService.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\ChatService.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Services\\ChatService.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\ChatService.cs*",
+              "RelativeToolTip": "SocialStuff\\Services\\ChatService.cs*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAswG8AAACJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T15:46:42.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "procs.sql ",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Database\\StoredProcedures\\procs.sql",
+              "RelativeDocumentMoniker": "SocialStuff\\Data\\Database\\StoredProcedures\\procs.sql",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Database\\StoredProcedures\\procs.sql*",
+              "RelativeToolTip": "SocialStuff\\Data\\Database\\StoredProcedures\\procs.sql*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-19T14:32:08.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "SocialStuff\\MainWindow.xaml",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\MainWindow.xaml*",
+              "RelativeToolTip": "SocialStuff\\MainWindow.xaml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T14:36:07.342Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Services\\UserService.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\UserService.cs*",
+              "RelativeToolTip": "SocialStuff\\Services\\UserService.cs*",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAqwHQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:49:37.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Chat.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Chat.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Model\\Chat.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Chat.cs",
+              "RelativeToolTip": "SocialStuff\\Model\\Chat.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:33:17.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DatabaseConnection.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Database\\DatabaseConnection.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Data\\Database\\DatabaseConnection.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Database\\DatabaseConnection.cs*",
+              "RelativeToolTip": "SocialStuff\\Data\\Database\\DatabaseConnection.cs*",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAewKEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:38:19.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Report.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Report.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Model\\Report.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Model\\Report.cs",
+              "RelativeToolTip": "SocialStuff\\Model\\Report.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-19T14:30:47.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\App.xaml.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml.cs",
+              "RelativeToolTip": "SocialStuff\\App.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-18T20:46:57.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml",
+              "RelativeDocumentMoniker": "SocialStuff\\App.xaml",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml",
+              "RelativeToolTip": "SocialStuff\\App.xaml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-19T13:02:06.128Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
@@ -66,41 +235,34 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 11,
               "Title": "ChatViewModel.cs",
               "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\ViewModels\\ChatViewModel.cs",
               "RelativeDocumentMoniker": "SocialStuff\\ViewModels\\ChatViewModel.cs",
               "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\ViewModels\\ChatViewModel.cs",
               "RelativeToolTip": "SocialStuff\\ViewModels\\ChatViewModel.cs",
-              "ViewState": "AgIAAEUAAAAAAAAAAAAuwFIAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAFIAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-18T20:53:32.133Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 249,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml.cs",
-              "RelativeDocumentMoniker": "SocialStuff\\App.xaml.cs",
-              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\App.xaml.cs",
-              "RelativeToolTip": "SocialStuff\\App.xaml.cs",
-              "ViewState": "AgIAACcAAAAAAAAAAAAqwC8AAAAJAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Repository.cs",
+              "RelativeDocumentMoniker": "SocialStuff\\Data\\Repository.cs",
+              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Data\\Repository.cs*",
+              "RelativeToolTip": "SocialStuff\\Data\\Repository.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAADwv14AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T20:46:57.224Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ChatService.cs",
-              "DocumentMoniker": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\ChatService.cs",
-              "RelativeDocumentMoniker": "SocialStuff\\Services\\ChatService.cs",
-              "ToolTip": "D:\\ISS\\SocialStuff\\SocialStuff\\Services\\ChatService.cs",
-              "RelativeToolTip": "SocialStuff\\Services\\ChatService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-18T15:46:42.15Z",
+              "WhenOpened": "2025-03-19T14:31:11.445Z",
               "EditorCaption": ""
             }
           ]

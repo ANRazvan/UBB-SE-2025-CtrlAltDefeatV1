@@ -10,7 +10,8 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
-using SocialStuff.Database;
+using SocialStuff.Data.Database;
+using SocialStuff.Data;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
@@ -37,12 +38,14 @@ namespace SocialStuff
 
         private void myButton_Click(object sender, RoutedEventArgs e)
         {
-            DatabaseConnection dc = new Repository.DatabaseConnection();
+            Repository repo = new Repository();
+            DatabaseConnection dc = repo.GetDatabaseConnection();
             dc.OpenConnection();
             int res = dc.CheckConnection();
             if (res == 1)
             {
                 myButtonCheck();
+                Console.WriteLine("Database connection established !");
             }
             dc.CloseConnection();
         }
