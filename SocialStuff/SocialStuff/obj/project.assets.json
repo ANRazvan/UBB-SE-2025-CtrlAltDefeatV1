@@ -60,6 +60,22 @@
           }
         }
       },
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "CommunityToolkit.Mvvm/8.4.0": {
         "type": "package",
         "compile": {
@@ -672,6 +688,18 @@
           }
         }
       },
+      "Moq/4.20.72": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {}
+        }
+      },
       "MySql.Data/9.2.0": {
         "type": "package",
         "dependencies": {
@@ -1140,6 +1168,123 @@
           }
         }
       },
+      "Uno.WinUI/5.6.81": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22000.196",
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/uno.winui.props": {},
+          "buildTransitive/net8.0/uno.winui.targets": {}
+        }
+      },
+      "xunit/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.analyzers/1.18.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.runner.visualstudio/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
       "ZstdSharp.Port/0.8.0": {
         "type": "package",
         "compile": {
@@ -1205,6 +1350,22 @@
         },
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
             "related": ".xml"
           }
         }
@@ -1776,6 +1937,18 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Moq/4.20.72": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {}
+        }
+      },
       "MySql.Data/9.2.0": {
         "type": "package",
         "dependencies": {
@@ -2262,6 +2435,123 @@
           }
         }
       },
+      "Uno.WinUI/5.6.81": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22000.196",
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/uno.winui.props": {},
+          "buildTransitive/net8.0/uno.winui.targets": {}
+        }
+      },
+      "xunit/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.analyzers/1.18.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.runner.visualstudio/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
       "ZstdSharp.Port/0.8.0": {
         "type": "package",
         "compile": {
@@ -2327,6 +2617,22 @@
         },
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
             "related": ".xml"
           }
         }
@@ -2898,6 +3204,18 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Moq/4.20.72": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {}
+        }
+      },
       "MySql.Data/9.2.0": {
         "type": "package",
         "dependencies": {
@@ -3391,6 +3709,123 @@
           }
         }
       },
+      "Uno.WinUI/5.6.81": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22000.196",
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/uno.winui.props": {},
+          "buildTransitive/net8.0/uno.winui.targets": {}
+        }
+      },
+      "xunit/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.analyzers/1.18.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.runner.visualstudio/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
       "ZstdSharp.Port/0.8.0": {
         "type": "package",
         "compile": {
@@ -3456,6 +3891,22 @@
         },
         "runtime": {
           "lib/net6.0/BouncyCastle.Cryptography.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Castle.Core/5.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.Diagnostics.EventLog": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Castle.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Castle.Core.dll": {
             "related": ".xml"
           }
         }
@@ -4027,6 +4478,18 @@
           "buildTransitive/Microsoft.WindowsAppSDK.targets": {}
         }
       },
+      "Moq/4.20.72": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "5.1.1"
+        },
+        "compile": {
+          "lib/net6.0/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Moq.dll": {}
+        }
+      },
       "MySql.Data/9.2.0": {
         "type": "package",
         "dependencies": {
@@ -4513,6 +4976,123 @@
           }
         }
       },
+      "Uno.WinUI/5.6.81": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Windows.SDK.BuildTools": "10.0.22000.196",
+          "Microsoft.WindowsAppSDK": "1.0.0"
+        },
+        "compile": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "runtime": {
+          "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll": {
+            "related": ".pdb;.pri"
+          }
+        },
+        "build": {
+          "buildTransitive/net8.0/uno.winui.props": {},
+          "buildTransitive/net8.0/uno.winui.targets": {}
+        }
+      },
+      "xunit/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.analyzers": "1.18.0",
+          "xunit.assert": "2.9.3",
+          "xunit.core": "[2.9.3]"
+        }
+      },
+      "xunit.abstractions/2.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/xunit.abstractions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.analyzers/1.18.0": {
+        "type": "package"
+      },
+      "xunit.assert/2.9.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/xunit.assert.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]",
+          "xunit.extensibility.execution": "[2.9.3]"
+        },
+        "build": {
+          "build/xunit.core.props": {},
+          "build/xunit.core.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/xunit.core.props": {},
+          "buildMultiTargeting/xunit.core.targets": {}
+        }
+      },
+      "xunit.extensibility.core/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.abstractions": "2.0.3"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.extensibility.execution/2.9.3": {
+        "type": "package",
+        "dependencies": {
+          "xunit.extensibility.core": "[2.9.3]"
+        },
+        "compile": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard1.1/xunit.execution.dotnet.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "xunit.runner.visualstudio/3.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        },
+        "build": {
+          "build/net6.0/xunit.runner.visualstudio.props": {}
+        }
+      },
       "ZstdSharp.Port/0.8.0": {
         "type": "package",
         "compile": {
@@ -4581,6 +5161,30 @@
         "lib/netstandard2.0/BouncyCastle.Cryptography.dll",
         "lib/netstandard2.0/BouncyCastle.Cryptography.xml",
         "packageIcon.png"
+      ]
+    },
+    "Castle.Core/5.1.1": {
+      "sha512": "rpYtIczkzGpf+EkZgDr9CClTdemhsrwA/W5hMoPjLkRFnXzH44zDLoovXeKtmxb1ykXK9aJVODSpiJml8CTw2g==",
+      "type": "package",
+      "path": "castle.core/5.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle-logo.png",
+        "castle.core.5.1.1.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net462/Castle.Core.dll",
+        "lib/net462/Castle.Core.xml",
+        "lib/net6.0/Castle.Core.dll",
+        "lib/net6.0/Castle.Core.xml",
+        "lib/netstandard2.0/Castle.Core.dll",
+        "lib/netstandard2.0/Castle.Core.xml",
+        "lib/netstandard2.1/Castle.Core.dll",
+        "lib/netstandard2.1/Castle.Core.xml",
+        "readme.txt"
       ]
     },
     "CommunityToolkit.Mvvm/8.4.0": {
@@ -6055,6 +6659,23 @@
         "tools/x86/GenXbf.dll"
       ]
     },
+    "Moq/4.20.72": {
+      "sha512": "EA55cjyNn8eTNWrgrdZJH5QLFp2L43oxl1tlkoYUKIE9pRwL784OWiTXeCV5ApS+AMYEAlt7Fo03A2XfouvHmQ==",
+      "type": "package",
+      "path": "moq/4.20.72",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net462/Moq.dll",
+        "lib/net6.0/Moq.dll",
+        "lib/netstandard2.0/Moq.dll",
+        "lib/netstandard2.1/Moq.dll",
+        "moq.4.20.72.nupkg.sha512",
+        "moq.nuspec",
+        "readme.md"
+      ]
+    },
     "MySql.Data/9.2.0": {
       "sha512": "S/O4qGf5+fG64d+IHXpZ+wC08m0HsqIwb2xtEY41jdjXYdV2uEtdEy+Jo2ObQamGj0/GD7X6LUCBbh4eb3fKew==",
       "type": "package",
@@ -7363,6 +7984,503 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Uno.WinUI/5.6.81": {
+      "sha512": "5xr9EAn90ksCTyrHHbKKitRQJJuo2b0yKkESRbG2pkKa1CqpcVf5ZS4RWTk8n3zUv5qZrPBvlE1trUDoden6CA==",
+      "type": "package",
+      "path": "uno.winui/5.6.81",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "analyzers/dotnet/cs/Microsoft.ApplicationInsights.dll",
+        "analyzers/dotnet/cs/Microsoft.DotNet.PlatformAbstractions.dll",
+        "analyzers/dotnet/cs/System.Diagnostics.DiagnosticSource.dll",
+        "analyzers/dotnet/cs/Uno.Analyzers.dll",
+        "analyzers/dotnet/cs/Uno.Analyzers.pdb",
+        "analyzers/dotnet/cs/Uno.DevTools.Telemetry.dll",
+        "analyzers/dotnet/cs/Uno.UI.SourceGenerators.dll",
+        "analyzers/dotnet/cs/Uno.UI.SourceGenerators.pdb",
+        "analyzers/dotnet/cs/Uno.Xaml.dll",
+        "analyzers/dotnet/cs/Uno.Xaml.pdb",
+        "buildTransitive/Descriptors/Uno.UI.LinkAttributes.Android.xml",
+        "buildTransitive/Uno.UI.SourceGenerators.props",
+        "buildTransitive/Uno.UI.Tasks.targets",
+        "buildTransitive/Uno.UI.Tasks/Mono.Cecil.Mdb.dll",
+        "buildTransitive/Uno.UI.Tasks/Mono.Cecil.Pdb.dll",
+        "buildTransitive/Uno.UI.Tasks/Mono.Cecil.Rocks.dll",
+        "buildTransitive/Uno.UI.Tasks/Mono.Cecil.dll",
+        "buildTransitive/Uno.UI.Tasks/Uno.UI.Tasks.vff56350defe59cd951212ae8d5e475d0809bcb19.dll",
+        "buildTransitive/Uno.UI.Tasks/Uno.UI.Tasks.vff56350defe59cd951212ae8d5e475d0809bcb19.pdb",
+        "buildTransitive/net8.0-android30.0/uno.winui.props",
+        "buildTransitive/net8.0-android30.0/uno.winui.targets",
+        "buildTransitive/net8.0-ios17.0/uno.winui.props",
+        "buildTransitive/net8.0-ios17.0/uno.winui.targets",
+        "buildTransitive/net8.0-maccatalyst17.0/uno.winui.props",
+        "buildTransitive/net8.0-maccatalyst17.0/uno.winui.targets",
+        "buildTransitive/net8.0-macos14.0/uno.winui.props",
+        "buildTransitive/net8.0-macos14.0/uno.winui.targets",
+        "buildTransitive/net8.0/uno.winui.props",
+        "buildTransitive/net8.0/uno.winui.targets",
+        "buildTransitive/net9.0-android30.0/uno.winui.props",
+        "buildTransitive/net9.0-android30.0/uno.winui.targets",
+        "buildTransitive/net9.0-ios18.0/uno.winui.props",
+        "buildTransitive/net9.0-ios18.0/uno.winui.targets",
+        "buildTransitive/net9.0-maccatalyst18.0/uno.winui.props",
+        "buildTransitive/net9.0-maccatalyst18.0/uno.winui.targets",
+        "buildTransitive/net9.0-macos15.0/uno.winui.props",
+        "buildTransitive/net9.0-macos15.0/uno.winui.targets",
+        "buildTransitive/net9.0-windows/uno.winui.props",
+        "buildTransitive/net9.0-windows/uno.winui.targets",
+        "buildTransitive/uap10.0.16299/uno.winui.runtime-replace.targets",
+        "buildTransitive/uap10.0.16299/uno.winui.targets",
+        "buildTransitive/uap10.0.17763/uno.winui.runtime-replace.targets",
+        "buildTransitive/uap10.0.17763/uno.winui.targets",
+        "buildTransitive/uap10.0.19041/uno.winui.runtime-replace.targets",
+        "buildTransitive/uap10.0.19041/uno.winui.targets",
+        "buildTransitive/uno.ui.tasks.assets.targets",
+        "buildTransitive/uno.winui.common.props",
+        "buildTransitive/uno.winui.common.targets",
+        "buildTransitive/uno.winui.cross-runtime.targets",
+        "buildTransitive/uno.winui.runtime-replace.targets",
+        "buildTransitive/uno.winui.single-project.targets",
+        "buildTransitive/uno.winui.winappsdk.targets",
+        "lib/net8.0-android30.0/Uno.Foundation.dll",
+        "lib/net8.0-android30.0/Uno.Foundation.pdb",
+        "lib/net8.0-android30.0/Uno.Foundation.xml",
+        "lib/net8.0-android30.0/Uno.UI.BindingHelper.Android.aar",
+        "lib/net8.0-android30.0/Uno.UI.BindingHelper.Android.dll",
+        "lib/net8.0-android30.0/Uno.UI.BindingHelper.Android.pdb",
+        "lib/net8.0-android30.0/Uno.UI.BindingHelper.Android.xml",
+        "lib/net8.0-android30.0/Uno.UI.Composition.dll",
+        "lib/net8.0-android30.0/Uno.UI.Composition.pdb",
+        "lib/net8.0-android30.0/Uno.UI.Composition.xml",
+        "lib/net8.0-android30.0/Uno.UI.Dispatching.dll",
+        "lib/net8.0-android30.0/Uno.UI.Dispatching.pdb",
+        "lib/net8.0-android30.0/Uno.UI.Dispatching.xml",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.dll",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.pdb",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net8.0-android30.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net8.0-android30.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0-android30.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0-android30.0/Uno.UI.dll",
+        "lib/net8.0-android30.0/Uno.UI.pdb",
+        "lib/net8.0-android30.0/Uno.UI.xml",
+        "lib/net8.0-android30.0/Uno.Xaml.dll",
+        "lib/net8.0-android30.0/Uno.Xaml.pdb",
+        "lib/net8.0-android30.0/Uno.dll",
+        "lib/net8.0-android30.0/Uno.pdb",
+        "lib/net8.0-android30.0/Uno.xml",
+        "lib/net8.0-ios17.0/Uno.Foundation.dll",
+        "lib/net8.0-ios17.0/Uno.Foundation.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.Composition.dll",
+        "lib/net8.0-ios17.0/Uno.UI.Composition.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.Dispatching.dll",
+        "lib/net8.0-ios17.0/Uno.UI.Dispatching.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.dll",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net8.0-ios17.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0-ios17.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0-ios17.0/Uno.UI.dll",
+        "lib/net8.0-ios17.0/Uno.UI.pdb",
+        "lib/net8.0-ios17.0/Uno.Xaml.dll",
+        "lib/net8.0-ios17.0/Uno.Xaml.pdb",
+        "lib/net8.0-ios17.0/Uno.dll",
+        "lib/net8.0-ios17.0/Uno.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.Foundation.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.Foundation.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Composition.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Composition.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Dispatching.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Dispatching.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.UI.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.Xaml.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.Xaml.pdb",
+        "lib/net8.0-maccatalyst17.0/Uno.dll",
+        "lib/net8.0-maccatalyst17.0/Uno.pdb",
+        "lib/net8.0-macos14.0/Uno.Foundation.dll",
+        "lib/net8.0-macos14.0/Uno.Foundation.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.Composition.dll",
+        "lib/net8.0-macos14.0/Uno.UI.Composition.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.Dispatching.dll",
+        "lib/net8.0-macos14.0/Uno.UI.Dispatching.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.dll",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net8.0-macos14.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0-macos14.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0-macos14.0/Uno.UI.dll",
+        "lib/net8.0-macos14.0/Uno.UI.pdb",
+        "lib/net8.0-macos14.0/Uno.Xaml.dll",
+        "lib/net8.0-macos14.0/Uno.Xaml.pdb",
+        "lib/net8.0-macos14.0/Uno.dll",
+        "lib/net8.0-macos14.0/Uno.pdb",
+        "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit.pri",
+        "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit/Themes/Generic.xaml",
+        "lib/net8.0-windows10.0.19041.0/Uno.UI.Toolkit/Themes/Generic.xbf",
+        "lib/net8.0/Uno.Foundation.dll",
+        "lib/net8.0/Uno.UI.Composition.dll",
+        "lib/net8.0/Uno.UI.Dispatching.dll",
+        "lib/net8.0/Uno.UI.FluentTheme.dll",
+        "lib/net8.0/Uno.UI.FluentTheme.pdb",
+        "lib/net8.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net8.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net8.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net8.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net8.0/Uno.UI.Toolkit.dll",
+        "lib/net8.0/Uno.UI.Toolkit.pdb",
+        "lib/net8.0/Uno.UI.dll",
+        "lib/net8.0/Uno.Xaml.dll",
+        "lib/net8.0/Uno.dll",
+        "lib/net9.0-android30.0/Uno.Foundation.dll",
+        "lib/net9.0-android30.0/Uno.Foundation.pdb",
+        "lib/net9.0-android30.0/Uno.Foundation.xml",
+        "lib/net9.0-android30.0/Uno.UI.BindingHelper.Android.aar",
+        "lib/net9.0-android30.0/Uno.UI.BindingHelper.Android.dll",
+        "lib/net9.0-android30.0/Uno.UI.BindingHelper.Android.pdb",
+        "lib/net9.0-android30.0/Uno.UI.BindingHelper.Android.xml",
+        "lib/net9.0-android30.0/Uno.UI.Composition.dll",
+        "lib/net9.0-android30.0/Uno.UI.Composition.pdb",
+        "lib/net9.0-android30.0/Uno.UI.Composition.xml",
+        "lib/net9.0-android30.0/Uno.UI.Dispatching.dll",
+        "lib/net9.0-android30.0/Uno.UI.Dispatching.pdb",
+        "lib/net9.0-android30.0/Uno.UI.Dispatching.xml",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.dll",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.pdb",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net9.0-android30.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net9.0-android30.0/Uno.UI.Toolkit.dll",
+        "lib/net9.0-android30.0/Uno.UI.Toolkit.pdb",
+        "lib/net9.0-android30.0/Uno.UI.dll",
+        "lib/net9.0-android30.0/Uno.UI.pdb",
+        "lib/net9.0-android30.0/Uno.UI.xml",
+        "lib/net9.0-android30.0/Uno.Xaml.dll",
+        "lib/net9.0-android30.0/Uno.Xaml.pdb",
+        "lib/net9.0-android30.0/Uno.dll",
+        "lib/net9.0-android30.0/Uno.pdb",
+        "lib/net9.0-android30.0/Uno.xml",
+        "lib/net9.0-ios18.0/Uno.Foundation.dll",
+        "lib/net9.0-ios18.0/Uno.Foundation.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.Composition.dll",
+        "lib/net9.0-ios18.0/Uno.UI.Composition.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.Dispatching.dll",
+        "lib/net9.0-ios18.0/Uno.UI.Dispatching.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.dll",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net9.0-ios18.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.Toolkit.dll",
+        "lib/net9.0-ios18.0/Uno.UI.Toolkit.pdb",
+        "lib/net9.0-ios18.0/Uno.UI.dll",
+        "lib/net9.0-ios18.0/Uno.UI.pdb",
+        "lib/net9.0-ios18.0/Uno.Xaml.dll",
+        "lib/net9.0-ios18.0/Uno.Xaml.pdb",
+        "lib/net9.0-ios18.0/Uno.dll",
+        "lib/net9.0-ios18.0/Uno.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.Foundation.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.Foundation.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Composition.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Composition.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Dispatching.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Dispatching.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Toolkit.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.Toolkit.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.UI.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.Xaml.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.Xaml.pdb",
+        "lib/net9.0-maccatalyst18.0/Uno.dll",
+        "lib/net9.0-maccatalyst18.0/Uno.pdb",
+        "lib/net9.0-macos15.0/Uno.Foundation.dll",
+        "lib/net9.0-macos15.0/Uno.Foundation.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.Composition.dll",
+        "lib/net9.0-macos15.0/Uno.UI.Composition.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.Dispatching.dll",
+        "lib/net9.0-macos15.0/Uno.UI.Dispatching.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.dll",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net9.0-macos15.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.Toolkit.dll",
+        "lib/net9.0-macos15.0/Uno.UI.Toolkit.pdb",
+        "lib/net9.0-macos15.0/Uno.UI.dll",
+        "lib/net9.0-macos15.0/Uno.UI.pdb",
+        "lib/net9.0-macos15.0/Uno.Xaml.dll",
+        "lib/net9.0-macos15.0/Uno.Xaml.pdb",
+        "lib/net9.0-macos15.0/Uno.dll",
+        "lib/net9.0-macos15.0/Uno.pdb",
+        "lib/net9.0/Uno.Foundation.dll",
+        "lib/net9.0/Uno.UI.Composition.dll",
+        "lib/net9.0/Uno.UI.Dispatching.dll",
+        "lib/net9.0/Uno.UI.FluentTheme.dll",
+        "lib/net9.0/Uno.UI.FluentTheme.pdb",
+        "lib/net9.0/Uno.UI.FluentTheme.v1.dll",
+        "lib/net9.0/Uno.UI.FluentTheme.v1.pdb",
+        "lib/net9.0/Uno.UI.FluentTheme.v2.dll",
+        "lib/net9.0/Uno.UI.FluentTheme.v2.pdb",
+        "lib/net9.0/Uno.UI.Toolkit.dll",
+        "lib/net9.0/Uno.UI.Toolkit.pdb",
+        "lib/net9.0/Uno.UI.dll",
+        "lib/net9.0/Uno.Xaml.dll",
+        "lib/net9.0/Uno.dll",
+        "tools/_._",
+        "uno-runtime/net8.0/skia/Uno.Foundation.dll",
+        "uno-runtime/net8.0/skia/Uno.Foundation.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.Composition.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.Composition.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.Dispatching.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.Dispatching.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.v1.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.v1.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.v2.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.FluentTheme.v2.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.Toolkit.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.Toolkit.pdb",
+        "uno-runtime/net8.0/skia/Uno.UI.dll",
+        "uno-runtime/net8.0/skia/Uno.UI.pdb",
+        "uno-runtime/net8.0/skia/Uno.Xaml.dll",
+        "uno-runtime/net8.0/skia/Uno.Xaml.pdb",
+        "uno-runtime/net8.0/skia/Uno.dll",
+        "uno-runtime/net8.0/skia/Uno.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.Foundation.dll",
+        "uno-runtime/net8.0/webassembly/Uno.Foundation.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Composition.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Composition.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Dispatching.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Dispatching.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.v1.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.v1.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.v2.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.FluentTheme.v2.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Toolkit.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.Toolkit.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.UI.dll",
+        "uno-runtime/net8.0/webassembly/Uno.UI.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.Xaml.dll",
+        "uno-runtime/net8.0/webassembly/Uno.Xaml.pdb",
+        "uno-runtime/net8.0/webassembly/Uno.dll",
+        "uno-runtime/net8.0/webassembly/Uno.pdb",
+        "uno-runtime/net9.0/skia/Uno.Foundation.dll",
+        "uno-runtime/net9.0/skia/Uno.Foundation.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.Composition.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.Composition.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.Dispatching.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.Dispatching.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v1.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v1.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v2.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.FluentTheme.v2.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.Toolkit.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.Toolkit.pdb",
+        "uno-runtime/net9.0/skia/Uno.UI.dll",
+        "uno-runtime/net9.0/skia/Uno.UI.pdb",
+        "uno-runtime/net9.0/skia/Uno.Xaml.dll",
+        "uno-runtime/net9.0/skia/Uno.Xaml.pdb",
+        "uno-runtime/net9.0/skia/Uno.dll",
+        "uno-runtime/net9.0/skia/Uno.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.Foundation.dll",
+        "uno-runtime/net9.0/webassembly/Uno.Foundation.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Composition.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Composition.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Dispatching.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Dispatching.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.v1.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.v1.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.v2.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.FluentTheme.v2.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Toolkit.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.Toolkit.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.UI.dll",
+        "uno-runtime/net9.0/webassembly/Uno.UI.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.Xaml.dll",
+        "uno-runtime/net9.0/webassembly/Uno.Xaml.pdb",
+        "uno-runtime/net9.0/webassembly/Uno.dll",
+        "uno-runtime/net9.0/webassembly/Uno.pdb",
+        "uno.png",
+        "uno.winui.5.6.81.nupkg.sha512",
+        "uno.winui.nuspec"
+      ]
+    },
+    "xunit/2.9.3": {
+      "sha512": "TlXQBinK35LpOPKHAqbLY4xlEen9TBafjs0V5KnA4wZsoQLQJiirCR4CbIXvOH8NzkW4YeJKP5P/Bnrodm0h9Q==",
+      "type": "package",
+      "path": "xunit/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "xunit.2.9.3.nupkg.sha512",
+        "xunit.nuspec"
+      ]
+    },
+    "xunit.abstractions/2.0.3": {
+      "sha512": "pot1I4YOxlWjIb5jmwvvQNbTrZ3lJQ+jUGkGjWE3hEFM0l5gOnBWS+H3qsex68s5cO52g+44vpGzhAt+42vwKg==",
+      "type": "package",
+      "path": "xunit.abstractions/2.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/xunit.abstractions.dll",
+        "lib/net35/xunit.abstractions.xml",
+        "lib/netstandard1.0/xunit.abstractions.dll",
+        "lib/netstandard1.0/xunit.abstractions.xml",
+        "lib/netstandard2.0/xunit.abstractions.dll",
+        "lib/netstandard2.0/xunit.abstractions.xml",
+        "xunit.abstractions.2.0.3.nupkg.sha512",
+        "xunit.abstractions.nuspec"
+      ]
+    },
+    "xunit.analyzers/1.18.0": {
+      "sha512": "OtFMHN8yqIcYP9wcVIgJrq01AfTxijjAqVDy/WeQVSyrDC1RzBWeQPztL49DN2syXRah8TYnfvk035s7L95EZQ==",
+      "type": "package",
+      "path": "xunit.analyzers/1.18.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "analyzers/dotnet/cs/xunit.analyzers.dll",
+        "analyzers/dotnet/cs/xunit.analyzers.fixes.dll",
+        "tools/install.ps1",
+        "tools/uninstall.ps1",
+        "xunit.analyzers.1.18.0.nupkg.sha512",
+        "xunit.analyzers.nuspec"
+      ]
+    },
+    "xunit.assert/2.9.3": {
+      "sha512": "/Kq28fCE7MjOV42YLVRAJzRF0WmEqsmflm0cfpMjGtzQ2lR5mYVj1/i0Y8uDAOLczkL3/jArrwehfMD0YogMAA==",
+      "type": "package",
+      "path": "xunit.assert/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net6.0/xunit.assert.dll",
+        "lib/net6.0/xunit.assert.xml",
+        "lib/netstandard1.1/xunit.assert.dll",
+        "lib/netstandard1.1/xunit.assert.xml",
+        "xunit.assert.2.9.3.nupkg.sha512",
+        "xunit.assert.nuspec"
+      ]
+    },
+    "xunit.core/2.9.3": {
+      "sha512": "BiAEvqGvyme19wE0wTKdADH+NloYqikiU0mcnmiNyXaF9HyHmE6sr/3DC5vnBkgsWaE6yPyWszKSPSApWdRVeQ==",
+      "type": "package",
+      "path": "xunit.core/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "build/xunit.core.props",
+        "build/xunit.core.targets",
+        "buildMultiTargeting/xunit.core.props",
+        "buildMultiTargeting/xunit.core.targets",
+        "xunit.core.2.9.3.nupkg.sha512",
+        "xunit.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.core/2.9.3": {
+      "sha512": "kf3si0YTn2a8J8eZNb+zFpwfoyvIrQ7ivNk5ZYA5yuYk1bEtMe4DxJ2CF/qsRgmEnDr7MnW1mxylBaHTZ4qErA==",
+      "type": "package",
+      "path": "xunit.extensibility.core/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.core.dll",
+        "lib/net452/xunit.core.dll.tdnet",
+        "lib/net452/xunit.core.xml",
+        "lib/net452/xunit.runner.tdnet.dll",
+        "lib/net452/xunit.runner.utility.net452.dll",
+        "lib/netstandard1.1/xunit.core.dll",
+        "lib/netstandard1.1/xunit.core.xml",
+        "xunit.extensibility.core.2.9.3.nupkg.sha512",
+        "xunit.extensibility.core.nuspec"
+      ]
+    },
+    "xunit.extensibility.execution/2.9.3": {
+      "sha512": "yMb6vMESlSrE3Wfj7V6cjQ3S4TXdXpRqYeNEI3zsX31uTsGMJjEw6oD5F5u1cHnMptjhEECnmZSsPxB6ChZHDQ==",
+      "type": "package",
+      "path": "xunit.extensibility.execution/2.9.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "lib/net452/xunit.execution.desktop.dll",
+        "lib/net452/xunit.execution.desktop.xml",
+        "lib/netstandard1.1/xunit.execution.dotnet.dll",
+        "lib/netstandard1.1/xunit.execution.dotnet.xml",
+        "xunit.extensibility.execution.2.9.3.nupkg.sha512",
+        "xunit.extensibility.execution.nuspec"
+      ]
+    },
+    "xunit.runner.visualstudio/3.0.2": {
+      "sha512": "oXbusR6iPq0xlqoikjdLvzh+wQDkMv9If58myz9MEzldS4nIcp442Btgs2sWbYWV+caEluMe2pQCZ0hUZgPiow==",
+      "type": "package",
+      "path": "xunit.runner.visualstudio/3.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "_content/README.md",
+        "_content/logo-128-transparent.png",
+        "build/net472/xunit.abstractions.dll",
+        "build/net472/xunit.runner.visualstudio.props",
+        "build/net472/xunit.runner.visualstudio.testadapter.dll",
+        "build/net6.0/xunit.abstractions.dll",
+        "build/net6.0/xunit.runner.visualstudio.props",
+        "build/net6.0/xunit.runner.visualstudio.testadapter.dll",
+        "lib/net472/_._",
+        "lib/net6.0/_._",
+        "xunit.runner.visualstudio.3.0.2.nupkg.sha512",
+        "xunit.runner.visualstudio.nuspec"
+      ]
+    },
     "ZstdSharp.Port/0.8.0": {
       "sha512": "Z62eNBIu8E8YtbqlMy57tK3dV1+m2b9NhPeaYovB5exmLKvrGCqOhJTzrEUH5VyUWU6vwX3c1XHJGhW5HVs8dA==",
       "type": "package",
@@ -7389,7 +8507,12 @@
       "Microsoft.Data.SqlClient >= 6.0.1",
       "Microsoft.Windows.SDK.BuildTools >= 10.0.26100.1742",
       "Microsoft.WindowsAppSDK >= 1.6.250228001",
-      "MySql.Data >= 9.2.0"
+      "Moq >= 4.20.72",
+      "MySql.Data >= 9.2.0",
+      "Uno.WinUI >= 5.6.81",
+      "xunit >= 2.9.3",
+      "xunit.assert >= 2.9.3",
+      "xunit.runner.visualstudio >= 3.0.2"
     ]
   },
   "packageFolders": {
@@ -7457,9 +8580,31 @@
             "target": "Package",
             "version": "[1.6.250228001, )"
           },
+          "Moq": {
+            "target": "Package",
+            "version": "[4.20.72, )"
+          },
           "MySql.Data": {
             "target": "Package",
             "version": "[9.2.0, )"
+          },
+          "Uno.WinUI": {
+            "target": "Package",
+            "version": "[5.6.81, )"
+          },
+          "xunit": {
+            "target": "Package",
+            "version": "[2.9.3, )"
+          },
+          "xunit.assert": {
+            "target": "Package",
+            "version": "[2.9.3, )"
+          },
+          "xunit.runner.visualstudio": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[3.0.2, )"
           }
         },
         "imports": [

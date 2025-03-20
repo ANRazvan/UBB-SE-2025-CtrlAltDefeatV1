@@ -292,7 +292,6 @@ D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-wind
 D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hans\Microsoft.Data.SqlClient.resources.dll
 D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\Microsoft.Data.SqlClient.resources.dll
 D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
-<<<<<<< HEAD
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.AssemblyReference.cache
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
@@ -897,8 +896,6 @@ D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\D
 D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
->>>>>>> origin/FriendsList-RemoveFriend
->>>>>>> 65364907d58a3d295a510a21265b6a321f3386f5
 D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\runtimes\win-x64\native\WebView2Loader.dll
 D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.exe
 D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
@@ -1194,3 +1191,14 @@ D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.assert.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.execution.dotnet.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.runner.visualstudio.testadapter.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.genpublishdeps.cache
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Castle.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Moq.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit\Themes\Generic.xaml
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit\Themes\Generic.xbf
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit.dll
