@@ -22,7 +22,7 @@ namespace SocialStuff.Services
 
         public ChatService()
         {
-            this.repository = new Repository    ();
+            this.repository = new Repository ();
         }
 
         public void NotifyChatsUpdated()
@@ -70,7 +70,7 @@ namespace SocialStuff.Services
                 Content = "Are you sure you want to remove this user from the chat?",
                 PrimaryButtonText = "Yes",
                 CloseButtonText = "No",
-                XamlRoot = App.main_window.Content.XamlRoot // Required for WinUI 3
+                XamlRoot = App.MainWindow.Content.XamlRoot // Required for WinUI 3
             };
 
             var result = await dialog.ShowAsync();
@@ -132,21 +132,24 @@ namespace SocialStuff.Services
 
         public List<User> getChatParticipants(int chatID)
         {
+            List<User> users = new List<User>();
             try
             {
-                return repository.GetChatParticipants(chatID);
+                users = repository.GetChatParticipants(chatID);
+                return users;
             }
             catch (Exception ex)
             {
                 Console.WriteLine("ChatService - getChatParticipants Error: " + ex.Message);
             }
-            return null;
+            return users;
         }
 
         public List<User> getFriends(int userID)
         {
             try
             {
+                Console.WriteLine(repository.GetUserFriendsList(userID));
                 return repository.GetUserFriendsList(userID);
             }
             catch (Exception ex)
@@ -156,5 +159,20 @@ namespace SocialStuff.Services
             return null;
         }
 
+        public Chat getChat(int chatID)
+        {
+            List<Chat> chatList = repository.GetChatsList();
+            foreach (Chat chat in chatList)
+            {
+                if (chat.getChatID() == chatID)
+                    return chat;
+            }
+            return null;
+        }
+
+        public List<Chat> getChats()
+        {
+            return repository.GetChatsList();
+        }
     }
 }

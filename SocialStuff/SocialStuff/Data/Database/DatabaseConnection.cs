@@ -10,7 +10,7 @@ namespace SocialStuff.Data.Database
 {
     internal class DatabaseConnection
     {
-        string connectionString = @"Data Source=razvan\SQLEXPRESS01;Initial Catalog=BankingDB;Integrated Security=True;TrustServerCertificate=True";
+        string connectionString = @"Data Source=USER\MSSQLSERVER02;Initial Catalog=BankingDB;Integrated Security=True;TrustServerCertificate=true";
 
 
         private SqlConnection conn;
@@ -18,6 +18,7 @@ namespace SocialStuff.Data.Database
         public DatabaseConnection()
         {
             conn = new SqlConnection(connectionString);
+            Console.WriteLine("Database Connection Created!");
         }
 
         public SqlConnection getConnection()
@@ -98,14 +99,21 @@ namespace SocialStuff.Data.Database
 
 
         // Executes a stored procedure and returns multiple rows and columns as a DataTable
-        public DataTable ExecuteReader(string storedProcedure, SqlParameter[]? sqlParameters = null)
+        public DataTable ExecuteReader(string query, SqlParameter[]? sqlParameters = null, bool isStoredProcedure = true)
         {
             try
             {
                 OpenConnection();
-                using (SqlCommand command = new SqlCommand(storedProcedure, conn))
+                using (SqlCommand command = new SqlCommand(query, conn))
                 {
-                    command.CommandType = CommandType.StoredProcedure;
+                    if (isStoredProcedure)
+                    {
+                        command.CommandType = CommandType.StoredProcedure;
+                    }
+                    else
+                    {
+                        command.CommandType = CommandType.Text;
+                    }
 
                     if (sqlParameters != null)
                     {
@@ -131,7 +139,9 @@ namespace SocialStuff.Data.Database
         }
 
 
+
         // Executes a stored procedure that modifies data (INSERT, UPDATE, DELETE) and returns the number of affected rows
+        //Alexandra- i ve changes such dat it also works with query
         public int ExecuteNonQuery(string storedProcedure, SqlParameter[]? sqlParameters = null)
         {
             try

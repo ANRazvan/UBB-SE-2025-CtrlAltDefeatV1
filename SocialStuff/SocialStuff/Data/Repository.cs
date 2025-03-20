@@ -22,6 +22,10 @@ namespace SocialStuff.Data
             //AddUser("Razvan", "0751198737");
             //AddUser("Carmen", "0720511858");
             //AddUser("Maria", "0712345678");
+            var users = GetUsersList();
+
+            foreach(var user in users)
+            { System.Diagnostics.Debug.WriteLine(user.ToString()); }
         }
 
 
@@ -38,15 +42,15 @@ namespace SocialStuff.Data
         // Get all users
         public List<User> GetUsersList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
             List<User> users = new List<User>();
 
             foreach (DataRow row in dataTable.Rows)
             {
-               int userID = Convert.ToInt32(row["chatid"]);
-                string username = row["username"].ToString();
-                string phoneNumber = row["phonenumber"].ToString();
-                int reportedCount = Convert.ToInt32(row["reportedcount"]);
+               int userID = Convert.ToInt32(row["UserID"]);
+                string username = row["Username"].ToString();
+                string phoneNumber = row["PhoneNumber"].ToString();
+                int reportedCount = Convert.ToInt32(row["ReportedCount"]);
                 users.Add(new User(userID, username, phoneNumber, reportedCount));
             }
             return users;
@@ -55,7 +59,7 @@ namespace SocialStuff.Data
         //Get all notifications
         public List<Notification> GetNotificationsList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Notifications");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Notifications", null, false);
             List<Notification> notifications = new List<Notification>();
 
             foreach (DataRow row in dataTable.Rows)
@@ -67,25 +71,25 @@ namespace SocialStuff.Data
         //Get the Friends of a USERID, friends returned as User Class Type
         public List<User> GetUserFriendsList(int userId)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Friends");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Friends", null, false);
             List<int> FriendIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
-                if (Convert.ToInt32(row["userid"]) == userId)
+                if (Convert.ToInt32(row["UserId"]) == userId)
                 {
-                    FriendIds.Add(Convert.ToInt32(row["friendid"]));
+                    FriendIds.Add(Convert.ToInt32(row["FriendID"]));
                 }
             }
             List<User> users = new List<User>();
             foreach (DataRow row in dataTable.Rows)
-            {
-                int userID = Convert.ToInt32(row["chatid"]);
+            { int userID = Convert.ToInt32(row["UserID"]);
+               
                 if (FriendIds.Contains(userID))
                 {
-                    string username = row["username"].ToString();
-                    string phoneNumber = row["phonenumber"].ToString();
-                    int reportedCount = Convert.ToInt32(row["reportedcount"]);
+                    string username = row["Username"].ToString();
+                    string phoneNumber = row["PhoneNumber"].ToString();
+                    int reportedCount = Convert.ToInt32(row["ReportedCount"]);
                     users.Add(new User(userID, username, phoneNumber, reportedCount));
                 }
             }
@@ -94,23 +98,23 @@ namespace SocialStuff.Data
         // Get all the Chats for a USERID, chats returned as Chat Class Type
         public List<Chat> GetUserChatsList(int userId)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants", null, false);
             List<int> ChatIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
-                if (Convert.ToInt32(row["userid"]) == userId)
+                if (Convert.ToInt32(row["UserID"]) == userId)
                 {
-                    ChatIds.Add(Convert.ToInt32(row["chatid"]));
+                    ChatIds.Add(Convert.ToInt32(row["ChatID"]));
                 }
             }
             List<Chat> Chats = new List<Chat>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int chat = Convert.ToInt32(row["chatid"]);
+                int chat = Convert.ToInt32(row["ChatID"]);
                 if (ChatIds.Contains(chat))
                 {
-                    string chatName = row["chatname"].ToString();
+                    string chatName = row["ChatName"].ToString();
                     Chats.Add(new Chat(chat, chatName));
                 
                 }
@@ -121,12 +125,12 @@ namespace SocialStuff.Data
         // Get all chats
         public List<Chat> GetChatsList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats",null, false);
             List<Chat> chats = new List<Chat>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int chatID = Convert.ToInt32(row["chatid"]);
-                string chatName = row["chatname"].ToString();
+                int chatID = Convert.ToInt32(row["ChatID"]);
+                string chatName = row["ChatName"].ToString();
                 chats.Add(new Chat(chatID, chatName));
             }
             return chats;
@@ -136,19 +140,19 @@ namespace SocialStuff.Data
         public List<Message> GetMessagesList()
         {
             // messagetypes : 1-text , 2-image, 3-request, 4-transfer
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Messages");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Messages", null, false);
             List<Message> messages = new List<Message>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int messageID = Convert.ToInt32(row["messageid"]);
-                int typeID = Convert.ToInt32(row["typeid"]);
-                int userID = Convert.ToInt32(row["userid"]);
-                int chatID = Convert.ToInt32(row["chatid"]);
-                DateTime timestamp = Convert.ToDateTime(row["timestamp"]);
-                string content = row["content"].ToString();
-                string status = row["status"].ToString();
-                float amount = Convert.ToSingle(row["amount"]);
-                string currency = row["currency"].ToString();
+                int messageID = Convert.ToInt32(row["MessageID"]);
+                int typeID = Convert.ToInt32(row["TypeID"]);
+                int userID = Convert.ToInt32(row["UserID"]);
+                int chatID = Convert.ToInt32(row["ChatID"]);
+                DateTime timestamp = Convert.ToDateTime(row["Timestamp"]);
+                string content = row["Content"].ToString();
+                string status = row["Status"].ToString();
+                float amount = Convert.ToSingle(row["Amount"]);
+                string currency = row["Currency"].ToString();
                 switch (typeID)
                 {
                     case 1: // Text message
@@ -174,15 +178,15 @@ namespace SocialStuff.Data
         public List<Report> GetReportsList()
 
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Reports");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Reports",null, false);
             List<Report> reports = new List<Report>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int reportID = Convert.ToInt32(row["reportid"]);
-                int messageID = Convert.ToInt32(row["messageid"]);
-                string reason = row["reason"].ToString();
-                string description = row["description"].ToString();
-                string status = row["status"].ToString();
+                int reportID = Convert.ToInt32(row["ReportID"]);
+                int messageID = Convert.ToInt32(row["MessageID"]);
+                string reason = row["Reason"].ToString();
+                string description = row["Description"].ToString();
+                string status = row["Status"].ToString();
                // reports.Add(new Report(reportID, messageID, reason, description, status));
             }
             return reports;
@@ -205,7 +209,7 @@ namespace SocialStuff.Data
 
         // Add a chat to the database
         public void AddChat(string chatName, out int chatID)
-        {
+        { 
             SqlParameter[] parameters =
             {
                 new SqlParameter("@ChatName", chatName),
@@ -264,14 +268,19 @@ namespace SocialStuff.Data
         }
 
         // Add a user to the database
+        //added property such that u cannot add an already existing phone number
         public void AddUser(string username, string phoneNumber)
         {
+            List<User> users = GetUsersList();
+            if(users.Exists(user => user.GetPhoneNumber() == phoneNumber))
+            {
+                throw new Exception("User already exists");
+            }
             SqlParameter[] parameters =
             {
                 new SqlParameter("@Username", username),
                 new SqlParameter("@PhoneNumber", phoneNumber)
             };
-
             dbConnection.ExecuteNonQuery("AddUser", parameters);
         }
 
@@ -516,26 +525,26 @@ namespace SocialStuff.Data
         //get the pparticipants of a chat
         public List<User> GetChatParticipants(int chatID)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users",null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Chat_Participants",null, false);
             List<int> UserIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
-                if (Convert.ToInt32(row["chatid"]) == chatID)
+                if (Convert.ToInt32(row["ChatID"]) == chatID)
                 {
-                    UserIds.Add(Convert.ToInt32(row["userid"]));
+                    UserIds.Add(Convert.ToInt32(row["UserID"]));
                 }
             }
 
             List<User> users = new List<User>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int userID = Convert.ToInt32(row["chatid"]);
+                int userID = Convert.ToInt32(row["ChatID"]);
                 if (UserIds.Contains(userID))
                 {
-                    string username = row["username"].ToString();
-                    string phoneNumber = row["phonenumber"].ToString();
-                    int reportedCount = Convert.ToInt32(row["reportedcount"]);
+                    string username = row["Username"].ToString();
+                    string phoneNumber = row["PhoneNumber"].ToString();
+                    int reportedCount = Convert.ToInt32(row["ReportedCount"]);
                     users.Add(new User(userID, username, phoneNumber, reportedCount));
                 }
             }
