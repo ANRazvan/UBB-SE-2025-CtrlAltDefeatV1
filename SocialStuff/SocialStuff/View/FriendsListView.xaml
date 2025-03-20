@@ -1,0 +1,42 @@
+<Window x:Class="SocialStuff.View.FriendsListView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Friends" Height="400" Width="300">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <!-- Title -->
+            <RowDefinition Height="Auto"/>
+            <!-- Search Bar -->
+            <RowDefinition Height="*"/>
+            <!-- Friends List -->
+        </Grid.RowDefinitions>
+
+        <!-- Header with Add Friend Button -->
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch" Margin="10">
+            <TextBlock Text="Friends" FontSize="18" FontWeight="Bold" VerticalAlignment="Center"/>
+            <Button Content="+" Width="30" Height="30" Margin="10,0,0,0" 
+                    Command="{Binding AddFriendCommand}"/>
+        </StackPanel>
+
+        <!-- Search Bar -->
+        <TextBox Grid.Row="1" Margin="10" PlaceholderText="Search..." 
+                 Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"/>
+
+        <!-- Friends List -->
+        <ListBox Grid.Row="2" ItemsSource="{Binding Friends}" Margin="10">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal" Margin="5">
+                        <TextBlock Text="{Binding Username}" FontSize="14" VerticalAlignment="Center"/>
+                        <Button Content="-" Width="30" Height="30" Margin="10,0,0,0"
+                                Command="{Binding DataContext.RemoveFriendCommand, RelativeSource={RelativeSource AncestorType=Window}}"
+                                CommandParameter="{Binding}"/>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+
+    </Grid>
+</Window>
