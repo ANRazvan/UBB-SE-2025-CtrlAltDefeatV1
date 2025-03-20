@@ -10,7 +10,7 @@ using SocialStuff.Model.MessageClasses;
 
 namespace SocialStuff.Model
 {
-    class Chat
+    public class Chat
     {
         private List<int> UserIDsList;
         private int ChatID;
