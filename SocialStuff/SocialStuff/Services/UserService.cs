@@ -137,10 +137,17 @@ namespace SocialStuff.Services
             {
                 //user.MarkAsDangerous();
                 //user.GiveTimeout(); this 2 functions in user class
-                //this needs to be done in the chat service  
+                //this needs to be done in the message service  
 
+                user.SetTimeoutEnd(DateTime.Now.AddMinutes(3));
             }
           
         }
+
+        public bool IsUserInTimeout(User user)
+        {
+            return user.GetTimeoutEnd() != null && user.GetTimeoutEnd() > DateTime.Now;
+        }
+
     }
 }
