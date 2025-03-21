@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="SocialStuff.Views.DeletionConfirmationWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SocialStuff.Views"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Title="Deletion Confirmation">
+
+    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="10">
+        <TextBlock Text="Are you sure you want to delete this message?" Margin="0,0,0,10" TextWrapping="Wrap" TextAlignment="Center"/>
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,20,0,0">
+            <Button x:ConnectionId='2' x:Name="ConfirmButton" Content="Delete" Width="75" Margin="0,0,10,0"                            />
+            <Button x:ConnectionId='3' x:Name="CancelButton" Content="Cancel" Width="75"                           />
+        </StackPanel>
+    </StackPanel>
+</Window>
+
