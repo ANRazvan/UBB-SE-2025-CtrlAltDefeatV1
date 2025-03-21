@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Data;
 using Microsoft.Data.SqlClient;
@@ -38,7 +38,7 @@ namespace SocialStuff.Data
         // Get all users
         public List<User> GetUsersList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
             List<User> users = new List<User>();
 
             foreach (DataRow row in dataTable.Rows)
@@ -55,7 +55,7 @@ namespace SocialStuff.Data
         //Get all notifications
         public List<Notification> GetNotificationsList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Notifications");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Notifications", null, false);
             List<Notification> notifications = new List<Notification>();
 
             foreach (DataRow row in dataTable.Rows)
@@ -67,8 +67,8 @@ namespace SocialStuff.Data
         //Get the Friends of a USERID, friends returned as User Class Type
         public List<User> GetUserFriendsList(int userId)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Friends");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Friends", null, false);
             List<int> FriendIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
@@ -94,8 +94,8 @@ namespace SocialStuff.Data
         // Get all the Chats for a USERID, chats returned as Chat Class Type
         public List<Chat> GetUserChatsList(int userId)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants", null, false);
             List<int> ChatIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
@@ -131,8 +131,8 @@ namespace SocialStuff.Data
         // Get all chats
         public List<Chat> GetChatsList()
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats");
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Chats", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants", null, false);
             List<Chat> chats = new List<Chat>();
             foreach (DataRow row in dataTable.Rows)
             {
@@ -155,7 +155,7 @@ namespace SocialStuff.Data
         public List<Message> GetMessagesList()
         {
             // messagetypes : 1-text , 2-image, 3-request, 4-transfer
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Messages");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Messages", null, false);
             List<Message> messages = new List<Message>();
             foreach (DataRow row in dataTable.Rows)
             {
@@ -168,7 +168,7 @@ namespace SocialStuff.Data
                 string status = row["status"].ToString();
                 float amount = Convert.ToSingle(row["amount"]);
                 string currency = row["currency"].ToString();
-                DataTable reportsTable = dbConnection.ExecuteReader("select * from Reports");
+                DataTable reportsTable = dbConnection.ExecuteReader("select * from Reports", null, false);
                 List<int> UserReports = new List<int>();
                 foreach (DataRow row1 in reportsTable.Rows)
                 {
@@ -206,11 +206,15 @@ namespace SocialStuff.Data
             {
                 new SqlParameter("@UserID", userID)
             };
-            DataTable dataTable = dbConnection.ExecuteReader("GetFriends", parameters);
+            DataTable users = dbConnection.ExecuteReader("select * from users", null, false);
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Friends", null, false);
             List<int> friends = new List<int>();
             foreach (DataRow row in dataTable.Rows)
             {
-                friends.Add(Convert.ToInt32(row["UserID"]));
+                if (Convert.ToInt32(row["userid"]) == userID)
+                {
+                    friends.Add(Convert.ToInt32(row["friendid"]));
+                }
             }
             return friends;
         }
@@ -219,7 +223,7 @@ namespace SocialStuff.Data
         public List<Report> GetReportsList()
 
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Reports");
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Reports", null, false);
             List<Report> reports = new List<Report>();
             foreach (DataRow row in dataTable.Rows)
             {
@@ -235,7 +239,7 @@ namespace SocialStuff.Data
         //// Get all feed posts
         //public List<FeedPost> GetFeedPostsList()
         //{
-        //    DataTable dataTable = dbConnection.ExecuteReader("select * from FeedPosts");
+        //    DataTable dataTable = dbConnection.ExecuteReader("select * from FeedPosts", null, false);
         //    List<FeedPost> feedPosts = new List<FeedPost>();
         //    foreach (DataRow row in dataTable.Rows)
         //    {
@@ -255,7 +259,7 @@ namespace SocialStuff.Data
             {
                 new SqlParameter("@UserID", userID)
             };
-            DataTable dataTable = dbConnection.ExecuteReader("GetChats", parameters);
+            DataTable dataTable = dbConnection.ExecuteReader("select * from chats", null, false);
             List<int> chats = new List<int>();
             foreach (DataRow row in dataTable.Rows)
             {
