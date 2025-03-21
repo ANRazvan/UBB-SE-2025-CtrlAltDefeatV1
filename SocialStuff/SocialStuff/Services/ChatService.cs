@@ -9,7 +9,7 @@ using SocialStuff.Model;
 
 namespace SocialStuff.Services
 {
-    class ChatService
+    public class ChatService
     {
         private Repository repository;
 

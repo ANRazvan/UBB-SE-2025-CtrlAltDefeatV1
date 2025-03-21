@@ -61,7 +61,7 @@
         <!-- No Friends Text -->
         <TextBlock x:Name="NoFriendsTextBlock"
            Grid.Row="2" Grid.ColumnSpan="2"
-           Text="You have no friends in the friends list, add a friend to view it here."
+           Text="You have no friends in the friends list, add a friend to view it here. :)"
            HorizontalAlignment="Center" 
            VerticalAlignment="Center"
            Margin="0,20,0,0"
