@@ -14,7 +14,7 @@ namespace SocialStuff.Services
     public class UserService
     {
 
-        private Repository repo; 
+        private Repository repo;
         private int UserID;
 
         public UserService(Repository repo)
@@ -32,11 +32,11 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             var friend = GetUserById(newFriendID);
-            var friends = repo.GetFriendsIDs(userID); 
+            var friends = repo.GetFriendsIDs(userID);
 
             if (user != null && friend != null && !friends.Contains(newFriendID))
             {
-                repo.AddFriend(userID, newFriendID); 
+                repo.AddFriend(userID, newFriendID);
                 user.AddFriend(newFriendID);
             }
         }
@@ -49,7 +49,7 @@ namespace SocialStuff.Services
 
             if (user != null && friend != null && friends.Contains(oldFriendID))
             {
-                repo.DeleteFriend(userID, oldFriendID); 
+                repo.DeleteFriend(userID, oldFriendID);
                 user.RemoveFriend(oldFriendID);
             }
         }
@@ -91,7 +91,7 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             if (user == null) return new List<int>();
-            var friends = repo.GetUserFriendsList(userID); 
+            var friends = repo.GetUserFriendsList(userID);
 
             return friends
                        .Select(friendID => friendID)
@@ -138,6 +138,21 @@ namespace SocialStuff.Services
         public int GetCurrentUser()
         {
             return repo.GetLoggedInUserID(); // This should be replaced with actual logic to get the logged-in user.
+        }
+
+        public List<User> GetNonFriendsUsers(int UserID)
+        {
+            List<User> users = new List<User>(repo.GetUsersList().Where(user => user.GetUserId() != UserID));
+            List<int> friends = repo.GetFriendsIDs(UserID);
+            List<User> nonFriends = new List<User>();
+            foreach (User user in users)
+            {
+                if (!friends.Contains(user.GetUserId()))
+                {
+                    nonFriends.Add(user);
+                }
+            }
+            return nonFriends;
         }
     }
 }
