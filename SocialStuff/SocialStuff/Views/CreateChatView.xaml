@@ -1,0 +1,70 @@
+<Page
+    x:Class="SocialStuff.Views.CreateChatView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    x:Name="CreateChat"
+    Background="#0d0c12">
+
+    <Grid Padding="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <!-- This row takes up available space -->
+            <RowDefinition Height="Auto" />
+            <!-- This row takes up space based on the button's height -->
+        </Grid.RowDefinitions>
+
+        <!-- Left Side - Friend List -->
+        <StackPanel Grid.Column="0" Margin="10">
+            <TextBlock Text="New Group" FontSize="24" Foreground="White" Margin="0,0,0,10"/>
+
+            <TextBox PlaceholderText="Group Name" Margin="0,0,0,10"/>
+
+            <TextBlock Text="Friends" FontSize="18" Foreground="White" Margin="0,10,0,5"/>
+
+            <!-- Search Box -->
+            <TextBox PlaceholderText="Search" Margin="0,0,0,10"/>
+
+            <ListView Height="700">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Stretch">
+                            <TextBlock Text="Friend Name" Foreground="White" Width="100"/>
+                            <Button Content="+" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+        <!-- Right Side - Added Friends -->
+        <Grid Grid.Column="1" Background="#403d52" Padding="10">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <StackPanel>
+                <TextBlock Text="Added Friends" FontSize="18" Foreground="Black" Margin="0,0,0,10"/>
+
+                <ListView Height="300">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="Friend Name" Foreground="Black"/>
+                                <Button Content="-" />
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackPanel>
+
+            <Button Content="Create" HorizontalAlignment="Right" VerticalAlignment="Bottom" Margin="10" Grid.Row="1"/>
+        </Grid>
+    </Grid>
+</Page>

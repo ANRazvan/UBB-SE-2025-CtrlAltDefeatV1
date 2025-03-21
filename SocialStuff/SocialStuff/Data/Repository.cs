@@ -22,10 +22,18 @@ namespace SocialStuff.Data
             //AddUser("Razvan", "0751198737");
             //AddUser("Carmen", "0720511858");
             //AddUser("Maria", "0712345678");
-            var users = GetUsersList();
+            //var users = GetUsersList();
 
-            foreach(var user in users)
-            { System.Diagnostics.Debug.WriteLine(user.ToString()); }
+            //foreach(var user in users)
+            //{ System.Diagnostics.Debug.WriteLine(user.ToString()); }
+
+            //var friends = GetChatsList();
+            //foreach (var friend in friends)
+            //{
+            //    int id = friend.getChatID();
+            //    var participants = GetChatParticipants(id);
+            //    System.Diagnostics.Debug.WriteLine(participants.ToString());
+            //}
         }
 
 
@@ -539,7 +547,7 @@ namespace SocialStuff.Data
             List<User> users = new List<User>();
             foreach (DataRow row in dataTable.Rows)
             {
-                int userID = Convert.ToInt32(row["ChatID"]);
+                int userID = Convert.ToInt32(row["UserID"]);
                 if (UserIds.Contains(userID))
                 {
                     string username = row["Username"].ToString();

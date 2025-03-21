@@ -120,6 +120,12 @@ namespace SocialStuff.Model
             return lastTimestamp;
         }
 
+        public string chatName
+        {
+            get { return this.ChatName; }
+        }
+
+
         //public List<Message> getChatHistory()
         //{
         //    List<Message> chatHistory = new List<Message>();

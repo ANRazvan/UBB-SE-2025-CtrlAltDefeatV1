@@ -114,3 +114,18 @@
 //        }
 //    }
 //}
+public class UserService
+{
+    private static UserService _instance;
+    public static UserService Instance => _instance ??= new UserService();
+
+    public int LoggedInUserId { get; set; }
+
+    // This constructor could initialize LoggedInUserId based on some logic,
+    // for example, loading from local storage or a configuration file.
+    private UserService()
+    {
+        // For testing purposes, you could set a hardcoded user ID
+        LoggedInUserId = 1; // or fetch from some authentication service
+    }
+}
