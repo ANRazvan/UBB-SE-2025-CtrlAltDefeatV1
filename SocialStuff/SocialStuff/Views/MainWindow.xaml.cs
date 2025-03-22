@@ -8,19 +8,22 @@ namespace SocialStuff.Views
 {
     public sealed partial class MainWindow : Window
     {
-        private readonly ChatService _chatService = new ChatService(); // ? Shared ChatService instance
+        private readonly ChatService _chatService = new ChatService(); 
 
         public MainWindow()
         {
             this.InitializeComponent();
 
-            var ViewModel = new ChatListViewModel(_chatService); // ? Pass shared ChatService
-            ChatList.DataContext = ViewModel; // ? Set the entire window's DataContext
+            var ViewModel = new ChatListViewModel(_chatService); 
+            ChatList.DataContext = ViewModel; 
         }
 
         private void Chat_Click(object sender, RoutedEventArgs e)
         {
-            // Navigate to ChatPage
+            var viewModel = ChatList.DataContext as ChatListViewModel;
+            viewModel?.LoadChats();
+
+            ChatList.Focus(FocusState.Programmatic);
         }
 
         private void Feed_Click(object sender, RoutedEventArgs e)

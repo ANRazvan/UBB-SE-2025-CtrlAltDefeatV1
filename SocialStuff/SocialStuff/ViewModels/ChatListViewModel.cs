@@ -11,6 +11,7 @@ namespace SocialStuff.ViewModels
 
         public ObservableCollection<Chat> Chats => _chatService.Chats;
 
+
         private string _noChatsMessage = "You have no chats!";
         public string NoChatsMessage
         {
@@ -29,6 +30,7 @@ namespace SocialStuff.ViewModels
         {
             int userId = UserService.Instance.LoggedInUserId;
             _chatService.loadChats(userId);
+            UpdateChats();
             UpdateNoChatsMessage();
         }
 
