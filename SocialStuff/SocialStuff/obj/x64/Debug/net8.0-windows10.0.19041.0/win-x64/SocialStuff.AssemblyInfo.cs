@@ -14,7 +14,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SocialStuff")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f208959fc61d1315e4943e4df8a39d7a81f71cc6")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33af55f0a21a565b4fc11a847262c374aff3b649")]
+>>>>>>> origin/Create-Chat;Leave-Chat
 [assembly: System.Reflection.AssemblyProductAttribute("SocialStuff")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SocialStuff")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

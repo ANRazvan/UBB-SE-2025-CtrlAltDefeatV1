@@ -1,3 +1,331 @@
+<<<<<<< HEAD
+=======
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\runtimes\win-x64\native\WebView2Loader.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.exe
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.deps.json
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.runtimeconfig.json
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WebView2Loader.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.CSharp.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Registry.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.AppContext.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Buffers.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Concurrent.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Immutable.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.NonGeneric.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Specialized.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Annotations.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Console.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Core.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.Common.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.DataSetExtensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Contracts.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Debug.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Process.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tools.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tracing.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Dynamic.Runtime.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Asn1.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Tar.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Calendars.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Extensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Brotli.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.IsolatedStorage.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Expressions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Parallel.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Queryable.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.Json.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.HttpListener.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Mail.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NameResolution.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NetworkInformation.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Ping.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Quic.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Requests.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Security.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.ServicePoint.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Sockets.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebClient.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebProxy.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.Client.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Vectors.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ObjectModel.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.CoreLib.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.DataContractSerialization.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Uri.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.Linq.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Extensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Metadata.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Reader.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.ResourceManager.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Writer.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Extensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Handles.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Intrinsics.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Loader.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Numerics.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.AccessControl.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Claims.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.Windows.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.SecureString.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceModel.Web.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceProcess.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encodings.Web.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Json.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.RegularExpressions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Channels.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Overlapped.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Thread.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.ThreadPool.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Timer.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.Local.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ValueTuple.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.HttpUtility.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Linq.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.ReaderWriter.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Serialization.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XDocument.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlDocument.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlSerializer.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WindowsBase.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorlib.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\netstandard.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Native.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clretwrc.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrgc.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrjit.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\coreclr.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\createdump.exe
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.1325.6609.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.SDK.NET.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WinRT.Runtime.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.AssemblyReference.cache
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.GeneratedMSBuildEditorConfig.editorconfig
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfoInputs.cache
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfo.cs
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.CoreCompileInputs.cache
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.sourcelink.json
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialSt.8E75359D.Up2Date
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\SocialStuff.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.genruntimeconfig.cache
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\SocialStuff.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Core.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Identity.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.Cryptography.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Memory.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Options.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Primitives.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.SqlServer.Server.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ClientModel.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.Messages.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.Data.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Pkcs.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\cs\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\de\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\es\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\fr\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\it\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ja\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ko\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pl\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ru\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\tr\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\Faculty\SoftwareEngineering\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.AssemblyReference.cache
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.GeneratedMSBuildEditorConfig.editorconfig
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\SocialStuff.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+=======
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.AssemblyReference.cache
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\SocialStuff.dll
+C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+>>>>>>> origin/Create-Chat;Leave-Chat
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\runtimes\win-x64\native\WebView2Loader.dll
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.exe
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
@@ -299,3 +627,606 @@ C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\ob
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
 C:\Users\alexe\Source\Repos\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+<<<<<<< HEAD
+=======
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\runtimes\win-x64\native\WebView2Loader.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.exe
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.deps.json
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.runtimeconfig.json
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Core.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Identity.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.Cryptography.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Memory.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Options.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.SqlServer.Server.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ClientModel.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.Messages.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.Data.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Pkcs.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\cs\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\de\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\es\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\fr\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\it\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ja\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ko\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pl\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ru\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\tr\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WebView2Loader.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.CSharp.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Registry.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.AppContext.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Buffers.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Concurrent.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Immutable.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.NonGeneric.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Specialized.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Annotations.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Console.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Core.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.Common.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.DataSetExtensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Contracts.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Debug.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Process.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tools.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tracing.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Dynamic.Runtime.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Asn1.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Tar.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Calendars.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Extensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Brotli.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.IsolatedStorage.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Expressions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Parallel.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Queryable.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.Json.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.HttpListener.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Mail.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NameResolution.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NetworkInformation.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Ping.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Quic.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Requests.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Security.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.ServicePoint.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Sockets.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebClient.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebProxy.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.Client.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Vectors.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ObjectModel.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.CoreLib.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.DataContractSerialization.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Uri.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.Linq.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Extensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Metadata.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Reader.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.ResourceManager.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Writer.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Extensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Handles.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Intrinsics.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Loader.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Numerics.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.AccessControl.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Claims.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.Windows.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.SecureString.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceModel.Web.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceProcess.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encodings.Web.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Json.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.RegularExpressions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Channels.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Overlapped.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Thread.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.ThreadPool.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Timer.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.Local.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ValueTuple.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.HttpUtility.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Linq.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.ReaderWriter.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Serialization.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XDocument.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlDocument.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlSerializer.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WindowsBase.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorlib.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\netstandard.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Native.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clretwrc.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrgc.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrjit.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\coreclr.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\createdump.exe
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.1325.6609.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.SDK.NET.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WinRT.Runtime.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.AssemblyReference.cache
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.i.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.g.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.i.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.g.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlTypeInfo.g.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xaml
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xaml
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\XamlSaveStateFile.xml
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.GeneratedMSBuildEditorConfig.editorconfig
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfoInputs.cache
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfo.cs
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.CoreCompileInputs.cache
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.sourcelink.json
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialSt.8E75359D.Up2Date
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\refint\SocialStuff.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.genruntimeconfig.cache
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\SocialStuff.dll
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\UBB\Anul_2\Semestrul_II\ISS\SocialStuff App\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\runtimes\win-x64\native\WebView2Loader.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.exe
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\App.xbf
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MainWindow.xbf
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.deps.json
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.runtimeconfig.json
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.pdb
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.pri
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\AppxManifest.xml
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Azure.Identity.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\BouncyCastle.Cryptography.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\CommunityToolkit.Mvvm.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Google.Protobuf.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\K4os.Compression.LZ4.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\K4os.Compression.LZ4.Streams.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\K4os.Hash.xxHash.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.AsyncInterfaces.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Bcl.Cryptography.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Caching.Memory.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Logging.Abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Options.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Extensions.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Logging.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.IdentityModel.Tokens.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.SqlServer.Server.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.InteractiveExperiences.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WinUI.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppLifecycle.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Builder.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.AppNotifications.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.DynamicDependency.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.Resources.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.ApplicationModel.WindowsAppRuntime.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Management.Deployment.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.PushNotifications.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Security.AccessControl.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Storage.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Power.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.System.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.Widgets.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.Net.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MySql.Data.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ClientModel.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.ConfigurationManager.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.Messages.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.EventLog.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IdentityModel.Tokens.Jwt.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipelines.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.Data.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Pkcs.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.ProtectedData.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Permissions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encodings.Web.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Json.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ZstdSharp.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\cs\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\de\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\es\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\fr\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\it\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ja\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ko\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pl\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ru\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\tr\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Data.SqlClient.SNI.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WebView2Loader.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.WindowsAppRuntime.Bootstrap.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\comerr64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\gssapi64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\k5sprt64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\krb5_64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\krbcc64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.CSharp.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.VisualBasic.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Win32.Registry.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.AppContext.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Buffers.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Concurrent.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Immutable.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.NonGeneric.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.Specialized.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Collections.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Annotations.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.DataAnnotations.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.EventBasedAsync.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.TypeConverter.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ComponentModel.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Configuration.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Console.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.Common.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.DataSetExtensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Data.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Contracts.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Debug.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.DiagnosticSource.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.FileVersionInfo.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Process.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.StackTrace.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TextWriterTraceListener.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tools.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.TraceSource.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Diagnostics.Tracing.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Drawing.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Dynamic.Runtime.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Asn1.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Formats.Tar.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Calendars.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Globalization.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Brotli.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.FileSystem.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.ZipFile.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.AccessControl.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.DriveInfo.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.Watcher.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.FileSystem.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.IsolatedStorage.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.MemoryMappedFiles.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.AccessControl.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Pipes.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.UnmanagedMemoryStream.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Expressions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Parallel.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.Queryable.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Linq.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Memory.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.Json.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Http.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.HttpListener.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Mail.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NameResolution.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.NetworkInformation.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Ping.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Quic.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Requests.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Security.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.ServicePoint.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.Sockets.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebClient.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebHeaderCollection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebProxy.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.Client.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.WebSockets.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Net.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.Vectors.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Numerics.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ObjectModel.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.CoreLib.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.DataContractSerialization.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Uri.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.Linq.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Private.Xml.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.DispatchProxy.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.ILGeneration.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.Lightweight.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Emit.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Metadata.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.TypeExtensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Reflection.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Reader.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.ResourceManager.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Resources.Writer.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.Unsafe.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.CompilerServices.VisualC.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Handles.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.JavaScript.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.InteropServices.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Intrinsics.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Loader.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Numerics.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Formatters.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Json.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.Xml.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.Serialization.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Runtime.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.AccessControl.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Claims.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Algorithms.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Cng.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Csp.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Encoding.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.OpenSsl.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.Primitives.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.X509Certificates.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Cryptography.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.Windows.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.Principal.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.SecureString.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Security.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceModel.Web.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ServiceProcess.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.CodePages.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.Encoding.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Text.RegularExpressions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Channels.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Overlapped.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Dataflow.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Extensions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.Parallel.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Tasks.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Thread.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.ThreadPool.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.Timer.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Threading.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.Local.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Transactions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.ValueTuple.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.HttpUtility.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Web.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Windows.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Linq.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.ReaderWriter.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.Serialization.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XDocument.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.XDocument.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XPath.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlDocument.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.XmlSerializer.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.Xml.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WindowsBase.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorlib.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\netstandard.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.DiaSymReader.Native.amd64.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\System.IO.Compression.Native.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clretwrc.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrgc.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\clrjit.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\coreclr.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\createdump.exe
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostfxr.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\hostpolicy.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordaccore_amd64_amd64_8.0.1024.46610.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscordbi.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\mscorrc.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\msquic.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Windows.SDK.NET.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\WinRT.Runtime.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Microsoft.Web.WebView2.Core.Projection.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfoInputs.cache
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.AssemblyInfo.cs
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.csproj.CoreCompileInputs.cache
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.sourcelink.json
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialSt.8E75359D.Up2Date
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.genruntimeconfig.cache
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ref\SocialStuff.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\priconfig.xml.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\unfiltered.layout.resfiles.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\filtered.layout.resfiles.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\excluded.layout.resfiles.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\resources.resfiles.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\pri.resfiles.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\qualifiers.txt.intermediate
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\MultipleQualifiersPerDimensionFound.txt
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\ProjectArchitectures.txt
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.abstractions.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.assert.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.execution.dotnet.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\xunit.runner.visualstudio.testadapter.dll
+D:\ISS\SocialStuff\SocialStuff\obj\x64\Debug\net8.0-windows10.0.19041.0\win-x64\SocialStuff.genpublishdeps.cache
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Castle.Core.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Moq.dll
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit\Themes\Generic.xaml
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit\Themes\Generic.xbf
+D:\ISS\SocialStuff\SocialStuff\bin\x64\Debug\net8.0-windows10.0.19041.0\win-x64\Uno.UI.Toolkit.dll
+>>>>>>> origin/Create-Chat;Leave-Chat

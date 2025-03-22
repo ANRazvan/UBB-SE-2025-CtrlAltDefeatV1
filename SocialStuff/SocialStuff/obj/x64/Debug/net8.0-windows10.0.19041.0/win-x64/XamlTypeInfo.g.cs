@@ -226,13 +226,18 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         
         private void InitTypeTables()
         {
+<<<<<<< HEAD
             _typeNameTable = new string[11];
+=======
+            _typeNameTable = new string[10];
+>>>>>>> origin/Create-Chat;Leave-Chat
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
             _typeNameTable[4] = "SocialStuff.MainWindow";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
+<<<<<<< HEAD
             _typeNameTable[6] = "SocialStuff.View.AddFriend";
             _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
             _typeNameTable[8] = "Microsoft.UI.Xaml.DependencyObject";
@@ -240,17 +245,32 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             _typeNameTable[10] = "Int32";
 
             _typeTable = new global::System.Type[11];
+=======
+            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[7] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[8] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+            _typeNameTable[9] = "Int32";
+
+            _typeTable = new global::System.Type[10];
+>>>>>>> origin/Create-Chat;Leave-Chat
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
             _typeTable[4] = typeof(global::SocialStuff.MainWindow);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
+<<<<<<< HEAD
             _typeTable[6] = typeof(global::SocialStuff.View.AddFriend);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[8] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
             _typeTable[9] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
             _typeTable[10] = typeof(global::System.Int32);
+=======
+            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[8] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+            _typeTable[9] = typeof(global::System.Int32);
+>>>>>>> origin/Create-Chat;Leave-Chat
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -287,6 +307,7 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
         private object Activate_4_MainWindow() { return new global::SocialStuff.MainWindow(); }
+<<<<<<< HEAD
         private object Activate_6_AddFriend() { return new global::SocialStuff.View.AddFriend(); }
         private object Activate_7_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
@@ -294,6 +315,13 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         private void StaticInitializer_6_AddFriend() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.View.AddFriend).TypeHandle);
         private void StaticInitializer_7_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_9_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+=======
+        private object Activate_6_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
+        private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.MainWindow).TypeHandle);
+        private void StaticInitializer_6_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_8_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+>>>>>>> origin/Create-Chat;Leave-Chat
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -301,7 +329,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
+<<<<<<< HEAD
         private void VectorAdd_9_IList(object instance, object item)
+=======
+        private void VectorAdd_8_IList(object instance, object item)
+>>>>>>> origin/Create-Chat;Leave-Chat
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -351,6 +383,7 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
+<<<<<<< HEAD
             case 6:   //  SocialStuff.View.AddFriend
                 userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_6_AddFriend;
@@ -363,6 +396,12 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_7_TreeViewNode;
                 userType.StaticInitializer = StaticInitializer_7_TreeViewNode;
+=======
+            case 6:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_6_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_6_TreeViewNode;
+>>>>>>> origin/Create-Chat;Leave-Chat
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -374,6 +413,7 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 8:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
@@ -382,11 +422,25 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, null);
                 userType.StaticInitializer = StaticInitializer_9_IList;
                 userType.CollectionAdd = VectorAdd_9_IList;
+=======
+            case 7:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_8_IList;
+                userType.CollectionAdd = VectorAdd_8_IList;
+>>>>>>> origin/Create-Chat;Leave-Chat
                 userType.SetIsReturnTypeStub();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 10:   //  Int32
+=======
+            case 9:   //  Int32
+>>>>>>> origin/Create-Chat;Leave-Chat
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -404,6 +458,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
+<<<<<<< HEAD
+=======
+                    provider = new global::Uno.UI.Toolkit.Uno_UI_Toolkit_Windows_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
+                    otherProviders.Add(provider); 
+>>>>>>> origin/Create-Chat;Leave-Chat
                     _otherProviders = otherProviders;
                 }
                 return _otherProviders;

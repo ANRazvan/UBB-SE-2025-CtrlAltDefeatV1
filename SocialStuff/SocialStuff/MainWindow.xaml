@@ -3,13 +3,42 @@
     x:Class="SocialStuff.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-    xmlns:local="using:SocialStuff"
-    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
-    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    mc:Ignorable="d"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
     Title="SocialStuff">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <!-- Define Two Columns: Left Navigation & Right Content -->
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="250"/>
+            <!-- Sidebar -->
+            <ColumnDefinition Width="*"/>
+            <!-- Main Content -->
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Navigation Panel -->
+        <StackPanel Grid.Column="0" Background="#1b1a26">
+            <!-- Top Navigation Bar -->
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Padding="10">
+                <Button Content="Chat" Click="Chat_Click"/>
+                <Button Content="Feed" Click="Feed_Click"/>
+                <Button Content="Friends" Click="Friends_Click"/>
+                <Button Content="Notifications" Click="Notifications_Click"/>
+            </StackPanel>
+
+            <!-- Chat List -->
+            <ListView x:Name="ChatList" SelectionChanged="ChatList_SelectionChanged">
+                <ListView.Header>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Chats" FontSize="16" FontWeight="Bold"/>
+                        <Button Content="+" Click="CreateChat_Click" Margin="10,0,0,0"/>
+                    </StackPanel>
+                </ListView.Header>
+                <!-- Placeholder Items -->
+                <ListViewItem Content="You have no chats!"/>
+            </ListView>
+        </StackPanel>
+
+        <!-- Right Dynamic Content -->
+        <ContentControl x:Name="MainContent" Grid.Column="1"/>
+    </Grid>
 </Window>

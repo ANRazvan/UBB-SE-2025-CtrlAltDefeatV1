@@ -61,6 +61,10 @@ namespace SocialStuff.Model
             return Chats;
         }
 
+        public string username
+        {
+            get { return this.Username; }
+        }
 
 
         public override string ToString()

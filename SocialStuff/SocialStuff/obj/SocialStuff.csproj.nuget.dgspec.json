@@ -1,6 +1,7 @@
 {
   "format": 1,
   "restore": {
+<<<<<<< HEAD
     "C:\\Users\\alexe\\Source\\Repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\SocialStuff\\SocialStuff.csproj": {}
   },
   "projects": {
@@ -12,12 +13,29 @@
         "projectPath": "C:\\Users\\alexe\\Source\\Repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\SocialStuff\\SocialStuff.csproj",
         "packagesPath": "C:\\Users\\alexe\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\alexe\\Source\\Repos\\UBB-SE-2025-CtrlAltDefeat\\SocialStuff\\SocialStuff\\obj\\",
+=======
+    "D:\\ISS\\SocialStuff\\SocialStuff\\SocialStuff.csproj": {}
+  },
+  "projects": {
+    "D:\\ISS\\SocialStuff\\SocialStuff\\SocialStuff.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\ISS\\SocialStuff\\SocialStuff\\SocialStuff.csproj",
+        "projectName": "SocialStuff",
+        "projectPath": "D:\\ISS\\SocialStuff\\SocialStuff\\SocialStuff.csproj",
+        "packagesPath": "C:\\Users\\anaal\\.nuget\\packages\\",
+        "outputPath": "D:\\ISS\\SocialStuff\\SocialStuff\\obj\\",
+>>>>>>> origin/Create-Chat;Leave-Chat
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
+<<<<<<< HEAD
           "C:\\Users\\alexe\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\anaal\\AppData\\Roaming\\NuGet\\NuGet.Config",
+>>>>>>> origin/Create-Chat;Leave-Chat
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -42,14 +60,23 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
+<<<<<<< HEAD
           "auditMode": "all"
         },
         "SdkAnalysisLevel": "9.0.200"
+=======
+          "auditMode": "direct"
+        }
+>>>>>>> origin/Create-Chat;Leave-Chat
       },
       "frameworks": {
         "net8.0-windows10.0.19041": {
           "targetAlias": "net8.0-windows10.0.19041.0",
           "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.4.0, )"
+            },
             "Microsoft.Data.SqlClient": {
               "target": "Package",
               "version": "[6.0.1, )"
@@ -62,9 +89,31 @@
               "target": "Package",
               "version": "[1.6.250228001, )"
             },
-            "System.Data.SqlClient": {
+            "Moq": {
               "target": "Package",
-              "version": "[4.9.0, )"
+              "version": "[4.20.72, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.2.0, )"
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[5.6.81, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.assert": {
+              "target": "Package",
+              "version": "[2.9.3, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
             }
           },
           "imports": [
@@ -85,15 +134,15 @@
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-arm64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x86",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.Net.Sdk.Compilers.Toolset",
@@ -117,19 +166,19 @@
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-arm64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x86",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
-              "version": "[10.0.19041.57, 10.0.19041.57]"
+              "version": "[10.0.19041.44, 10.0.19041.44]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Ref",
@@ -137,26 +186,26 @@
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-arm64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             },
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x86",
-              "version": "[8.0.13, 8.0.13]"
+              "version": "[8.0.10, 8.0.10]"
             }
           ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.Windows.SDK.NET.Ref.Windows": {
+            "Microsoft.Windows.SDK.NET.Ref": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
