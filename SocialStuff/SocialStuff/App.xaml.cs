@@ -4,6 +4,7 @@ using Microsoft.UI.Xaml;
 using SocialStuff.Data;
 using SocialStuff.Services;
 using SocialStuff.Model;
+using SocialStuff.Views;
 
 namespace SocialStuff
 {
@@ -13,6 +14,7 @@ namespace SocialStuff
     public partial class App : Application
     {
         public static Window MainWindow { get; private set; }
+        public static int LoggedInUserID = 1;
 
         public App()
         {
@@ -25,19 +27,7 @@ namespace SocialStuff
         protected override void OnLaunched(Microsoft.UI.Xaml.LaunchActivatedEventArgs args)
         {
             ChatService chatService = new ChatService();
-
-            // Retrieve friends
-            List<User> users = chatService.getFriends(2);
-            foreach (var user in users)
-            {
-                System.Diagnostics.Debug.WriteLine(user.GetUsername());
-            }
-
-            // Add chat
-            List<Chat> chats = chatService.getChats();
-            chatService.addChat(new List<int> { 1, 2 }, "New Name");
-
-            System.Diagnostics.Debug.WriteLine(chats.Count == chatService.getChats().Count);
+            LoggedInUserID = 1;
 
             MainWindow = new MainWindow();
             MainWindow.Activate();

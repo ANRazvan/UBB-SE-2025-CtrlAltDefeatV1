@@ -16,6 +16,8 @@ namespace SocialStuff.Services
     {
         private Repository repository;
 
+        public ObservableCollection<Chat> Chats { get; set; } = new ObservableCollection<Chat>();
+
         public ObservableCollection<int> FilteredFriends { get; set; } = new ObservableCollection<int>();
         public Dictionary<int, string> friendsDict = new Dictionary<int, string>();
         public event Action ChatsUpdated;
@@ -36,17 +38,19 @@ namespace SocialStuff.Services
             {
                 int chatID;
                 repository.AddChat(chatName, out chatID);
-                ChatsUpdated?.Invoke();
 
                 foreach (var userID in usersIDs)
                 {
                     repository.AddUserToChat(userID, chatID);
                 }
-
                 var addedUsers = repository.GetChatParticipants(chatID);
 
+
                 if (addedUsers.Count == usersIDs.Count)
+                {
+                    ChatsUpdated?.Invoke();
                     return true;
+                }
                 else
                     return false;
             }
@@ -150,7 +154,8 @@ namespace SocialStuff.Services
             try
             {
                 Console.WriteLine(repository.GetUserFriendsList(userID));
-                return repository.GetUserFriendsList(userID);
+                var friends = repository.GetUserFriendsList(userID);
+                return friends.OrderBy(friend => friend.GetUsername()).ToList();
             }
             catch (Exception ex)
             {
@@ -173,21 +178,39 @@ namespace SocialStuff.Services
         public List<Chat> getChats(int userID)
         {
             var chats = repository.GetChatsList();
-            var validChats = new List<Chat>(); // Create a new list to hold valid chats
+            var validChats = new List<Chat>(); 
 
             foreach (var chat in chats)
             {
                 int id = chat.getChatID();
                 var participants = repository.GetChatParticipants(id);
 
-                // Check if the user is part of the chat
+              
                 if (participants.Exists(user => user.GetUserId() == userID))
                 {
-                    validChats.Add(chat); // Only add the chat if the user is a participant
+                    validChats.Add(chat); 
                 }
             }
 
-            return validChats; // Return the filtered list of chats
+            return validChats.OrderByDescending(chat => chat.getChatID()).ToList();
         }
+
+        public void loadChats(int userID)
+        {
+            var chats = repository.GetChatsList()
+                .Where(chat => repository.GetChatParticipants(chat.getChatID())
+                .Exists(user => user.GetUserId() == userID))
+                .OrderByDescending(chat => chat.getChatID())
+                .ToList();
+
+            Chats.Clear(); // ✅ Clear before reloading
+            foreach (var chat in chats)
+            {
+                Chats.Add(chat);
+            }
+
+            NotifyChatsUpdated();
+        }
+
     }
 }
