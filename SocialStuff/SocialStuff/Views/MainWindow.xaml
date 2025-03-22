@@ -47,12 +47,12 @@
 
             <!-- Chat List -->
             <ListView x:Name="ChatList" 
-                      ItemsSource="{Binding Chats}" 
-                      Width="300"
-                      Height="400"
-                      SelectionMode="Single"
-                      ScrollViewer.VerticalScrollBarVisibility="Auto"
-                      ScrollViewer.HorizontalScrollBarVisibility="Auto">
+                  ItemsSource="{Binding Chats}" 
+                  Width="300"
+                  Height="400"
+                  SelectionMode="Single"
+                  ScrollViewer.VerticalScrollBarVisibility="Auto"
+                  ScrollViewer.HorizontalScrollBarVisibility="Auto">
                 <ListView.ItemTemplate>
                     <DataTemplate x:DataType="model:Chat">
                         <TextBlock Text="{Binding chatName}" />
@@ -60,7 +60,7 @@
                 </ListView.ItemTemplate>
             </ListView>
 
-            <TextBlock Text="{Binding Content, FallbackValue='You have no chats, lonely loser!!'}" Foreground="White" FontSize="12" Margin="10" TextWrapping="Wrap"/>
+            <TextBlock Text="{Binding Content, FallbackValue='You have no chats, lonely loser!!'}" Foreground="#919191" FontSize="12" Margin="10" TextWrapping="Wrap"/>
         </StackPanel>
 
         <!-- Main Content Area (Where Chat List or Other Views will be loaded) -->

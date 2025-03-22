@@ -2,22 +2,25 @@ using Microsoft.UI.Xaml;
 using Microsoft.UI.Xaml.Controls;
 using SocialStuff.ViewModels;
 using SocialStuff.Views;
+using SocialStuff.Services; // ? Added for ChatService
 
 namespace SocialStuff.Views
 {
     public sealed partial class MainWindow : Window
     {
+        private readonly ChatService _chatService = new ChatService(); // ? Shared ChatService instance
+
         public MainWindow()
         {
             this.InitializeComponent();
-            var ViewModel = new ChatListViewModel();  
-            ChatList.DataContext = ViewModel;        
-            System.Diagnostics.Debug.WriteLine(ChatList.DataContext);
+
+            var ViewModel = new ChatListViewModel(_chatService); // ? Pass shared ChatService
+            ChatList.DataContext = ViewModel; // ? Set the entire window's DataContext
         }
 
         private void Chat_Click(object sender, RoutedEventArgs e)
         {
-             // Navigate to ChatPage
+            // Navigate to ChatPage
         }
 
         private void Feed_Click(object sender, RoutedEventArgs e)
@@ -37,7 +40,8 @@ namespace SocialStuff.Views
 
         private void CreateChat_Click(object sender, RoutedEventArgs e)
         {
-            MainContent.Navigate(typeof(CreateChatView));
+            // ? Pass ChatService to CreateChatView so it can update the chat list
+            MainContent.Navigate(typeof(CreateChatView), _chatService);
         }
     }
 }
