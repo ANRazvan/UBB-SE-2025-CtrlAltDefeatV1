@@ -90,7 +90,7 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             if (user == null) return new List<int>();
-            var friends = repo.GetUserFriendsList(userID); 
+            var friends = repo.GetUserFriendsList(userID);
 
             return friends
                        .Select(friendID => friendID)

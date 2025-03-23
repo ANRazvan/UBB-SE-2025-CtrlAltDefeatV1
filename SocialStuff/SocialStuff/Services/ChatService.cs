@@ -77,7 +77,7 @@ namespace SocialStuff.Services
 
 
 
-      
+
 
         //creates a new transfermessage and adds it to the database
         public void sendMoneyViaChat(float Amount, string Currency, string Description, int ChatID)
@@ -93,21 +93,23 @@ namespace SocialStuff.Services
             }
 
             List<int> participantIDs = repository.GetChatParticipantsIDs(ChatID);
-            repository.AddTransferMessage(GetCurrentUserID(), ChatID, Description, "Accepted", Amount * (participantIDs.Count - 1), Currency);
 
             try
             {
-                if (this.enoughFunds(Amount*(participantIDs.Count-1), Currency, GetCurrentUserID()))
+                if (this.enoughFunds(Amount * (participantIDs.Count - 1), Currency, GetCurrentUserID()))
                 {
                     int currentUserId = GetCurrentUserID();
-                   
+
                     foreach (int reciverid in participantIDs)
                     {
                         if (currentUserId != reciverid)
                         {
                             initiateTransfer(currentUserId, reciverid, Amount, Currency);
+
                         }
                     }
+                    repository.AddTransferMessage(GetCurrentUserID(), ChatID, Description, "Accepted", Amount * (participantIDs.Count - 1), Currency);
+
 
                 }
                 else
@@ -123,6 +125,7 @@ namespace SocialStuff.Services
 
 
         }
+
 
         //when a reqest is initiated in chat if you press accept a new transfer message is initiated with sender id the one who pressed and 
         //chat id the chat 

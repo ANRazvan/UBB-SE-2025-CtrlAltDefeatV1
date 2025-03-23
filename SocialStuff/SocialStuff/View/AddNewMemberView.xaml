@@ -35,11 +35,14 @@
 
             <ScrollViewer Height="300">
                 <ListView ItemsSource="{Binding UnaddedFriends}" SelectionMode="Single"
-                     Background="Transparent">
+                    Background="Transparent">
                     <ListView.ItemTemplate>
-                        <DataTemplate >
+                        <DataTemplate>
                             <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="{Binding Username}" Foreground="White" Width="150"/>
+                                <StackPanel Orientation="Vertical" Width="150">
+                                    <TextBlock Text="{Binding Username}" Foreground="White"/>
+                                    <TextBlock Text="{Binding PhoneNumber}" Foreground="Gray" FontSize="12"/>
+                                </StackPanel>
                                 <Button Content="+" 
                                     Command="{Binding DataContext.AddToSelectedCommand, ElementName=AddNewMember}"
                                     CommandParameter="{Binding}"/>

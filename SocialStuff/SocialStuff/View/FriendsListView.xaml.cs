@@ -30,6 +30,7 @@ namespace SocialStuff.View
         private UserService userService;
         private MessageService messageService;
         private Frame RightFrame;
+        private Page AddFriendsPage;
 
         public FriendsListView(ChatService chatService, UserService userService, MessageService messageService, Frame RightFrame)
         {
