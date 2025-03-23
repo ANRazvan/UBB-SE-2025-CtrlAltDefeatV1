@@ -12,6 +12,7 @@
 
     <Page.Resources>
         <local:EmoticonToEmojiConverter x:Key="EmoticonConverter"/>
+        <local:CommandBindingProxy x:Key="DeleteCommandProxy" Command="{Binding DeleteMessageCommand}"/>
     </Page.Resources>
 
     <Grid x:Name="MainGrid">

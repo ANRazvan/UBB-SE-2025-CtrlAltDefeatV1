@@ -12,6 +12,7 @@
 
     <Page.Resources>
         <local:EmoticonToEmojiConverter x:Key="EmoticonConverter"/>
+        <local:CommandBindingProxy x:Key="DeleteCommandProxy" Command="{Binding DeleteMessageCommand}"/>
     </Page.Resources>
 
     <Grid x:ConnectionId='2' x:Name="MainGrid">
@@ -38,15 +39,15 @@
                         <ColumnDefinition Width="Auto"/>
                         <ColumnDefinition Width="Auto"/>
                     </Grid.ColumnDefinitions>
-                    <Button x:ConnectionId='5' Grid.Column="0" Margin="0,0,10,0" Content="Add a new member"                           ></Button>
-                    <Button x:ConnectionId='6' Grid.Column="1" Content="Leave Chat"                        ></Button>
+                    <Button x:ConnectionId='6' Grid.Column="0" Margin="0,0,10,0" Content="Add a new member"                           ></Button>
+                    <Button x:ConnectionId='7' Grid.Column="1" Content="Leave Chat"                        ></Button>
                 </Grid>
 
             </Grid>
         </Border>
 
         <Border Grid.Row="1" Background="Black">
-            <ListView x:ConnectionId='4' x:Name="ChatListView"
+            <ListView x:ConnectionId='5' x:Name="ChatListView"
                           ItemsSource="{Binding ChatMessages}"
                           Background="Black" 
                           Padding="10"
@@ -129,9 +130,10 @@
                               VerticalAlignment="Center"/>
                 </Button>
 
-                <Button Width="42" Height="40"
+                <Button x:ConnectionId='4' Width="42" Height="40"
                     VerticalAlignment="Center" 
-                    Grid.Column="4">
+                    Grid.Column="4"
+                                                >
                     <Image Source="https://icon-library.com/images/white-money-icon/white-money-icon-2.jpg"
                           Width="20" 
                           Height="20" 

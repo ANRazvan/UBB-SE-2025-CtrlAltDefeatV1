@@ -1,14 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Window x:ConnectionId='1'
-    x:Class="SocialStuff.View.GenerateRequest"
+<Page x:ConnectionId='1'
+    x:Class="SocialStuff.View.GenerateTransferView"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:SocialStuff.View"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:viewModel="using:SocialStuff.ViewModel"
-    mc:Ignorable="d"
-    Title="GenerateRequest">
+    mc:Ignorable="d">
 
     <Grid Padding="20">
         <Grid.RowDefinitions>
@@ -23,9 +22,12 @@
             <ColumnDefinition Width="Auto"/>
             <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
+        <Grid Grid.Row="0">
+            <Button x:ConnectionId='10' Content="←" HorizontalAlignment="Left" Foreground="White" Background="Transparent"                         />
+        </Grid>
 
         <!-- Header: Select type + title -->
-        <Grid Grid.Row="0">
+        <Grid Grid.Row="1">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="Auto"/>
                 <ColumnDefinition Width="*"/>
@@ -48,7 +50,7 @@
         </Grid>
 
         <!-- Transfer Money: Select amount, currency + description -->
-        <Grid x:ConnectionId='2' Grid.Row="1" Grid.ColumnSpan="2" x:Name="TransferMoneyGrid">
+        <Grid x:ConnectionId='2' Grid.Row="2" Grid.ColumnSpan="2" x:Name="TransferMoneyGrid">
             <Grid.RowDefinitions>
                 <RowDefinition Height="Auto"/>
                 <RowDefinition Height="Auto"/>
@@ -126,5 +128,5 @@
             x:Name="TransferButton"/>
         </Grid>
     </Grid>
-</Window>
+</Page>
 

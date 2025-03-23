@@ -25,7 +25,7 @@ namespace SocialStuff.ViewModel
 
         private readonly ChatService chatService;
 
-        public GenerateTransferViewModel(ChatService chatService,int ChatID)
+        public GenerateTransferViewModel(ChatService chatService, int ChatID)
         {
             this.chatService = chatService;
             this.ChatID = ChatID;
@@ -214,7 +214,7 @@ namespace SocialStuff.ViewModel
             HasSufficientFunds = true;
             // Optionally reset other fields if needed
         }
-        
+
 
         public bool HasSufficientFunds
         {
@@ -285,7 +285,7 @@ namespace SocialStuff.ViewModel
 
                 // Calculate total amount based on number of participants
                 int participantCount = chatService.getNumberOfParticipants(chatID);
-                float totalAmount = amount * (participantCount-1);
+                float totalAmount = amount * (participantCount - 1);
 
                 // Check if user has enough funds for the total amount
                 HasSufficientFunds = chatService.enoughFunds(totalAmount, Currency, currentUserID);

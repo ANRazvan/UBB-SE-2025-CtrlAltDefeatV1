@@ -5,7 +5,7 @@ View\ChatListView.xbf
 View\ChatMessagesView.xbf
 View\CreateChatView.xbf
 View\FriendsListView.xbf
-View\GenerateRequest.xbf
+View\GenerateTransferView.xbf
 View\LeaveChatView.xbf
 View\MainWindow.xbf
 View\MessageTemplates.xbf

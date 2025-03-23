@@ -416,7 +416,7 @@ namespace SocialStuff.Data
         {
             SqlParameter[] parameters =
             {
-                new SqlParameter("@TypeID", 4),
+                new SqlParameter("@TypeID", 1),
                 new SqlParameter("@UserID", userID),
                 new SqlParameter("@ChatID", chatID),
                 new SqlParameter("@Content", content)
@@ -429,7 +429,7 @@ namespace SocialStuff.Data
         {
             SqlParameter[] parameters =
             {
-                new SqlParameter("@TypeID", 5),
+                new SqlParameter("@TypeID", 2),
                 new SqlParameter("@UserID", userID),
                 new SqlParameter("@ChatID", chatID),
                 new SqlParameter("@Content", ImageURL)
@@ -443,7 +443,7 @@ namespace SocialStuff.Data
         {
             SqlParameter[] parameters =
             {
-                new SqlParameter("@TypeID", 10),
+                new SqlParameter("@TypeID", 3),
                 new SqlParameter("@UserID", userID),
                 new SqlParameter("@ChatID", chatID),
                 new SqlParameter("@Content", content),
@@ -459,7 +459,7 @@ namespace SocialStuff.Data
         {
             SqlParameter[] parameters =
             {
-                new SqlParameter("@TypeID", 11),
+                new SqlParameter("@TypeID", 4),
                 new SqlParameter("@UserID", userID),
                 new SqlParameter("@ChatID", chatID),
                 new SqlParameter("@Content", content),
