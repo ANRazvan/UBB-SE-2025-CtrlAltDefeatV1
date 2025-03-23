@@ -29,7 +29,7 @@ namespace SocialStuff.Services
         //return the number of participants in a chat beside the user
         public int getNumberOfParticipants(int ChatID)
         {
-            return repository.GetChatParticipantsIDs(getCurrentChatID()).Count - 1;
+            return repository.GetChatParticipantsIDs(getCurrentChatID()).Count;
         }
 
         public ChatService(Repository repo)
@@ -93,13 +93,14 @@ namespace SocialStuff.Services
             }
 
             List<int> participantIDs = repository.GetChatParticipantsIDs(ChatID);
+            repository.AddTransferMessage(GetCurrentUserID(), ChatID, Description, "Accepted", Amount * (participantIDs.Count - 1), Currency);
+
             try
             {
                 if (this.enoughFunds(Amount*(participantIDs.Count-1), Currency, GetCurrentUserID()))
                 {
                     int currentUserId = GetCurrentUserID();
                    
-                    repository.AddTransferMessage(GetCurrentUserID(), ChatID, Description, "Accepted", Amount * (participantIDs.Count - 1), Currency);
                     foreach (int reciverid in participantIDs)
                     {
                         if (currentUserId != reciverid)
@@ -107,6 +108,7 @@ namespace SocialStuff.Services
                             initiateTransfer(currentUserId, reciverid, Amount, Currency);
                         }
                     }
+
                 }
                 else
                 {

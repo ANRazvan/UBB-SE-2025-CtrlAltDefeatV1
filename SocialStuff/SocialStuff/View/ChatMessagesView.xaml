@@ -131,7 +131,8 @@
 
                 <Button Width="42" Height="40"
                     VerticalAlignment="Center" 
-                    Grid.Column="4">
+                    Grid.Column="4"
+                    Click = "SendTransfer_Click">
                     <Image Source="https://icon-library.com/images/white-money-icon/white-money-icon-2.jpg"
                           Width="20" 
                           Height="20" 

@@ -11,7 +11,7 @@ using Microsoft.UI.Xaml;
 
 namespace SocialStuff.ViewModel
 {
-    public class GenerateRequestViewModel : INotifyPropertyChanged
+    public class GenerateTransferViewModel : INotifyPropertyChanged
     {
         private string amountText;
         private string description;
@@ -21,17 +21,20 @@ namespace SocialStuff.ViewModel
         private bool isFormValid;
         private bool hasSufficientFunds = true;
         private bool isCheckingFunds = false;
+        private int ChatID;
 
         private readonly ChatService chatService;
 
-        public GenerateRequestViewModel(ChatService chatService)
+        public GenerateTransferViewModel(ChatService chatService,int ChatID)
         {
             this.chatService = chatService;
-            //SendMessageCommand = new RelayCommand(ExecuteSendMessage);
+            this.ChatID = ChatID;
+            SendMessageCommand = new RelayCommand(ExecuteSendMessage);
 
             // Set default values
             Description = "";
             AmountText = "";
+            SelectedTransferType = "";
         }
 
         public string AmountText
@@ -155,7 +158,7 @@ namespace SocialStuff.ViewModel
 
         public ICommand SendMessageCommand { get; }
 
-        public event PropertyChangedEventHandler PropertyChanged;
+        public event PropertyChangedEventHandler? PropertyChanged;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = null)
         {
@@ -173,22 +176,22 @@ namespace SocialStuff.ViewModel
                 (SelectedTransferType != "Transfer Money" || HasSufficientFunds);
         }
 
-        private void ExecuteSendMessage(object parameter)
+        private void ExecuteSendMessage()
         {
             try
             {
-                int chatID = chatService.getCurrentChatID();
 
                 switch (SelectedTransferType)
                 {
                     case "Transfer Money":
-                        chatService.sendMoneyViaChat(Amount, Currency, Description, chatID);
+                        chatService.sendMoneyViaChat(Amount, Currency, Description, this.ChatID);
                         break;
                     case "Request Money":
-                        chatService.requestMoneyViaChat(Amount, Currency, chatID, Description);
+                        chatService.requestMoneyViaChat(Amount, Currency, this.ChatID, Description);
                         break;
                     case "Split Bill":
-                        chatService.requestMoneyViaChat(Amount / (chatService.getNumberOfParticipants(chatService.getCurrentChatID())), Currency, chatID, description);
+                        float SplitAmount = Amount / (chatService.getNumberOfParticipants(ChatID));
+                        chatService.requestMoneyViaChat(SplitAmount, Currency, this.ChatID, description);
                         break;
                     default:
                         throw new InvalidOperationException("Invalid transfer type selected.");

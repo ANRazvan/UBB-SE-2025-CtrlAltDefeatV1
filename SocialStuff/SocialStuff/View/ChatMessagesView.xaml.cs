@@ -30,6 +30,7 @@ namespace SocialStuff.View
         private UserService userService;
         private ChatService chatService;
         private ChatListViewModel chatListViewModel;
+        private GenerateTransferViewModel GenerateTransferViewModel;
 
         public ChatMessagesView(ChatListViewModel chatListViewModel, Window mainWindow, Frame RightFrame, int ChatID, UserService userService, ChatService chatService, MessageService messageService)
         {
@@ -40,7 +41,7 @@ namespace SocialStuff.View
             this.chatService = chatService;
             this.RightFrame = RightFrame;
             chatMessagesViewModel = new ChatMessagesViewModel(mainWindow, ChatID, messageService, chatService, userService);
-
+            GenerateTransferViewModel = new GenerateTransferViewModel(chatService, ChatID);
             chatMessagesViewModel.ChatListView = ChatListView;
             chatMessagesViewModel.SetupMessageTracking();
 
@@ -55,6 +56,11 @@ namespace SocialStuff.View
         public void LeaveChat_Click(object sender, RoutedEventArgs e)
         {
             this.RightFrame.Content = new LeaveChatView(SelectedChat, this.chatListViewModel, this, RightFrame, chatService, userService);
+        }
+
+        public void SendTransfer_Click(object sender, RoutedEventArgs e)
+        {
+            this.RightFrame.Content = new GenerateTransferView(GenerateTransferViewModel, this, this.RightFrame, SelectedChat, chatService);
         }
 
     }

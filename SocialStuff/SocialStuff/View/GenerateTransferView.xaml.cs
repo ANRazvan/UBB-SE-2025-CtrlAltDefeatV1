@@ -18,22 +18,26 @@ using WinRT.Interop;
 using SocialStuff.ViewModel;
 using SocialStuff.Services;
 using SocialStuff.Data;
+using Microsoft.IdentityModel.Tokens;
 
 namespace SocialStuff.View
 {
-    public sealed partial class GenerateRequest : Window
+    public sealed partial class GenerateTransferView : Page
     {
-        public GenerateRequestViewModel ViewModel { get; }
+        public GenerateTransferViewModel ViewModel { get; }
+        private ChatService chatService;
+        private Page lastChat;
+        private Frame rightFrame;
 
-        public GenerateRequest()
+        public GenerateTransferView(GenerateTransferViewModel GenerateTransferViewModel, Page lastChat, Frame rightFrame, int ChatID, ChatService chatService)
         {
             // Create repository and services (this would typically be injected)
-            Repository repository = new Repository();
-            ChatService chatService = new ChatService(repository);
+            this.chatService = chatService;
 
             // Initialize ViewModel
-            ViewModel = new GenerateRequestViewModel(chatService);
-
+            ViewModel = GenerateTransferViewModel;
+            this.lastChat = lastChat;
+            this.rightFrame = rightFrame;
             this.InitializeComponent();
         }
 
@@ -93,6 +97,11 @@ namespace SocialStuff.View
         {
             // This ensures the funds check happens when currency changes
             // The binding will update ViewModel.CurrencyIndex which triggers CheckFunds
+        }
+
+        public void BackButton_Click(object sender, RoutedEventArgs e)
+        {
+            this.rightFrame.Content = lastChat;
         }
     }
 }
