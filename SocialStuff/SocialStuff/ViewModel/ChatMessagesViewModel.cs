@@ -76,11 +76,14 @@ namespace SocialStuff.ViewModel
 
         public ICommand SendMessageCommand { get; }
         private void SendMessage()
-        {
-            string convertedContent = EmoticonConverter.ConvertEmoticonsToEmojis(MessageContent);
-            this.messageService.sendMessage(CurrentUserID, CurrentChatID, convertedContent);
-            this.LoadMessagesForChat();
-            MessageContent = "";
+        { 
+            if(MessageContent != null)
+            {
+                string convertedContent = EmoticonConverter.ConvertEmoticonsToEmojis(MessageContent);
+                this.messageService.sendMessage(CurrentUserID, CurrentChatID, convertedContent);
+                this.LoadMessagesForChat();
+                MessageContent = "";
+            }
         }
 
         public ICommand SendImageCommand { get; }
@@ -106,6 +109,13 @@ namespace SocialStuff.ViewModel
                 this.messageService.sendImage(CurrentUserID, CurrentChatID, imageUrl);
                 this.LoadMessagesForChat();
             }
+        }
+
+        public ICommand DeleteMessageCommand { get; set; }
+        private void DeleteMessage(Message message)
+        {
+            this.messageService.deleteMessage(message);
+            this.LoadMessagesForChat();
         }
 
         public void ScrollToBottom()
@@ -147,6 +157,7 @@ namespace SocialStuff.ViewModel
             this.SendImageCommand = new RelayCommand(SendImage);
             this.CurrentChatName = chatService.getChatNameByID(CurrentChatID);
             this.CurrentChatParticipants = chatService.getChatParticipantsStringList(CurrentChatID);
+            this.DeleteMessageCommand = new RelayCommand<Message>(DeleteMessage);
 
             templateSelector = new MessageTemplateSelector()
             {

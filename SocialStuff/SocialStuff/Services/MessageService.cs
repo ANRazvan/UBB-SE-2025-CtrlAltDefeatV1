@@ -1,4 +1,5 @@
 ﻿using SocialStuff.Data;
+using SocialStuff.Model.MessageClasses;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -24,6 +25,11 @@ namespace SocialStuff.Services
         public void sendMessage(int SenderID, int ChatID, string Content)
         {
             this.repository.AddTextMessage(SenderID, ChatID, Content);
+        }
+
+        public void deleteMessage(Message message)
+        {
+            this.repository.DeleteMessage(message.getMessageID());
         }
 
         public void sendImage(int SenderID, int ChatID, string ImageURL)

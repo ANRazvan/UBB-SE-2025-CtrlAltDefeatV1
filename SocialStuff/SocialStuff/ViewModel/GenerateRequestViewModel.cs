@@ -27,7 +27,7 @@ namespace SocialStuff.ViewModel
         public GenerateRequestViewModel(ChatService chatService)
         {
             this.chatService = chatService;
-            SendMessageCommand = new RelayCommand(ExecuteSendMessage);
+            //SendMessageCommand = new RelayCommand(ExecuteSendMessage);
 
             // Set default values
             Description = "";

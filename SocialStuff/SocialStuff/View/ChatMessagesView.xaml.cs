@@ -44,7 +44,7 @@ namespace SocialStuff.View
             chatMessagesViewModel.ChatListView = ChatListView;
             chatMessagesViewModel.SetupMessageTracking();
 
-            MainGrid.DataContext = chatMessagesViewModel;
+            this.DataContext = chatMessagesViewModel;
         }
 
         public void AddNewMember_Click(object sender, RoutedEventArgs e)

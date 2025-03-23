@@ -52,16 +52,17 @@
                           Padding="10"
                           ScrollViewer.VerticalScrollBarVisibility="Auto"
                           >
+
                 <ListView.ItemTemplateSelector>
                     <local:MessageTemplateSelector 
-                            TextMessageTemplateLeft="{StaticResource TextMessageTemplateLeft}"
-                            TextMessageTemplateRight="{StaticResource TextMessageTemplateRight}"
-                            ImageMessageTemplateLeft="{StaticResource ImageMessageTemplateLeft}"
-                            ImageMessageTemplateRight="{StaticResource ImageMessageTemplateRight}"
-                            TransferMessageTemplateLeft="{StaticResource TransferMessageTemplateLeft}"
-                            TransferMessageTemplateRight="{StaticResource TransferMessageTemplateRight}"
-                            RequestMessageTemplateLeft="{StaticResource RequestMessageTemplateLeft}"
-                            RequestMessageTemplateRight="{StaticResource RequestMessageTemplateRight}" />
+                        TextMessageTemplateLeft="{StaticResource TextMessageTemplateLeft}"
+                        TextMessageTemplateRight="{StaticResource TextMessageTemplateRight}"
+                        ImageMessageTemplateLeft="{StaticResource ImageMessageTemplateLeft}"
+                        ImageMessageTemplateRight="{StaticResource ImageMessageTemplateRight}"
+                        TransferMessageTemplateLeft="{StaticResource TransferMessageTemplateLeft}"
+                        TransferMessageTemplateRight="{StaticResource TransferMessageTemplateRight}"
+                        RequestMessageTemplateLeft="{StaticResource RequestMessageTemplateLeft}"
+                        RequestMessageTemplateRight="{StaticResource RequestMessageTemplateRight}"/>
                 </ListView.ItemTemplateSelector>
             </ListView>
         </Border>

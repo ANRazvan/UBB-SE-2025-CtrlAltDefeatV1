@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Window x:ConnectionId='1'
+    x:Class="SocialStuff.View.GenerateRequest"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SocialStuff.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:viewModel="using:SocialStuff.ViewModel"
+    mc:Ignorable="d"
+    Title="GenerateRequest">
+
+    <Grid Padding="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Header: Select type + title -->
+        <Grid Grid.Row="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox x:ConnectionId='8' x:Name="TransferTypeComboBox"
+                      Grid.Column="0"
+                      Margin="10,10,0,0"
+                                                                              
+                                                                                       
+                      PlaceholderText="Transfer Type">
+                <ComboBoxItem Content="Transfer Money"/>
+                <ComboBoxItem Content="Request Money"/>
+                <ComboBoxItem Content="Split Bill"/>
+            </ComboBox>
+
+            <TextBlock x:ConnectionId='9' Grid.Column="1"
+                       x:Name="TitleTextBlock"
+                       Margin="50,10,0,0"/>
+        </Grid>
+
+        <!-- Transfer Money: Select amount, currency + description -->
+        <Grid x:ConnectionId='2' Grid.Row="1" Grid.ColumnSpan="2" x:Name="TransferMoneyGrid">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0"
+                       Margin="10,20,0,0"
+                       Text="Amount:"/>
+
+            <TextBox x:ConnectionId='3' Grid.Row="0" Grid.Column="1"
+                     Margin="10,20,0,0"
+                     Width="200"
+                     HorizontalAlignment="Left"
+                                                                          
+                                                            
+                                                                      
+                     x:Name="AmountTextBox"/>
+
+            <!-- Insufficient Funds Error Message -->
+            <TextBlock x:ConnectionId='4' Grid.Row="0" Grid.Column="1"
+                     Margin="10,50,0,0"
+                     Foreground="Red"
+                                                                                            
+                     Text="Insufficient funds"
+                     x:Name="InsufficientFundsText"/>
+
+            <TextBlock Grid.Row="1" Grid.Column="0"
+                       Margin="10,20,0,0"
+                       Text="Currency:"/>
+
+            <ComboBox x:ConnectionId='5' Grid.Row="1" Grid.Column="1"
+                      Margin="10,20,0,0"
+                      x:Name="CurrencyComboBox"
+                                                                          
+                                                                                   
+                      PlaceholderText="Currency">
+                <ComboBoxItem Content="USD"/>
+                <ComboBoxItem Content="EUR"/>
+                <ComboBoxItem Content="RON"/>
+            </ComboBox>
+
+            <TextBlock Grid.Row="2" Grid.Column="0"
+                       Margin="10,20,0,0"
+                       Text="Description:"/>
+
+            <TextBox x:ConnectionId='6' Grid.Row="2" Grid.Column="1"
+                     Height="auto"
+                     TextWrapping="Wrap"
+                     AcceptsReturn="True"
+                     Width="400"
+                     Margin="10,20,0,0"
+                     MaxLength="100"
+                                                                       
+                     x:Name="DescriptionTextBox"/>
+
+            <Button x:ConnectionId='7' Grid.Row="4" Grid.Column="1"
+            Width="120"
+            Height="40"
+            Margin="10"
+            Padding="5"
+            HorizontalAlignment="Left"
+            Content="Transfer Money"
+                                                           
+                                                                   
+            x:Name="TransferButton"/>
+        </Grid>
+    </Grid>
+</Window>
+

@@ -4,6 +4,7 @@ using SocialStuff.Model.MessageClasses;
 using SocialStuff.Services;
 using System.Runtime.CompilerServices;
 using SocialStuff.Data;
+using System.Windows.Input;
 
 namespace SocialStuff.View
 {
@@ -18,7 +19,7 @@ namespace SocialStuff.View
         public DataTemplate RequestMessageTemplateLeft { get; set; }
         public DataTemplate RequestMessageTemplateRight { get; set; }
 
-        private int CurrentUserID;
+        public int CurrentUserID { get; set; }
 
         public MessageTemplateSelector()
         {
