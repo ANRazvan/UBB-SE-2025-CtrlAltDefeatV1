@@ -44,6 +44,5 @@ namespace SocialStuff.View
             var button = sender as Button;
             FlyoutBase.ShowAttachedFlyout(button);
         }
-
     }
 }
