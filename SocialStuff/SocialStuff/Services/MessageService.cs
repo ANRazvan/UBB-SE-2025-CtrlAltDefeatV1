@@ -9,14 +9,20 @@ using SocialStuff.Model;
 
 namespace SocialStuff.Services
 {
-    class MessageService
+    public class MessageService
     {
         private Repository repository;
         private UserService userService;
 
+        public MessageService(Repository repo, UserService userService)
         {
             this.repository = repo;
             this.userService = userService; 
+        }
+
+        public MessageService(Repository repo)
+        {
+            this.repository = repo;
         }
 
         public Repository getRepo()
@@ -40,6 +46,13 @@ namespace SocialStuff.Services
 
         public void sendImage(int SenderID, int ChatID, string ImageURL)
         {
+            this.repository.AddImageMessage(repository.GetLoggedInUserID(), ChatID, ImageURL);
+
+        }
+
+        public void deleteMessage(int MessageID)
+        {
+            this.repository.DeleteMessage(MessageID);
         }
 
         public void sendTransferMessage(int userID, int chatID, string content, string status, float amount, string currency)
@@ -56,4 +69,4 @@ namespace SocialStuff.Services
     }
 
 }
-}
+
