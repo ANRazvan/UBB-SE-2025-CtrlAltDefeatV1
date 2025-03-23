@@ -14,10 +14,17 @@ namespace SocialStuff
 {
     public partial class App : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
+<<<<<<< HEAD
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
         private global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMetaDataProvider __appProvider;
 
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+        private global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMetaDataProvider __appProvider;
+
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         private global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMetaDataProvider _AppProvider
         {
@@ -34,7 +41,11 @@ namespace SocialStuff
         /// <summary>
         /// GetXamlType(Type)
         /// </summary>
+<<<<<<< HEAD
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(global::System.Type type)
         {
@@ -44,7 +55,11 @@ namespace SocialStuff
         /// <summary>
         /// GetXamlType(String)
         /// </summary>
+<<<<<<< HEAD
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.IXamlType GetXamlType(string fullName)
         {
@@ -54,7 +69,11 @@ namespace SocialStuff
         /// <summary>
         /// GetXmlnsDefinitions()
         /// </summary>
+<<<<<<< HEAD
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+        [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         public global::Microsoft.UI.Xaml.Markup.XmlnsDefinition[] GetXmlnsDefinitions()
         {
@@ -68,7 +87,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
     /// <summary>
     /// Main class for providing metadata for the app or library
     /// </summary>
+<<<<<<< HEAD
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     public sealed partial class XamlMetaDataProvider : global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider
     {
@@ -112,7 +135,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         }
     }
 
+<<<<<<< HEAD
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlTypeInfoProvider
     {
@@ -226,11 +253,16 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         
         private void InitTypeTables()
         {
+<<<<<<< HEAD
             _typeNameTable = new string[10];
+=======
+            _typeNameTable = new string[21];
+>>>>>>> origin/Chat-Functionality-MergeAttempt
             _typeNameTable[0] = "Microsoft.UI.Xaml.Controls.XamlControlsResources";
             _typeNameTable[1] = "Microsoft.UI.Xaml.ResourceDictionary";
             _typeNameTable[2] = "Object";
             _typeNameTable[3] = "Boolean";
+<<<<<<< HEAD
             _typeNameTable[4] = "SocialStuff.MainWindow";
             _typeNameTable[5] = "Microsoft.UI.Xaml.Window";
             _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
@@ -239,16 +271,57 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             _typeNameTable[9] = "Int32";
 
             _typeTable = new global::System.Type[10];
+=======
+            _typeNameTable[4] = "SocialStuff.View.CountToVisibilityConverter";
+            _typeNameTable[5] = "SocialStuff.View.ChatListView";
+            _typeNameTable[6] = "Microsoft.UI.Xaml.Controls.Page";
+            _typeNameTable[7] = "Microsoft.UI.Xaml.Controls.UserControl";
+            _typeNameTable[8] = "Microsoft.UI.Xaml.Controls.DropDownButton";
+            _typeNameTable[9] = "Microsoft.UI.Xaml.Controls.Button";
+            _typeNameTable[10] = "Microsoft.UI.Xaml.Controls.ContentControl";
+            _typeNameTable[11] = "SocialStuff.View.MessageTemplateSelector";
+            _typeNameTable[12] = "Microsoft.UI.Xaml.Controls.DataTemplateSelector";
+            _typeNameTable[13] = "Microsoft.UI.Xaml.DataTemplate";
+            _typeNameTable[14] = "SocialStuff.View.ChatMessagesView";
+            _typeNameTable[15] = "Int32";
+            _typeNameTable[16] = "SocialStuff.MainWindow";
+            _typeNameTable[17] = "Microsoft.UI.Xaml.Window";
+            _typeNameTable[18] = "Microsoft.UI.Xaml.Controls.TreeViewNode";
+            _typeNameTable[19] = "Microsoft.UI.Xaml.DependencyObject";
+            _typeNameTable[20] = "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>";
+
+            _typeTable = new global::System.Type[21];
+>>>>>>> origin/Chat-Functionality-MergeAttempt
             _typeTable[0] = typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources);
             _typeTable[1] = typeof(global::Microsoft.UI.Xaml.ResourceDictionary);
             _typeTable[2] = typeof(global::System.Object);
             _typeTable[3] = typeof(global::System.Boolean);
+<<<<<<< HEAD
             _typeTable[4] = typeof(global::SocialStuff.MainWindow);
             _typeTable[5] = typeof(global::Microsoft.UI.Xaml.Window);
             _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
             _typeTable[7] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
             _typeTable[8] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
             _typeTable[9] = typeof(global::System.Int32);
+=======
+            _typeTable[4] = typeof(global::SocialStuff.View.CountToVisibilityConverter);
+            _typeTable[5] = typeof(global::SocialStuff.View.ChatListView);
+            _typeTable[6] = typeof(global::Microsoft.UI.Xaml.Controls.Page);
+            _typeTable[7] = typeof(global::Microsoft.UI.Xaml.Controls.UserControl);
+            _typeTable[8] = typeof(global::Microsoft.UI.Xaml.Controls.DropDownButton);
+            _typeTable[9] = typeof(global::Microsoft.UI.Xaml.Controls.Button);
+            _typeTable[10] = typeof(global::Microsoft.UI.Xaml.Controls.ContentControl);
+            _typeTable[11] = typeof(global::SocialStuff.View.MessageTemplateSelector);
+            _typeTable[12] = typeof(global::Microsoft.UI.Xaml.Controls.DataTemplateSelector);
+            _typeTable[13] = typeof(global::Microsoft.UI.Xaml.DataTemplate);
+            _typeTable[14] = typeof(global::SocialStuff.View.ChatMessagesView);
+            _typeTable[15] = typeof(global::System.Int32);
+            _typeTable[16] = typeof(global::SocialStuff.MainWindow);
+            _typeTable[17] = typeof(global::Microsoft.UI.Xaml.Window);
+            _typeTable[18] = typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode);
+            _typeTable[19] = typeof(global::Microsoft.UI.Xaml.DependencyObject);
+            _typeTable[20] = typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>);
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -284,12 +357,29 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         }
 
         private object Activate_0_XamlControlsResources() { return new global::Microsoft.UI.Xaml.Controls.XamlControlsResources(); }
+<<<<<<< HEAD
         private object Activate_4_MainWindow() { return new global::SocialStuff.MainWindow(); }
         private object Activate_6_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
         private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
         private void StaticInitializer_4_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.MainWindow).TypeHandle);
         private void StaticInitializer_6_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
         private void StaticInitializer_8_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+=======
+        private object Activate_4_CountToVisibilityConverter() { return new global::SocialStuff.View.CountToVisibilityConverter(); }
+        private object Activate_8_DropDownButton() { return new global::Microsoft.UI.Xaml.Controls.DropDownButton(); }
+        private object Activate_11_MessageTemplateSelector() { return new global::SocialStuff.View.MessageTemplateSelector(); }
+        private object Activate_16_MainWindow() { return new global::SocialStuff.MainWindow(); }
+        private object Activate_18_TreeViewNode() { return new global::Microsoft.UI.Xaml.Controls.TreeViewNode(); }
+        private void StaticInitializer_0_XamlControlsResources() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.XamlControlsResources).TypeHandle);
+        private void StaticInitializer_4_CountToVisibilityConverter() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.View.CountToVisibilityConverter).TypeHandle);
+        private void StaticInitializer_5_ChatListView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.View.ChatListView).TypeHandle);
+        private void StaticInitializer_8_DropDownButton() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.DropDownButton).TypeHandle);
+        private void StaticInitializer_11_MessageTemplateSelector() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.View.MessageTemplateSelector).TypeHandle);
+        private void StaticInitializer_14_ChatMessagesView() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.View.ChatMessagesView).TypeHandle);
+        private void StaticInitializer_16_MainWindow() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::SocialStuff.MainWindow).TypeHandle);
+        private void StaticInitializer_18_TreeViewNode() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode).TypeHandle);
+        private void StaticInitializer_20_IList() => global::System.Runtime.CompilerServices.RuntimeHelpers.RunClassConstructor(typeof(global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode>).TypeHandle);
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         private void MapAdd_0_XamlControlsResources(object instance, object key, object item)
         {
             var collection = (global::System.Collections.Generic.IDictionary<global::System.Object, global::System.Object>)instance;
@@ -297,7 +387,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             var newItem = (global::System.Object)item;
             collection.Add(newKey, newItem);
         }
+<<<<<<< HEAD
         private void VectorAdd_8_IList(object instance, object item)
+=======
+        private void VectorAdd_20_IList(object instance, object item)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var collection = (global::System.Collections.Generic.ICollection<global::Microsoft.UI.Xaml.Controls.TreeViewNode>)instance;
             var newItem = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)item;
@@ -335,14 +429,22 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
+<<<<<<< HEAD
             case 4:   //  SocialStuff.MainWindow
                 userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
                 userType.Activator = Activate_4_MainWindow;
                 userType.StaticInitializer = StaticInitializer_4_MainWindow;
+=======
+            case 4:   //  SocialStuff.View.CountToVisibilityConverter
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Object"));
+                userType.Activator = Activate_4_CountToVisibilityConverter;
+                userType.StaticInitializer = StaticInitializer_4_CountToVisibilityConverter;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 5:   //  Microsoft.UI.Xaml.Window
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
@@ -351,6 +453,90 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
                 userType.Activator = Activate_6_TreeViewNode;
                 userType.StaticInitializer = StaticInitializer_6_TreeViewNode;
+=======
+            case 5:   //  SocialStuff.View.ChatListView
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.StaticInitializer = StaticInitializer_5_ChatListView;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 6:   //  Microsoft.UI.Xaml.Controls.Page
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 7:   //  Microsoft.UI.Xaml.Controls.UserControl
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 8:   //  Microsoft.UI.Xaml.Controls.DropDownButton
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Button"));
+                userType.Activator = Activate_8_DropDownButton;
+                userType.StaticInitializer = StaticInitializer_8_DropDownButton;
+                xamlType = userType;
+                break;
+
+            case 9:   //  Microsoft.UI.Xaml.Controls.Button
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 10:   //  Microsoft.UI.Xaml.Controls.ContentControl
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 11:   //  SocialStuff.View.MessageTemplateSelector
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.DataTemplateSelector"));
+                userType.Activator = Activate_11_MessageTemplateSelector;
+                userType.StaticInitializer = StaticInitializer_11_MessageTemplateSelector;
+                userType.AddMemberName("TextMessageTemplateLeft");
+                userType.AddMemberName("TextMessageTemplateRight");
+                userType.AddMemberName("ImageMessageTemplateLeft");
+                userType.AddMemberName("ImageMessageTemplateRight");
+                userType.AddMemberName("TransferMessageTemplateLeft");
+                userType.AddMemberName("TransferMessageTemplateRight");
+                userType.AddMemberName("RequestMessageTemplateLeft");
+                userType.AddMemberName("RequestMessageTemplateRight");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 12:   //  Microsoft.UI.Xaml.Controls.DataTemplateSelector
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 13:   //  Microsoft.UI.Xaml.DataTemplate
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 14:   //  SocialStuff.View.ChatMessagesView
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Controls.Page"));
+                userType.StaticInitializer = StaticInitializer_14_ChatMessagesView;
+                userType.AddMemberName("SelectedChat");
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 15:   //  Int32
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 16:   //  SocialStuff.MainWindow
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.Window"));
+                userType.Activator = Activate_16_MainWindow;
+                userType.StaticInitializer = StaticInitializer_16_MainWindow;
+                userType.SetIsLocalType();
+                xamlType = userType;
+                break;
+
+            case 17:   //  Microsoft.UI.Xaml.Window
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 18:   //  Microsoft.UI.Xaml.Controls.TreeViewNode
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Microsoft.UI.Xaml.DependencyObject"));
+                userType.Activator = Activate_18_TreeViewNode;
+                userType.StaticInitializer = StaticInitializer_18_TreeViewNode;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 userType.AddMemberName("Children");
                 userType.AddMemberName("Content");
                 userType.AddMemberName("Depth");
@@ -362,6 +548,7 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 xamlType = userType;
                 break;
 
+<<<<<<< HEAD
             case 7:   //  Microsoft.UI.Xaml.DependencyObject
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
@@ -377,6 +564,19 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             case 9:   //  Int32
                 xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
+=======
+            case 19:   //  Microsoft.UI.Xaml.DependencyObject
+                xamlType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType(typeName, type);
+                break;
+
+            case 20:   //  System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>
+                userType = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType(this, typeName, type, null);
+                userType.StaticInitializer = StaticInitializer_20_IList;
+                userType.CollectionAdd = VectorAdd_20_IList;
+                userType.SetIsReturnTypeStub();
+                xamlType = userType;
+                break;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
             }
             return xamlType;
         }
@@ -392,8 +592,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                     global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider provider;
                     provider = new global::Microsoft.UI.Xaml.XamlTypeInfo.XamlControlsXamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
+<<<<<<< HEAD
                     provider = new global::Uno.UI.Toolkit.Uno_UI_Toolkit_Windows_XamlTypeInfo.XamlMetaDataProvider() as global::Microsoft.UI.Xaml.Markup.IXamlMetadataProvider;
                     otherProviders.Add(provider); 
+=======
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                     _otherProviders = otherProviders;
                 }
                 return _otherProviders;
@@ -448,52 +651,182 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
             var that = (global::Microsoft.UI.Xaml.Controls.XamlControlsResources)instance;
             that.UseCompactResources = (global::System.Boolean)Value;
         }
+<<<<<<< HEAD
         private object get_1_TreeViewNode_Children(object instance)
+=======
+        private object get_1_MessageTemplateSelector_TextMessageTemplateLeft(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.TextMessageTemplateLeft;
+        }
+        private void set_1_MessageTemplateSelector_TextMessageTemplateLeft(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.TextMessageTemplateLeft = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_2_MessageTemplateSelector_TextMessageTemplateRight(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.TextMessageTemplateRight;
+        }
+        private void set_2_MessageTemplateSelector_TextMessageTemplateRight(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.TextMessageTemplateRight = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_3_MessageTemplateSelector_ImageMessageTemplateLeft(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.ImageMessageTemplateLeft;
+        }
+        private void set_3_MessageTemplateSelector_ImageMessageTemplateLeft(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.ImageMessageTemplateLeft = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_4_MessageTemplateSelector_ImageMessageTemplateRight(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.ImageMessageTemplateRight;
+        }
+        private void set_4_MessageTemplateSelector_ImageMessageTemplateRight(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.ImageMessageTemplateRight = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_5_MessageTemplateSelector_TransferMessageTemplateLeft(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.TransferMessageTemplateLeft;
+        }
+        private void set_5_MessageTemplateSelector_TransferMessageTemplateLeft(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.TransferMessageTemplateLeft = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_6_MessageTemplateSelector_TransferMessageTemplateRight(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.TransferMessageTemplateRight;
+        }
+        private void set_6_MessageTemplateSelector_TransferMessageTemplateRight(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.TransferMessageTemplateRight = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_7_MessageTemplateSelector_RequestMessageTemplateLeft(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.RequestMessageTemplateLeft;
+        }
+        private void set_7_MessageTemplateSelector_RequestMessageTemplateLeft(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.RequestMessageTemplateLeft = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_8_MessageTemplateSelector_RequestMessageTemplateRight(object instance)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            return that.RequestMessageTemplateRight;
+        }
+        private void set_8_MessageTemplateSelector_RequestMessageTemplateRight(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.MessageTemplateSelector)instance;
+            that.RequestMessageTemplateRight = (global::Microsoft.UI.Xaml.DataTemplate)Value;
+        }
+        private object get_9_ChatMessagesView_SelectedChat(object instance)
+        {
+            var that = (global::SocialStuff.View.ChatMessagesView)instance;
+            return that.SelectedChat;
+        }
+        private void set_9_ChatMessagesView_SelectedChat(object instance, object Value)
+        {
+            var that = (global::SocialStuff.View.ChatMessagesView)instance;
+            that.SelectedChat = (global::System.Int32)Value;
+        }
+        private object get_10_TreeViewNode_Children(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Children;
         }
+<<<<<<< HEAD
         private object get_2_TreeViewNode_Content(object instance)
+=======
+        private object get_11_TreeViewNode_Content(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Content;
         }
+<<<<<<< HEAD
         private void set_2_TreeViewNode_Content(object instance, object Value)
+=======
+        private void set_11_TreeViewNode_Content(object instance, object Value)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.Content = (global::System.Object)Value;
         }
+<<<<<<< HEAD
         private object get_3_TreeViewNode_Depth(object instance)
+=======
+        private object get_12_TreeViewNode_Depth(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Depth;
         }
+<<<<<<< HEAD
         private object get_4_TreeViewNode_HasChildren(object instance)
+=======
+        private object get_13_TreeViewNode_HasChildren(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasChildren;
         }
+<<<<<<< HEAD
         private object get_5_TreeViewNode_HasUnrealizedChildren(object instance)
+=======
+        private object get_14_TreeViewNode_HasUnrealizedChildren(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.HasUnrealizedChildren;
         }
+<<<<<<< HEAD
         private void set_5_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+=======
+        private void set_14_TreeViewNode_HasUnrealizedChildren(object instance, object Value)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.HasUnrealizedChildren = (global::System.Boolean)Value;
         }
+<<<<<<< HEAD
         private object get_6_TreeViewNode_IsExpanded(object instance)
+=======
+        private object get_15_TreeViewNode_IsExpanded(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.IsExpanded;
         }
+<<<<<<< HEAD
         private void set_6_TreeViewNode_IsExpanded(object instance, object Value)
+=======
+        private void set_15_TreeViewNode_IsExpanded(object instance, object Value)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             that.IsExpanded = (global::System.Boolean)Value;
         }
+<<<<<<< HEAD
         private object get_7_TreeViewNode_Parent(object instance)
+=======
+        private object get_16_TreeViewNode_Parent(object instance)
+>>>>>>> origin/Chat-Functionality-MergeAttempt
         {
             var that = (global::Microsoft.UI.Xaml.Controls.TreeViewNode)instance;
             return that.Parent;
@@ -513,50 +846,138 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
                 xamlMember.Getter = get_0_XamlControlsResources_UseCompactResources;
                 xamlMember.Setter = set_0_XamlControlsResources_UseCompactResources;
                 break;
+<<<<<<< HEAD
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
                 xamlMember.Getter = get_1_TreeViewNode_Children;
+=======
+            case "SocialStuff.View.MessageTemplateSelector.TextMessageTemplateLeft":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "TextMessageTemplateLeft", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_1_MessageTemplateSelector_TextMessageTemplateLeft;
+                xamlMember.Setter = set_1_MessageTemplateSelector_TextMessageTemplateLeft;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.TextMessageTemplateRight":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "TextMessageTemplateRight", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_2_MessageTemplateSelector_TextMessageTemplateRight;
+                xamlMember.Setter = set_2_MessageTemplateSelector_TextMessageTemplateRight;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.ImageMessageTemplateLeft":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "ImageMessageTemplateLeft", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_3_MessageTemplateSelector_ImageMessageTemplateLeft;
+                xamlMember.Setter = set_3_MessageTemplateSelector_ImageMessageTemplateLeft;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.ImageMessageTemplateRight":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "ImageMessageTemplateRight", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_4_MessageTemplateSelector_ImageMessageTemplateRight;
+                xamlMember.Setter = set_4_MessageTemplateSelector_ImageMessageTemplateRight;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.TransferMessageTemplateLeft":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "TransferMessageTemplateLeft", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_5_MessageTemplateSelector_TransferMessageTemplateLeft;
+                xamlMember.Setter = set_5_MessageTemplateSelector_TransferMessageTemplateLeft;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.TransferMessageTemplateRight":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "TransferMessageTemplateRight", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_6_MessageTemplateSelector_TransferMessageTemplateRight;
+                xamlMember.Setter = set_6_MessageTemplateSelector_TransferMessageTemplateRight;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.RequestMessageTemplateLeft":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "RequestMessageTemplateLeft", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_7_MessageTemplateSelector_RequestMessageTemplateLeft;
+                xamlMember.Setter = set_7_MessageTemplateSelector_RequestMessageTemplateLeft;
+                break;
+            case "SocialStuff.View.MessageTemplateSelector.RequestMessageTemplateRight":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.MessageTemplateSelector");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "RequestMessageTemplateRight", "Microsoft.UI.Xaml.DataTemplate");
+                xamlMember.Getter = get_8_MessageTemplateSelector_RequestMessageTemplateRight;
+                xamlMember.Setter = set_8_MessageTemplateSelector_RequestMessageTemplateRight;
+                break;
+            case "SocialStuff.View.ChatMessagesView.SelectedChat":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("SocialStuff.View.ChatMessagesView");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "SelectedChat", "Int32");
+                xamlMember.Getter = get_9_ChatMessagesView_SelectedChat;
+                xamlMember.Setter = set_9_ChatMessagesView_SelectedChat;
+                break;
+            case "Microsoft.UI.Xaml.Controls.TreeViewNode.Children":
+                userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
+                xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "Children", "System.Collections.Generic.IList`1<Microsoft.UI.Xaml.Controls.TreeViewNode>");
+                xamlMember.Getter = get_10_TreeViewNode_Children;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Content":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "Content", "Object");
                 xamlMember.SetIsDependencyProperty();
+<<<<<<< HEAD
                 xamlMember.Getter = get_2_TreeViewNode_Content;
                 xamlMember.Setter = set_2_TreeViewNode_Content;
+=======
+                xamlMember.Getter = get_11_TreeViewNode_Content;
+                xamlMember.Setter = set_11_TreeViewNode_Content;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Depth":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "Depth", "Int32");
                 xamlMember.SetIsDependencyProperty();
+<<<<<<< HEAD
                 xamlMember.Getter = get_3_TreeViewNode_Depth;
+=======
+                xamlMember.Getter = get_12_TreeViewNode_Depth;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "HasChildren", "Boolean");
                 xamlMember.SetIsDependencyProperty();
+<<<<<<< HEAD
                 xamlMember.Getter = get_4_TreeViewNode_HasChildren;
+=======
+                xamlMember.Getter = get_13_TreeViewNode_HasChildren;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 xamlMember.SetIsReadOnly();
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "HasUnrealizedChildren", "Boolean");
+<<<<<<< HEAD
                 xamlMember.Getter = get_5_TreeViewNode_HasUnrealizedChildren;
                 xamlMember.Setter = set_5_TreeViewNode_HasUnrealizedChildren;
+=======
+                xamlMember.Getter = get_14_TreeViewNode_HasUnrealizedChildren;
+                xamlMember.Setter = set_14_TreeViewNode_HasUnrealizedChildren;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "IsExpanded", "Boolean");
                 xamlMember.SetIsDependencyProperty();
+<<<<<<< HEAD
                 xamlMember.Getter = get_6_TreeViewNode_IsExpanded;
                 xamlMember.Setter = set_6_TreeViewNode_IsExpanded;
+=======
+                xamlMember.Getter = get_15_TreeViewNode_IsExpanded;
+                xamlMember.Setter = set_15_TreeViewNode_IsExpanded;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 break;
             case "Microsoft.UI.Xaml.Controls.TreeViewNode.Parent":
                 userType = (global::SocialStuff.SocialStuff_XamlTypeInfo.XamlUserType)GetXamlTypeByName("Microsoft.UI.Xaml.Controls.TreeViewNode");
                 xamlMember = new global::SocialStuff.SocialStuff_XamlTypeInfo.XamlMember(this, "Parent", "Microsoft.UI.Xaml.Controls.TreeViewNode");
+<<<<<<< HEAD
                 xamlMember.Getter = get_7_TreeViewNode_Parent;
+=======
+                xamlMember.Getter = get_16_TreeViewNode_Parent;
+>>>>>>> origin/Chat-Functionality-MergeAttempt
                 xamlMember.SetIsReadOnly();
                 break;
             }
@@ -564,7 +985,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
         }
     }
 
+<<<<<<< HEAD
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlSystemBaseType : global::Microsoft.UI.Xaml.Markup.IXamlType
     {
@@ -616,7 +1041,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
     internal delegate object CreateFromStringMethod(string args);
     internal delegate object BoxInstanceMethod(object instance);
 
+<<<<<<< HEAD
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlUserType : global::SocialStuff.SocialStuff_XamlTypeInfo.XamlSystemBaseType
         , global::Microsoft.UI.Xaml.Markup.IXamlType
@@ -849,7 +1278,11 @@ namespace SocialStuff.SocialStuff_XamlTypeInfo
     internal delegate object Getter(object instance);
     internal delegate void Setter(object instance, object value);
 
+<<<<<<< HEAD
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2502")]
+=======
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.UI.Xaml.Markup.Compiler"," 3.0.0.2503")]
+>>>>>>> origin/Chat-Functionality-MergeAttempt
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     internal partial class XamlMember : global::Microsoft.UI.Xaml.Markup.IXamlMember
     {

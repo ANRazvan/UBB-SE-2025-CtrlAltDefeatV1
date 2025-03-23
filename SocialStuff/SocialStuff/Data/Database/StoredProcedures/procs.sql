@@ -5,6 +5,7 @@ BEGIN
 END;
 GO
 
+<<<<<<< HEAD
 CREATE PROCEDURE GetUser
     @UserID INT
 AS
@@ -22,3 +23,15 @@ BEGIN
     VALUES (@Username, @Email);
 END;
 GO
+=======
+namespace SocialStuff.Database.StoredProcedures
+{
+    class procs
+    {
+    public static string GetUsers = "GetUsers";
+        public static string GetUser = "GetUser";
+        public static string AddUser = "AddUser";
+        public static string
+    }
+}
+>>>>>>> origin/Chat-Functionality-MergeAttempt

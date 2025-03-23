@@ -31,9 +31,9 @@ namespace SocialStuff.Model
             UserId = userId;
             Username = username;
             PhoneNumber = phoneNumber;
-            ReportedCount = 0;
             Friends = friends;
             Chats = chats;
+            ReportedCount = 0;
         }
 
         public int GetUserId()

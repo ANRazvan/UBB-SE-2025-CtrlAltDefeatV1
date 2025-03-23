@@ -1,10 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using Microsoft.UI.Xaml;
-using SocialStuff.Data;
-using SocialStuff.Services;
-using SocialStuff.Model;
-using SocialStuff.Views;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
+using Microsoft.UI.Xaml.Shapes;
+using Windows.ApplicationModel;
+using Windows.ApplicationModel.Activation;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+
+//using SocialStuff.Repository;
 
 namespace SocialStuff
 {
@@ -19,6 +28,7 @@ namespace SocialStuff
         public App()
         {
             this.InitializeComponent();
+
         }
 
         /// <summary>

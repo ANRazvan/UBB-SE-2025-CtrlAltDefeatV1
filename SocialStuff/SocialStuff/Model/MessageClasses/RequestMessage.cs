@@ -6,60 +6,55 @@ using System.Threading.Tasks;
 
 namespace SocialStuff.Model.MessageClasses
 {
-    class RequestMessage : Message
+    public class RequestMessage : Message
     {
-        private int MessageID;
-        private int ChatID;
-        private int RequesterID;
-        private DateTime Timestamp;
-        private string Status;
-        private float Amount;
-        private string Description;
-        private string Currency;
+        private int MessageID { get; set; }
+        public int getMessageID() => MessageID;
+        private int SenderID { get; set; }
+        public int getSenderID() => SenderID;
+        private int ChatID { get; set; }
+        public int getChatID() => ChatID;
+        private DateTime Timestamp { get; set; }
+        public DateTime getTimestamp() => Timestamp;
+        private string Status { get; set; }
+        public string getStatus() => Status;
+        public float Amount { get; set; }
+        public float getAmount() => Amount;
+        public string Description { get; set; }
+        public string getDescription() => Description;
+        public string Currency { get; set; }
+        public string getCurrency() => Currency;
+        public string FormattedAmount => $"{Amount} {Currency}";
 
-        public RequestMessage(int requesterID, int chatID, string status, float amount, string desc, string currency)
+        public RequestMessage(int messageID, int requesterID, int chatID, string status, float amount, string desc, string currency)
+            : base(messageID, requesterID, chatID)
         {
-            this.RequesterID = requesterID;
-            this.ChatID = chatID;
-            this.Timestamp = DateTime.Now;
-
-            this.Status = status;
-            this.Amount = amount;
-            this.Description = desc;
-            this.Currency = currency;
+            MessageID = messageID;
+            SenderID = requesterID;
+            ChatID = chatID;
+            Timestamp = DateTime.Now;
+            Status = status;
+            Amount = amount;
+            Description = desc;
+            Currency = currency;
         }
 
-        public RequestMessage(int MessageID, int requesterID, int chatID, DateTime timestamp, string status, float amount, string desc, string currency)
+        public RequestMessage(int messageID, int requesterID, int chatID, DateTime timestamp, string status, float amount, string desc, string currency)
+            : base(messageID, requesterID, chatID, timestamp)
         {
-            this.MessageID = MessageID;
-            this.RequesterID = requesterID;
-            this.ChatID = chatID;
-            this.Timestamp = timestamp;
-
-            this.Status = status;
-            this.Amount = amount;
-            this.Description = desc;
-            this.Currency = currency;
+            MessageID = messageID;
+            SenderID = requesterID;
+            ChatID = chatID;
+            Timestamp = timestamp;
+            Status = status;
+            Amount = amount;
+            Description = desc;
+            Currency = currency;
         }
 
-        public int getChatID() { return this.ChatID; }
-
-        public string getDescription() { return this.Description; }
-
-        public int getSenderID() { return this.RequesterID; }
-
-        public DateTime getTimestamp() { return this.Timestamp; }
-
-        public float getAmount() { return this.Amount; }
-
-        public string getMessageStatus() { return this.Status; }
-
-        public string getCurrency() { return this.Currency; }
-
-        public string toString()
+        public override string ToString()
         {
-            String message = "Request Message: " + this.Amount + this.Currency + this.Description;
-            return message;
+            return $"Request Message: {Amount}{Currency} - {Description}";
         }
     }
 }

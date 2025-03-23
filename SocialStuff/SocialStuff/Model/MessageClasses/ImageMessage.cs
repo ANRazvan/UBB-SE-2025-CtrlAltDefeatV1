@@ -6,40 +6,46 @@ using System.Threading.Tasks;
 
 namespace SocialStuff.Model.MessageClasses
 {
-    class ImageMessage : Message
+    public class ImageMessage : Message
     {
-        private int MessageID;
-        private int SenderID;
-        private int ChatID;
-        private DateTime Timestamp;
-        private string ImageURL;
-        private List<int> UsersReport;
+        private int MessageID { get; set; }
+        public int getMessageID() => MessageID;
+        private int SenderID { get; set; }
+        public int getSenderID() => SenderID;
+        private int ChatID { get; set; }
+        public int getChatID() => ChatID;
+        private DateTime Timestamp { get; set; }
+        public DateTime getTimestamp() => Timestamp;
+        public string ImageURL { get; set; }
+        public string getImageURL() => ImageURL;
+        private List<int> UsersReport { get; set; }
+        public List<int> getUsersReport() => UsersReport;
 
-        // get reports list
-        public ImageMessage(int senderID, int chatID, string imageUrl)
+        public ImageMessage(int messageID, int senderID, int chatID, string imageUrl, List<int> usersReport)
+            : base(messageID, senderID, chatID)
         {
+            MessageID = messageID;
             SenderID = senderID;
             ChatID = chatID;
             Timestamp = DateTime.Now;
             ImageURL = imageUrl;
-            UsersReport = new List<int>();
+            UsersReport = usersReport;
         }
 
-        public ImageMessage(int MessageID, int senderID, int chatID, DateTime timestamp, string imageUrl)
+        public ImageMessage(int messageID, int senderID, int chatID, DateTime timestamp, string imageUrl, List<int> usersReport)
+            : base(messageID, senderID, chatID, timestamp)
         {
-            this.MessageID = MessageID;
-            this.SenderID = senderID;
-            this.ChatID = chatID;
-            this.Timestamp = timestamp;
-            this.ImageURL = imageUrl;
-            this.UsersReport = new List<int>();
+            MessageID = messageID;
+            SenderID = senderID;
+            ChatID = chatID;
+            Timestamp = timestamp;
+            ImageURL = imageUrl;
+            UsersReport = usersReport;
         }
 
-        public string getImageURL() { return ImageURL; }
-        public int getSenderID() { return SenderID; }
-
-        public int getChatID() { return ChatID; }
-        public DateTime getTimestamp() { return Timestamp; }
-        public string toString() { return ImageURL; }
+        public override string ToString()
+        {
+            return ImageURL;
+        }
     }
 }

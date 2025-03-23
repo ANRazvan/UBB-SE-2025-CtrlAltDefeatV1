@@ -45,6 +45,7 @@
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.0" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="6.0.1" />
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.26100.1742" />
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.6.250228001" />
     <PackageReference Include="Moq" Version="4.20.72" />
     <PackageReference Include="MySql.Data" Version="9.2.0" />
@@ -58,6 +59,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="View\" />
+=======
+    <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.7.250310001" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Refractored.MvvmHelpers" Version="1.6.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+>>>>>>> origin/Chat-Functionality-MergeAttempt
   </ItemGroup>
 
   <!--
@@ -78,5 +85,24 @@
   </PropertyGroup>
   <ItemGroup>
     <PRIResource Remove="Data\Database\Procedures\**" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="View\ChatListView.xaml" />
+    <None Remove="View\MessageTemplates.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\ChatListView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\MessageTemplates.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="View\ChatMessagesView.xaml">
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
 </Project>

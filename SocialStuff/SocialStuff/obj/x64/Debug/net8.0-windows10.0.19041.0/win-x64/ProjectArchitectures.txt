@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 D:\ISS\SocialStuff\SocialStuff\SocialStuff.csproj;x64
+=======
+D:\UBB-SE-2025-CtrlAltDefeat\SocialStuff\SocialStuff\SocialStuff.csproj;x64
+>>>>>>> origin/Chat-Functionality-MergeAttempt

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SocialStuff.Model
 {
-    internal class Report
+    public class Report
     {
     }
 }

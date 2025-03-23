@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="SocialStuff.View.ChatListView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SocialStuff.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid x:Name="MainGrid" Padding="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Search Box -->
+        <Grid Grid.Row="0" Margin="0,0,0,10">
+            <TextBox x:Name="SearchBox" 
+                Text="{Binding SearchQuery, UpdateSourceTrigger=PropertyChanged}"
+                PlaceholderText="Search chats..."
+                TextWrapping="Wrap"
+                AcceptsReturn="True"
+                IsSpellCheckEnabled="True"
+                SelectionHighlightColor="Green"
+                Padding="5"
+                Width="260"/>
+            <FontIcon Glyph="&#xE71E;" 
+                VerticalAlignment="Center"
+                HorizontalAlignment="Right"
+                Margin="0,0,10,0"/>
+        </Grid>
+
+        <!-- Chats Title and Add Button -->
+        <Grid Grid.Row="1" Margin="0,0,0,10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Text="Chats" FontSize="24" FontWeight="Bold"/>
+            <Button Content="+" Grid.Column="1"/>
+        </Grid>
+
+        <!-- Chat List -->
+        <Grid Grid.Row="2">
+            <ListView x:Name="ChatList"
+                ItemsSource="{Binding ChatList}"
+                SelectionMode="Single"
+                ScrollViewer.VerticalScrollBarVisibility="Auto"
+                BorderThickness="0"
+                Background="Transparent"
+                Padding="5"
+                SelectionChanged="ChatList_SelectionChanged">
+                <TextBlock Text="{Binding ChatName}" FontSize="18"/>
+            </ListView>
+
+            <!-- Empty Chat Message -->
+            <TextBlock Text="You have no chats!"
+                FontSize="18"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center"
+                Visibility="{Binding ChatList.Count, Converter={StaticResource CountToVisibilityConverter}, ConverterParameter=NoItems}"/>
+        </Grid>
+    </Grid>
+</Page>

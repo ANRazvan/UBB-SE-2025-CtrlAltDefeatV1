@@ -5,20 +5,28 @@ using System.Reflection.Metadata.Ecma335;
 using System.Text;
 using System.Threading.Tasks;
 using Windows.System;
+
 namespace SocialStuff.Model.MessageClasses
 {
-    class TextMessage : Message
+    public class TextMessage : Message
     {
-        private int MessageID;
-        private int SenderID;
-        private int ChatID;
-        private DateTime Timestamp;
-        private string Content;
-        private List<int> UsersReport;
+        private int MessageID { get; set; }
+        public int getMessageID() => MessageID;
+        private int SenderID { get; set; }
+        public int getSenderID() => SenderID;
+        private int ChatID { get; set; }
+        public int getChatID() => ChatID;
+        private DateTime Timestamp { get; set; }
+        public DateTime getTimestamp() => Timestamp;
+        public string Content { get; set; }
+        public string getContent() => Content;
+        private List<int> UsersReport { get; set; }
+        public List<int> getUsersReport() => UsersReport;
 
-        // make the getting of the reports..
-        public TextMessage(int MessageID, int senderID, int chatID, string content)
+        public TextMessage(int messageID, int senderID, int chatID, string content)
+            : base(messageID, senderID, chatID)
         {
+            this.MessageID = messageID;
             this.SenderID = senderID;
             this.ChatID = chatID;
             this.Timestamp = DateTime.Now;
@@ -26,8 +34,10 @@ namespace SocialStuff.Model.MessageClasses
             this.UsersReport = new List<int>();
         }
 
-        public TextMessage(int MessageID,int senderID, int chatID, DateTime timestamp, string content)
+        public TextMessage(int messageID, int senderID, int chatID, DateTime timestamp, string content, List<int> usersReport)
+            : base(messageID, senderID, chatID, timestamp)
         {
+            this.MessageID = messageID;
             this.SenderID = senderID;
             this.ChatID = chatID;
             this.Timestamp = timestamp;
@@ -35,14 +45,6 @@ namespace SocialStuff.Model.MessageClasses
             this.UsersReport = new List<int>();
         }
 
-        public int getChatID() { return ChatID; }
-
-        public int getSenderID() { return SenderID; }
-
-        public DateTime getTimestamp() { return Timestamp; }
-
-        public string getTextContent() { return Content; }
-
-        public string toString() { return Content; }
+        public override string ToString() { return Content; }
     }
 }

@@ -8,7 +8,7 @@ using Microsoft.Data.SqlClient;
 
 namespace SocialStuff.Data.Database
 {
-    internal class DatabaseConnection
+    public class DatabaseConnection
     {
         string connectionString = @"Data Source=USER\MSSQLSERVER02;Initial Catalog=BankingDB;Integrated Security=True;TrustServerCertificate=true";
 
