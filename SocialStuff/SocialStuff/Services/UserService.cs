@@ -115,11 +115,14 @@ namespace SocialStuff.Services
         }
 
 
-        public List<int> GetChatsByUser(int userID)
-        {
-            var chats = repo.GetChatsIDs(userID);
-            return chats;
-        }
+//        public List<int> FilterUsers(string keyword, int userID)
+//        {
+//            var users = repo.GetAllUsers();
+//            return users.Where(u => (u.Username.Contains(keyword, StringComparison.OrdinalIgnoreCase)
+//                                    || u.PhoneNumber.Contains(keyword)) && u.UserId != userID)
+//                        .Select(u => u.UserId)
+//                        .ToList();
+//        }
 
         public User GetUserById(int userID)
         {
@@ -140,19 +143,9 @@ namespace SocialStuff.Services
             return repo.GetLoggedInUserID(); // This should be replaced with actual logic to get the logged-in user.
         }
 
-        public List<User> GetNonFriendsUsers(int UserID)
-        {
-            List<User> users = new List<User>(repo.GetUsersList().Where(user => user.GetUserId() != UserID));
-            List<int> friends = repo.GetFriendsIDs(UserID);
-            List<User> nonFriends = new List<User>();
-            foreach (User user in users)
-            {
-                if (!friends.Contains(user.GetUserId()))
-                {
-                    nonFriends.Add(user);
-                }
-            }
-            return nonFriends;
-        }
-    }
-}
+//        public int GetCurrentUser()
+//        {
+//            return repo.getLoggedInUser(); // This should be replaced with actual logic to get the logged-in user.
+//        }
+//    }
+//}

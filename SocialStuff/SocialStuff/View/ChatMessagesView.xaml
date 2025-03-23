@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Page
+    x:Class="SocialStuff.View.ChatMessagesView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SocialStuff.View"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="chatMessagesView"
+    >
+    <Page.Resources>
+        <local:EmoticonToEmojiConverter x:Key="EmoticonConverter"/>
+    </Page.Resources>
+
+
+    <Grid x:Name="MainGrid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Border Grid.Row="0" Background="#39374f" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" VerticalAlignment="Top">
+                    <TextBlock VerticalAlignment="Center" Foreground="White" Text="{Binding CurrentChatName}"/>
+                    <TextBlock VerticalAlignment="Top" Foreground="White" Text="{Binding CurrentChatParticipantsString}" FontSize="12"/>
+                </StackPanel>
+
+                <Grid Grid.Column="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Grid.Column="0" Margin="0,0,10,0" Content="Add a new member"></Button>
+                    <Button Grid.Column="1" Content="Leave Chat"></Button>
+                </Grid>
+
+            </Grid>
+        </Border>
+
+        <Border Grid.Row="1" Background="Black">
+            <ListView x:Name="ChatListView"
+                          ItemsSource="{Binding ChatMessages}"
+                          Background="Black" 
+                          Padding="10"
+                          ScrollViewer.VerticalScrollBarVisibility="Auto"
+                          >
+                <ListView.ItemTemplateSelector>
+                    <local:MessageTemplateSelector 
+                            TextMessageTemplateLeft="{StaticResource TextMessageTemplateLeft}"
+                            TextMessageTemplateRight="{StaticResource TextMessageTemplateRight}"
+                            ImageMessageTemplateLeft="{StaticResource ImageMessageTemplateLeft}"
+                            ImageMessageTemplateRight="{StaticResource ImageMessageTemplateRight}"
+                            TransferMessageTemplateLeft="{StaticResource TransferMessageTemplateLeft}"
+                            TransferMessageTemplateRight="{StaticResource TransferMessageTemplateRight}"
+                            RequestMessageTemplateLeft="{StaticResource RequestMessageTemplateLeft}"
+                            RequestMessageTemplateRight="{StaticResource RequestMessageTemplateRight}" />
+                </ListView.ItemTemplateSelector>
+            </ListView>
+        </Border>
+
+        <Border Grid.Row="2" Background="#39374f" Padding="10">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <Button Width="42" 
+                            Height="40" 
+                            Margin="10,0" 
+                            VerticalAlignment="Center" 
+                            Grid.Column="0"
+                            Command="{Binding SendImageCommand}">
+                    <Image Source="https://img.icons8.com/m_outlined/512/FFFFFF/plus.png" 
+                               Width="20" 
+                               Height="20" 
+                               HorizontalAlignment="Center" 
+                               VerticalAlignment="Center"/>
+                </Button>
+
+                <TextBox 
+                        x:Name="MessageTextBox"
+                        FontFamily="Segoe UI Emoji"
+                        Text="{Binding MessageContent,Converter={StaticResource EmoticonConverter}, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                        AutomationProperties.Name="multi-line TextBox"
+                        TextWrapping="Wrap" 
+                        AcceptsReturn="True" 
+                        IsSpellCheckEnabled="True"
+                        SelectionHighlightColor="Green" 
+                        MinWidth="400"
+                        VerticalAlignment="Center"
+                        Height="Auto"
+                        Margin="10"
+                        PlaceholderText="Type a message..."
+                        Grid.Column="1"
+                        MaxLength="256">
+                </TextBox>
+
+                <TextBlock 
+                        HorizontalAlignment="Center"
+                        VerticalAlignment="Center"
+                        Text="{Binding RemainingCharacterCount ,Converter={StaticResource EmoticonConverter}}"
+                        Foreground="Gray"
+                        FontSize="12"
+                        Grid.Column="2"
+                        Margin="0,0,10,0"/>
+
+                <Button Width="42" Height="40"
+                        VerticalAlignment="Center" 
+                        Grid.Column="3"
+                        Command="{Binding SendMessageCommand}">
+                    <FontIcon Glyph="&#xE725;" 
+                              Width="20" 
+                              Height="20" 
+                              HorizontalAlignment="Center" 
+                              VerticalAlignment="Center"/>
+                </Button>
+                
+            
+                <Button Width="42" Height="40"
+                VerticalAlignment="Center" 
+                Grid.Column="4"
+                 Command="{Binding TransferRequestCommand}">
+                <Image Source="https://icon-library.com/images/white-money-icon/white-money-icon-2.jpg"
+                 Width="20" 
+                 Height="20" 
+                 HorizontalAlignment="Center" 
+                 VerticalAlignment="Center"
+                 />
+                </Button>
+
+            </Grid>
+        </Border>
+    </Grid>
+</Page>

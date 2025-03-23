@@ -1,13 +1,11 @@
-﻿using System;
+﻿using SocialStuff.Data;
+using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Microsoft.Data.SqlClient;
-using Microsoft.Identity.Client;
-using Microsoft.UI.Xaml.Controls;
-using SocialStuff.Data;
+using SocialStuff.Model.MessageClasses;
 using SocialStuff.Model;
 
 namespace SocialStuff.Services
@@ -16,40 +14,30 @@ namespace SocialStuff.Services
     {
         private Repository repository;
 
-        public ObservableCollection<Chat> Chats { get; set; } = new ObservableCollection<Chat>();
-
-        public ObservableCollection<int> FilteredFriends { get; set; } = new ObservableCollection<int>();
-        public Dictionary<int, string> friendsDict = new Dictionary<int, string>();
-        public event Action ChatsUpdated;
-
-        public ChatService()
+        public ChatService(Repository repo)
         {
-            this.repository = new Repository();
+            this.repository = repo;
         }
 
-        public void NotifyChatsUpdated()
+        public Repository getRepo()
         {
-            ChatsUpdated?.Invoke();
+            return this.repository;
         }
 
-        public bool addChat(List<int> usersIDs, string chatName)
+        public void requestMoneyViaChat(List<int> ListOfRequestedUsersID, int RequesterID, float Amount, string Currency, int ChatID, string Description)
         {
-            try
-            {
-                int chatID;
-                repository.AddChat(chatName, out chatID);
+            throw new NotImplementedException();
+        }
 
-                foreach (var userID in usersIDs)
+        public void sendMoneyViaChat(List<int> ListOfReceiversID, int SenderID, float Amount, string Currency, string Description, int ChatID)
                 {
-                    repository.AddUserToChat(userID, chatID);
+            throw new NotImplementedException();
                 }
                 var addedUsers = repository.GetChatParticipants(chatID);
 
-
-                if (addedUsers.Count == usersIDs.Count)
+        public void createChat(List<int> ParticipantsID, string ChatName)
                 {
-                    ChatsUpdated?.Invoke();
-                    return true;
+            throw new NotImplementedException();
                 }
                 else
                     return false;
@@ -61,48 +49,22 @@ namespace SocialStuff.Services
             }
         }
 
-        public int numberOfSelectedFriends(List<int> selectedFriends)
+        public void deleteChat(int ChatID)
         {
-            return selectedFriends.Count;
+            this.repository.DeleteChat(ChatID);
         }
 
-        public async Task RemoveUserFromChatAsync(int userID, int chatID)
+        public DateTime getLastMessageTimeStamp(int ChatID)
         {
-            var dialog = new ContentDialog
-            {
-                Title = "Remove User",
-                Content = "Are you sure you want to remove this user from the chat?",
-                PrimaryButtonText = "Yes",
-                CloseButtonText = "No",
-                XamlRoot = App.MainWindow.Content.XamlRoot // Required for WinUI 3
-            };
+            List<Message> allMessages = this.repository.GetMessagesList();
 
-            var result = await dialog.ShowAsync();
+            var chatMessages = allMessages.Where(m => m.getChatID() == ChatID).ToList();
 
-            if (result == ContentDialogResult.Primary)
-            {
-                try
-                {
-                    repository.RemoveUserFromChat(userID, chatID);
-                    if (repository.GetChatParticipants(chatID).Count == 0)
-                    {
-                        repository.DeleteChat(chatID);
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine("ChatService - removeUserFromChat Error: " + ex.Message);
-                }
-            }
-        }
+            var lastMessage = chatMessages.OrderByDescending(m => m.getTimestamp()).FirstOrDefault();
 
-
-        public void removeChat(int chatID)
+            if (lastMessage == null)
         {
-            try
-            {
-                repository.DeleteChat(chatID);
-                return;
+                throw new Exception("No messages to show in the chat with id: " + ChatID);
             }
             catch (Exception ex)
             {
@@ -111,105 +73,26 @@ namespace SocialStuff.Services
             return;
         }
 
-        public void loadFriends(int userID)
-        {
-            friendsDict = repository.GetUserFriendsList(userID).ToDictionary(friend => friend.GetUserId(), friend => friend.GetUsername());
-            FilteredFriends.Clear();
-            foreach (var id in friendsDict.Keys)
-            {
-                FilteredFriends.Add(id);
-            }
+            return lastMessage.getTimestamp();
         }
 
-        public void filterFriends(string seq, int userID)
-        {
-            FilteredFriends.Clear();
-            foreach (var id in friendsDict.Keys)
+        public List<Message> getChatHistory(int ChatID)
             {
-                if (friendsDict[id].Contains(seq))
+            List<Message> allMessages = this.repository.GetMessagesList();
+
+            List<Message> chatHistory = allMessages.Where(m => m.getChatID() == ChatID).ToList();
+
+            return chatHistory;
+        }
+
+        public void AddUserToChat(int UserID, int ChatID)
                 {
-                    FilteredFriends.Add(id);
-                }
-            }
-
+            this.repository.AddUserToChat(UserID, ChatID);
         }
 
-        public List<User> getChatParticipants(int chatID)
-        {
-            List<User> users = new List<User>();
-            try
+        public void RemoveUserFromChat(int UserID, int ChatID)
             {
-                users = repository.GetChatParticipants(chatID);
-                return users;
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("ChatService - getChatParticipants Error: " + ex.Message);
-            }
-            return users;
-        }
-
-        public List<User> getFriends(int userID)
-        {
-            try
-            {
-                Console.WriteLine(repository.GetUserFriendsList(userID));
-                var friends = repository.GetUserFriendsList(userID);
-                return friends.OrderBy(friend => friend.GetUsername()).ToList();
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("ChatService - getFriends Error: " + ex.Message);
-            }
-            return null;
-        }
-
-        public Chat getChat(int chatID)
-        {
-            List<Chat> chatList = repository.GetChatsList();
-            foreach (Chat chat in chatList)
-            {
-                if (chat.getChatID() == chatID)
-                    return chat;
-            }
-            return null;
-        }
-
-        public List<Chat> getChats(int userID)
-        {
-            var chats = repository.GetChatsList();
-            var validChats = new List<Chat>(); 
-
-            foreach (var chat in chats)
-            {
-                int id = chat.getChatID();
-                var participants = repository.GetChatParticipants(id);
-
-              
-                if (participants.Exists(user => user.GetUserId() == userID))
-                {
-                    validChats.Add(chat); 
-                }
-            }
-
-            return validChats.OrderByDescending(chat => chat.getChatID()).ToList();
-        }
-
-        public void loadChats(int userID)
-        {
-            var chats = repository.GetChatsList()
-                .Where(chat => repository.GetChatParticipants(chat.getChatID())
-                .Exists(user => user.GetUserId() == userID))
-                .OrderByDescending(chat => chat.getChatID())
-                .ToList();
-
-            Chats.Clear(); // ✅ Clear before reloading
-            foreach (var chat in chats)
-            {
-                Chats.Add(chat);
-            }
-
-            NotifyChatsUpdated();
+            this.repository.RemoveUserFromChat(UserID, ChatID);
         }
 
     }
