@@ -7,8 +7,22 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    x:Name="chatMessagesView"
-    >
+    x:Name="chatMessagesView">
+
+    <Page.Resources>
+        <DataTemplate x:Key="TextMessageTemplateLeft">
+            <Grid>
+                <TextBlock Text="{Binding Content}" />
+                <Button Content="..." Click="OnContextMenuButtonClick" />
+                <FlyoutBase.AttachedFlyout>
+                    <MenuFlyout>
+                        <MenuFlyoutItem Text="Report" Command="{Binding DataContext.ReportMessageCommand, ElementName=ChatListView}" CommandParameter="{Binding}" />
+                        <MenuFlyoutItem Text="Delete" Command="{Binding DataContext.DeleteMessageCommand, ElementName=ChatListView}" CommandParameter="{Binding}" />
+                    </MenuFlyout>
+                </FlyoutBase.AttachedFlyout>
+            </Grid>
+        </DataTemplate>
+    </Page.Resources>
 
     <Grid x:Name="MainGrid">
         <Grid.RowDefinitions>
@@ -37,27 +51,25 @@
                     <Button Grid.Column="0" Margin="0,0,10,0" Content="Add a new member"></Button>
                     <Button Grid.Column="1" Content="Leave Chat"></Button>
                 </Grid>
-
             </Grid>
         </Border>
 
         <Border Grid.Row="1" Background="Black">
             <ListView x:Name="ChatListView"
-                          ItemsSource="{Binding ChatMessages}"
-                          Background="Black" 
-                          Padding="10"
-                          ScrollViewer.VerticalScrollBarVisibility="Auto"
-                          >
+                      ItemsSource="{Binding ChatMessages}"
+                      Background="Black" 
+                      Padding="10"
+                      ScrollViewer.VerticalScrollBarVisibility="Auto">
                 <ListView.ItemTemplateSelector>
                     <local:MessageTemplateSelector 
-                            TextMessageTemplateLeft="{StaticResource TextMessageTemplateLeft}"
-                            TextMessageTemplateRight="{StaticResource TextMessageTemplateRight}"
-                            ImageMessageTemplateLeft="{StaticResource ImageMessageTemplateLeft}"
-                            ImageMessageTemplateRight="{StaticResource ImageMessageTemplateRight}"
-                            TransferMessageTemplateLeft="{StaticResource TransferMessageTemplateLeft}"
-                            TransferMessageTemplateRight="{StaticResource TransferMessageTemplateRight}"
-                            RequestMessageTemplateLeft="{StaticResource RequestMessageTemplateLeft}"
-                            RequestMessageTemplateRight="{StaticResource RequestMessageTemplateRight}" />
+                        TextMessageTemplateLeft="{StaticResource TextMessageTemplateLeft}"
+                        TextMessageTemplateRight="{StaticResource TextMessageTemplateRight}"
+                        ImageMessageTemplateLeft="{StaticResource ImageMessageTemplateLeft}"
+                        ImageMessageTemplateRight="{StaticResource ImageMessageTemplateRight}"
+                        TransferMessageTemplateLeft="{StaticResource TransferMessageTemplateLeft}"
+                        TransferMessageTemplateRight="{StaticResource TransferMessageTemplateRight}"
+                        RequestMessageTemplateLeft="{StaticResource RequestMessageTemplateLeft}"
+                        RequestMessageTemplateRight="{StaticResource RequestMessageTemplateRight}" />
                 </ListView.ItemTemplateSelector>
             </ListView>
         </Border>
@@ -73,44 +85,44 @@
                 </Grid.ColumnDefinitions>
 
                 <Button Width="42" 
-                            Height="40" 
-                            Margin="10,0" 
-                            VerticalAlignment="Center" 
-                            Grid.Column="0"
-                            Command="{Binding SendImageCommand}">
+                        Height="40" 
+                        Margin="10,0" 
+                        VerticalAlignment="Center" 
+                        Grid.Column="0"
+                        Command="{Binding SendImageCommand}">
                     <Image Source="https://img.icons8.com/m_outlined/512/FFFFFF/plus.png" 
-                               Width="20" 
-                               Height="20" 
-                               HorizontalAlignment="Center" 
-                               VerticalAlignment="Center"/>
+                           Width="20" 
+                           Height="20" 
+                           HorizontalAlignment="Center" 
+                           VerticalAlignment="Center"/>
                 </Button>
 
                 <TextBox 
-                        x:Name="MessageTextBox"
-                        FontFamily="Segoe UI Emoji"
-                        Text="{Binding MessageContent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
-                        AutomationProperties.Name="multi-line TextBox"
-                        TextWrapping="Wrap" 
-                        AcceptsReturn="True" 
-                        IsSpellCheckEnabled="True"
-                        SelectionHighlightColor="Green" 
-                        MinWidth="400"
-                        VerticalAlignment="Center"
-                        Height="Auto"
-                        Margin="10"
-                        PlaceholderText="Type a message..."
-                        Grid.Column="1"
-                        MaxLength="256">
+                    x:Name="MessageTextBox"
+                    FontFamily="Segoe UI Emoji"
+                    Text="{Binding MessageContent, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                    AutomationProperties.Name="multi-line TextBox"
+                    TextWrapping="Wrap" 
+                    AcceptsReturn="True" 
+                    IsSpellCheckEnabled="True"
+                    SelectionHighlightColor="Green" 
+                    MinWidth="400"
+                    VerticalAlignment="Center"
+                    Height="Auto"
+                    Margin="10"
+                    PlaceholderText="Type a message..."
+                    Grid.Column="1"
+                    MaxLength="256">
                 </TextBox>
 
                 <TextBlock 
-                        HorizontalAlignment="Center"
-                        VerticalAlignment="Center"
-                        Text="{Binding RemainingCharacterCount}"
-                        Foreground="Gray"
-                        FontSize="12"
-                        Grid.Column="2"
-                        Margin="0,0,10,0"/>
+                    HorizontalAlignment="Center"
+                    VerticalAlignment="Center"
+                    Text="{Binding RemainingCharacterCount}"
+                    Foreground="Gray"
+                    FontSize="12"
+                    Grid.Column="2"
+                    Margin="0,0,10,0"/>
 
                 <Button Width="42" Height="40"
                         VerticalAlignment="Center" 
@@ -139,3 +151,4 @@
         </Border>
     </Grid>
 </Page>
+

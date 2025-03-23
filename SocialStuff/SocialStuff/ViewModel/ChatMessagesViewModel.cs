@@ -18,6 +18,7 @@ using Microsoft.UI.Xaml.Media;
 using Windows.Storage;
 using WinRT.Interop;
 using Windows.Storage.Pickers;
+using SocialStuff.Views;
 
 namespace SocialStuff.ViewModel
 {
@@ -36,6 +37,8 @@ namespace SocialStuff.ViewModel
         public List<string> CurrentChatParticipants { get; set; }
         public string CurrentChatParticipantsString => string.Join(", ", CurrentChatParticipants);
 
+        public ICommand ReportMessageCommand { get; }
+        public ICommand DeleteMessageCommand { get; }
 
 
         public event PropertyChangedEventHandler PropertyChanged;
@@ -130,6 +133,9 @@ namespace SocialStuff.ViewModel
             this.CurrentUserID = userService.GetCurrentUser();
             this.SendMessageCommand = new RelayCommand(SendMessage);
             this.SendImageCommand = new RelayCommand(SendImage);
+            this.ReportMessageCommand = new RelayCommand<Message>(ReportMessage);
+            this.DeleteMessageCommand = new RelayCommand<Message>(DeleteMessage);
+
             this.CurrentChatName = chatService.getChatNameByID(CurrentChatID);
             this.CurrentChatParticipants = chatService.getChatParticipantsList(CurrentChatID);
 
@@ -181,7 +187,7 @@ namespace SocialStuff.ViewModel
                     RequestMessage newRequestMessage = new RequestMessage(requestMessage.getMessageID(), requestMessage.getSenderID(), requestMessage.getChatID(), requestMessage.getStatus(), requestMessage.getAmount(), requestMessage.getDescription(), requestMessage.getCurrency());
                     newRequestMessage.SenderUsername = this.userService.GetUserById(requestMessage.getSenderID()).GetUsername();
                     ChatMessages.Add(newRequestMessage);
-                    
+
                 }
             }
 
@@ -198,6 +204,17 @@ namespace SocialStuff.ViewModel
                     ScrollToBottom();
                 }
             };
+        }
+        private void ReportMessage(Message message)
+        {
+            var reportWindow = new ReportWindow(userService, new ReportService(new Repository(), userService), message.getSenderID(), message.getMessageID());
+            reportWindow.Activate();
+        }
+
+        private void DeleteMessage(Message message)
+        {
+            messageService.deleteMessage(message.getMessageID());
+            LoadMessagesForChat();
         }
 
     }

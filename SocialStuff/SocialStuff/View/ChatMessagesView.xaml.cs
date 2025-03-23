@@ -39,5 +39,11 @@ namespace SocialStuff.View
             MainGrid.DataContext = chatMessagesViewModel;
         }
 
+        private void OnContextMenuButtonClick(object sender, RoutedEventArgs e)
+        {
+            var button = sender as Button;
+            FlyoutBase.ShowAttachedFlyout(button);
+        }
+
     }
 }
