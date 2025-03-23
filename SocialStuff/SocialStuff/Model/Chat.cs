@@ -30,7 +30,6 @@ namespace SocialStuff.Model
 
         public string getChatName() { return this.ChatName; }
 
-
         //public List<Message> getChatHistory()
         //{
         //    List<Message> chatHistory = new List<Message>();

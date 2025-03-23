@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window
+    x:Class="SocialStuff.View.AddNewMemberView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SocialStuff.View"
+    xmlns:vm="using:SocialStuff.ViewModel"
+    xmlns:model="using:SocialStuff.Model"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    x:Name="AddNewMember">
+
+    <Grid Padding="20">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*" />
+            <ColumnDefinition Width="1*" />
+        </Grid.ColumnDefinitions>
+
+        <!-- Left Side - Available Friends -->
+        <StackPanel Grid.Column="0" Margin="10">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Button Content="←" HorizontalAlignment="Left" Click="BackButton_Click" Foreground="White" Background="Transparent"/>
+                <TextBlock Text="Add a new friend to the chat!" 
+               FontSize="24" Foreground="White" Margin="10,0,0,0"/>
+            </StackPanel>
+
+            <TextBlock Text="{Binding ChatName}" 
+           FontSize="22" Foreground="White" Margin="10,0,0,20"/>
+
+            <TextBlock Text="Friends" FontSize="18" Foreground="White" Margin="0,10,0,5"/>
+            <TextBox x:Name="SearchBox"
+                 Text="{Binding SearchQuery, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}"
+                 PlaceholderText="Search..."
+                 Margin="0,0,0,10"/>
+
+            <ScrollViewer Height="300">
+                <ListView ItemsSource="{Binding FilteredFriends}" SelectionMode="Single"
+                     Background="Transparent">
+                    <ListView.ItemTemplate>
+                        <DataTemplate x:DataType="model:User">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{x:Bind GetUsername()}" Foreground="White" Width="150"/>
+                                <Button Content="+" 
+                                    Command="{Binding DataContext.AddFriendCommand, ElementName=AddNewMember}" 
+                                    CommandParameter="{Binding}"/>
+                            </StackPanel>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                    <ListView.ItemContainerStyle>
+                        <Style TargetType="ListViewItem">
+                            <Setter Property="Background" Value="Transparent"/>
+                        </Style>
+                    </ListView.ItemContainerStyle>
+                </ListView>
+            </ScrollViewer>
+        </StackPanel>
+
+        <!-- Right Side - Current and Selected Friends -->
+        <Grid Grid.Column="1" Background="#403d52" Padding="10">
+            <StackPanel>
+                <TextBlock Text="Current chat members" FontSize="18" Foreground="White" Margin="0,0,0,10"/>
+                <ScrollViewer Height="150">
+                    <ListView ItemsSource="{Binding ExistingMembers}" 
+                         Background="Transparent"
+                         IsEnabled="False">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="model:User">
+                                <TextBlock Text="{x:Bind GetUsername()}" Foreground="White"/>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                    </ListView>
+                </ScrollViewer>
+
+                <TextBlock Text="Newly added friends" FontSize="18" Foreground="White" Margin="0,20,0,10"/>
+                <ScrollViewer Height="150">
+                    <ListView ItemsSource="{Binding SelectedFriends}" 
+                         Background="Transparent">
+                        <ListView.ItemTemplate>
+                            <DataTemplate x:DataType="model:User">
+                                <StackPanel Orientation="Horizontal">
+                                    <TextBlock Text="{x:Bind GetUsername()}" Foreground="White" Width="150"/>
+                                    <Button Content="-" 
+                                        Command="{Binding DataContext.RemoveFriendCommand, ElementName=AddNewMember}" 
+                                        CommandParameter="{Binding}"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListView.ItemTemplate>
+                        <ListView.ItemContainerStyle>
+                            <Style TargetType="ListViewItem">
+                                <Setter Property="Background" Value="Transparent"/>
+                            </Style>
+                        </ListView.ItemContainerStyle>
+                    </ListView>
+                </ScrollViewer>
+            </StackPanel>
+
+            <Button Content="Done" 
+                Command="{Binding AddMembersCommand}" 
+                HorizontalAlignment="Right" 
+                VerticalAlignment="Bottom" 
+                Margin="10"/>
+        </Grid>
+    </Grid>
+</Window>

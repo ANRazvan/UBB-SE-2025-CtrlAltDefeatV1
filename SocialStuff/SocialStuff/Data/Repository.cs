@@ -13,15 +13,12 @@ namespace SocialStuff.Data
      public class Repository
     {
         private DatabaseConnection dbConnection;
-        private static int loggedInUserID=1;
+        private static int loggedInUserID=8;
 
         public Repository()
         {
             dbConnection = new DatabaseConnection();
             Console.WriteLine("Repo created");
-            //AddUser("Razvan", "0751198737");
-            //AddUser("Carmen", "0720511858");
-            //AddUser("Maria", "0712345678");
         }
 
 
@@ -95,7 +92,7 @@ namespace SocialStuff.Data
         public List<Chat> GetUserChatsList(int userId)
         {
             DataTable dataTable = dbConnection.ExecuteReader("select * from Chats", null, false);
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Chat_Participants", null, false);
             List<int> ChatIds = new List<int>();
             foreach (DataRow row in dataTable1.Rows)
             {
@@ -128,11 +125,40 @@ namespace SocialStuff.Data
             return Chats;
         }
 
+        //get the pparticipants of a chat
+        public List<User> GetChatParticipants(int chatID)
+        {
+            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Chat_Participants", null, false);
+            List<int> UserIds = new List<int>();
+            foreach (DataRow row in dataTable1.Rows)
+            {
+                if (Convert.ToInt32(row["ChatID"]) == chatID)
+                {
+                    UserIds.Add(Convert.ToInt32(row["UserID"]));
+                }
+            }
+
+            List<User> users = new List<User>();
+            foreach (DataRow row in dataTable.Rows)
+            {
+                int userID = Convert.ToInt32(row["UserID"]);
+                if (UserIds.Contains(userID))
+                {
+                    string username = row["Username"].ToString();
+                    string phoneNumber = row["PhoneNumber"].ToString();
+                    int reportedCount = Convert.ToInt32(row["ReportedCount"]);
+                    users.Add(new User(userID, username, phoneNumber, reportedCount));
+                }
+            }
+            return users;
+        }
+
         // Get all chats
         public List<Chat> GetChatsList()
         {
             DataTable dataTable = dbConnection.ExecuteReader("select * from Chats", null, false);
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from ChatParticipants", null, false);
+            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Chat_Participants", null, false);
             List<Chat> chats = new List<Chat>();
             foreach (DataRow row in dataTable.Rows)
             {
