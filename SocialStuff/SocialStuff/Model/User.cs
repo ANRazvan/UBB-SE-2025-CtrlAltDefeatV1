@@ -1,6 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
+using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -15,6 +17,8 @@ namespace SocialStuff.Model
         private int ReportedCount { get; set; }
         private List<int> Friends { get; set; }
         private List<int> Chats { get; set; }
+
+        private DateTime? TimeoutEnd { get; set; }
 
         public User() { }
         public User(int userId, string username, string phoneNumber, int reportedCount)
@@ -60,6 +64,11 @@ namespace SocialStuff.Model
         {
             return Chats;
         }
+
+        public DateTime? GetTimeoutEnd() => TimeoutEnd;
+        public void SetTimeoutEnd(DateTime? timeoutEnd) => TimeoutEnd = timeoutEnd;
+
+
 
         public override string ToString()
         {

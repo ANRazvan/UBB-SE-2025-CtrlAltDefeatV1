@@ -154,5 +154,26 @@ namespace SocialStuff.Services
         {
             return repo.GetLoggedInUserID(); // This should be replaced with actual logic to get the logged-in user.
         }
+
+        public void MarkUserAsDangerousAndGiveTimeout(User user)
+        {
+            // not sure if this should be done here or in user service
+            // if the user has been reported more than the limit then mark the user as dangerous and give him a timeout
+            if (user.GetReportedCount() > 3)
+            {
+                //user.MarkAsDangerous();
+                //user.GiveTimeout(); this 2 functions in user class
+                //this needs to be done in the message service  
+
+                user.SetTimeoutEnd(DateTime.Now.AddMinutes(3));
+            }
+          
+        }
+
+        public bool IsUserInTimeout(User user)
+        {
+            return user.GetTimeoutEnd() != null && user.GetTimeoutEnd() > DateTime.Now;
+        }
+
     }
 }
