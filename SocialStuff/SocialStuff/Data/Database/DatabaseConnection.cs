@@ -143,7 +143,6 @@ namespace SocialStuff.Data.Database
 
 
         // Executes a stored procedure that modifies data (INSERT, UPDATE, DELETE) and returns the number of affected rows
-        //Alexandra- i ve changes such dat it also works with query
         public int ExecuteNonQuery(string storedProcedure, SqlParameter[]? sqlParameters = null)
         {
             try

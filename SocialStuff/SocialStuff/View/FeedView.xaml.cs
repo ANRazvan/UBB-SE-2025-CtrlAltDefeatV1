@@ -11,7 +11,8 @@ namespace SocialStuff.View
         {
             this.InitializeComponent();
             var repository = new Repository();
-            var userService = new UserService(repository);
+            var notificationService = new NotificationService(repository);
+            var userService = new UserService(repository, notificationService);
             var feedService = new FeedService(repository, userService);
             this.DataContext = new FeedViewModel(feedService);
         }

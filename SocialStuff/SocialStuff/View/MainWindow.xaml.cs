@@ -33,6 +33,7 @@ namespace SocialStuff
         private UserService userService;
         private ChatService chatService;
         private MessageService messageService;
+        private NotificationService notificationService;
 
         public MainWindow()
         {
@@ -40,7 +41,8 @@ namespace SocialStuff
 
             mainWindow = this;
             Repository repo = new Repository();
-            userService = new UserService(repo);
+            notificationService = new NotificationService(repo);
+            userService = new UserService(repo, notificationService);
             chatService = new ChatService(repo);
             messageService = new MessageService(repo);
         }
@@ -66,6 +68,11 @@ namespace SocialStuff
                 var friendsListView = new FriendsListView(chatService, userService, messageService, this.RightFrame);
                 LeftFrame.Content = friendsListView;
             }
+        }
+
+        private void Notifications_Click(object sender, RoutedEventArgs e)
+        {
+            RightFrame.Navigate(typeof(NotificationView));
         }
     }
 

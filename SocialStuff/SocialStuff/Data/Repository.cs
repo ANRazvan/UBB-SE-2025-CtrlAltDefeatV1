@@ -8,6 +8,8 @@ using Windows.System;
 using Windows.UI.Notifications;
 using SocialStuff.Model;
 using SocialStuff.Model.MessageClasses;
+using NotificationModel = SocialStuff.Model.Notification;
+using WindowsNotification = Windows.UI.Notifications.Notification;
 namespace SocialStuff.Data
 {
     public class Repository
@@ -19,9 +21,6 @@ namespace SocialStuff.Data
         {
             dbConnection = new DatabaseConnection();
             Console.WriteLine("Repo created");
-            //AddUser("Razvan", "0751198737");
-            //AddUser("Carmen", "0720511858");
-            //AddUser("Maria", "0712345678");
         }
 
         public DatabaseConnection GetDatabaseConnection()
@@ -32,6 +31,44 @@ namespace SocialStuff.Data
         public int GetLoggedInUserID()
         {
             return loggedInUserID;
+        }
+
+        public User GetUserById(int userID)
+        {
+            SqlParameter[] parameters =
+            {
+                new SqlParameter("@UserID", userID)
+            };
+            DataTable dataTable = dbConnection.ExecuteReader("SELECT * FROM Users WHERE UserID = @UserID", parameters, false);
+            if (dataTable.Rows.Count > 0)
+            {
+                DataRow row = dataTable.Rows[0];
+                int id = Convert.ToInt32(row["UserID"]);
+                string username = row["Username"].ToString();
+                string phoneNumber = row["PhoneNumber"].ToString();
+                int reportedCount = Convert.ToInt32(row["ReportedCount"]);
+                return new User(id, username, phoneNumber, reportedCount);
+            }
+            return null;
+        }
+
+        // Get a chat by ID
+        public Chat GetChatById(int chatID)
+        {
+            SqlParameter[] parameters =
+            {
+                new SqlParameter("@ChatID", chatID)
+            };
+            DataTable dataTable = dbConnection.ExecuteReader("SELECT * FROM Chats WHERE ChatID = @ChatID", parameters, false);
+            if (dataTable.Rows.Count > 0)
+            {
+                DataRow row = dataTable.Rows[0];
+                int id = Convert.ToInt32(row["ChatID"]);
+                string chatName = row["ChatName"].ToString();
+                List<int> participants = GetChatParticipants(id).ConvertAll(p => p.GetUserId());
+                return new Chat(id, chatName, participants);
+            }
+            return null;
         }
 
         // Get all users
@@ -51,18 +88,28 @@ namespace SocialStuff.Data
             return users;
         }
 
-        //Get all notifications
-        public List<Notification> GetNotificationsList()
+        // Get notifications for a specific user
+        public List<NotificationModel> GetNotifications(int userID)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Notifications", null, false);
-            List<Notification> notifications = new List<Notification>();
+            SqlParameter[] parameters =
+            {
+                new SqlParameter("@UserID", userID)
+            };
+            DataTable dataTable = dbConnection.ExecuteReader("SELECT * FROM Notifications WHERE UserID = @UserID ORDER BY Timestamp DESC", parameters, false);
+            List<NotificationModel> notifications = new List<NotificationModel>();
 
             foreach (DataRow row in dataTable.Rows)
             {
-                notifications.Add(new Notification());
+                int notificationID = Convert.ToInt32(row["NotifID"]);
+                DateTime timestamp = Convert.ToDateTime(row["Timestamp"]);
+                string content = row["Content"].ToString();
+                int userReceiverID = Convert.ToInt32(row["UserID"]);
+                notifications.Add(new NotificationModel(notificationID, timestamp, content, userReceiverID));
             }
             return notifications;
         }
+
+
         //Get the Friends of a USERID, friends returned as User Class Type
         public List<User> GetUserFriendsList(int userId)
         {
@@ -153,28 +200,21 @@ namespace SocialStuff.Data
         //get the pparticipants of a chat
         public List<User> GetChatParticipants(int chatID)
         {
-            DataTable dataTable = dbConnection.ExecuteReader("select * from Users", null, false);
-            DataTable dataTable1 = dbConnection.ExecuteReader("select * from Chat_Participants", null, false);
-            List<int> UserIds = new List<int>();
-            foreach (DataRow row in dataTable1.Rows)
+            SqlParameter[] parameters =
             {
-                if (Convert.ToInt32(row["ChatID"]) == chatID)
-                {
-                    UserIds.Add(Convert.ToInt32(row["UserID"]));
-                }
+                new SqlParameter("@ChatID", chatID)
+            };
+            DataTable dataTable = dbConnection.ExecuteReader("SELECT * FROM Chat_Participants WHERE ChatID = @ChatID", parameters, false);
+            List<int> userIds = new List<int>();
+            foreach (DataRow row in dataTable.Rows)
+            {
+                userIds.Add(Convert.ToInt32(row["UserID"]));
             }
 
             List<User> users = new List<User>();
-            foreach (DataRow row in dataTable.Rows)
+            foreach (int userID in userIds)
             {
-                int userID = Convert.ToInt32(row["UserID"]);
-                if (UserIds.Contains(userID))
-                {
-                    string username = row["Username"].ToString();
-                    string phoneNumber = row["PhoneNumber"].ToString();
-                    int reportedCount = Convert.ToInt32(row["ReportedCount"]);
-                    users.Add(new User(userID, username, phoneNumber, reportedCount));
-                }
+                users.Add(GetUserById(userID));
             }
             return users;
         }
@@ -497,7 +537,7 @@ namespace SocialStuff.Data
         // Delete a notification
         public void DeleteNotification(int notifID)
         {
-            SqlParameter[] parameters =
+            SqlParameter[] parameters = 
             {
                 new SqlParameter("@NotifID", notifID)
             };
@@ -506,9 +546,14 @@ namespace SocialStuff.Data
         }
 
         // Clear all notifications
-        public void ClearAllNotifications()
+        public void ClearAllNotifications(int userID)
         {
-            dbConnection.ExecuteNonQuery("DeleteAllNotifications");
+            SqlParameter[] parameters =
+            {
+            new SqlParameter("@UserID", userID) 
+        };
+
+            dbConnection.ExecuteNonQuery("DeleteAllNotifications", parameters);
         }
 
         // Add a report

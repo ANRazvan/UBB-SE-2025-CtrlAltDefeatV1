@@ -64,6 +64,11 @@ namespace SocialStuff.ViewModel
         private void SendMessage()
         {
             this.messageService.sendMessage(CurrentUserID, CurrentChatID, MessageContent);
+
+            var notificationService = new NotificationService(messageService.getRepo());
+            notificationService.SendMessageNotification(CurrentUserID, CurrentChatID);
+
+
             this.LoadMessagesForChat();
             MessageContent = "";
         }

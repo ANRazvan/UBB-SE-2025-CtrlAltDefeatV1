@@ -13,12 +13,14 @@ namespace SocialStuff.Services
 {
     public class UserService
     {
-        private Repository repo; 
+        private Repository repo;
+        private readonly NotificationService notificationService;
         private int UserID;
 
-        public UserService(Repository repo)
+        public UserService(Repository repo, NotificationService notificationService)
         {
             this.repo = repo;
+            this.notificationService = notificationService;
             this.UserID = GetCurrentUser();
         }
 
@@ -31,12 +33,13 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             var friend = GetUserById(newFriendID);
-            var friends = repo.GetFriendsIDs(userID); 
+            var friends = repo.GetFriendsIDs(userID);
 
             if (user != null && friend != null && !friends.Contains(newFriendID))
             {
-                repo.AddFriend(userID, newFriendID); 
+                repo.AddFriend(userID, newFriendID);
                 user.AddFriend(newFriendID);
+                notificationService.SendFriendNotification(userID, newFriendID);
             }
         }
 
@@ -48,8 +51,9 @@ namespace SocialStuff.Services
 
             if (user != null && friend != null && friends.Contains(oldFriendID))
             {
-                repo.DeleteFriend(userID, oldFriendID); 
+                repo.DeleteFriend(userID, oldFriendID);
                 user.RemoveFriend(oldFriendID);
+                notificationService.SendRemoveFriendNotification(userID, oldFriendID);
             }
         }
 
