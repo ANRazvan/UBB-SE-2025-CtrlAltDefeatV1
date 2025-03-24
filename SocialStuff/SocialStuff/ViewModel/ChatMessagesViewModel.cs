@@ -1,24 +1,19 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.ObjectModel;
 using System.Windows.Input;
 using SocialStuff.Model.MessageClasses;
-using MvvmHelpers;
 using SocialStuff.Services;
-using Windows.ApplicationModel.Chat;
-using SocialStuff.Data;
-using System.ComponentModel;
 using Microsoft.UI.Xaml;
-using SocialStuff.View;
 using Microsoft.UI.Xaml.Controls;
 using Microsoft.UI.Xaml.Media;
 using Windows.Storage;
 using WinRT.Interop;
 using Windows.Storage.Pickers;
 using SocialStuff.Views;
+using SocialStuff.Data;
+using SocialStuff.View;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System;
 
 namespace SocialStuff.ViewModel
 {
@@ -39,7 +34,6 @@ namespace SocialStuff.ViewModel
 
         public ICommand ReportMessageCommand { get; }
         public ICommand DeleteMessageCommand { get; }
-
 
         public event PropertyChangedEventHandler PropertyChanged;
         protected virtual void OnPropertyChanged(string propertyName)
@@ -64,16 +58,55 @@ namespace SocialStuff.ViewModel
         public int RemainingCharacterCount => 256 - (MessageContent?.Length ?? 0);
 
         public ICommand SendMessageCommand { get; }
-        private void SendMessage()
+        private async void SendMessage()
         {
+            var user = userService.GetUserById(CurrentUserID);
+            var isInTimeout = userService.IsUserInTimeout(user);
+            System.Diagnostics.Debug.WriteLine($"User {user.GetUsername()} is in timeout: {isInTimeout}, Timeout end: {user.GetTimeoutEnd()}");
+
+            if (isInTimeout)
+            {
+                // Show a message to the user that they're in timeout
+                ContentDialog timeoutDialog = new ContentDialog
+                {
+                    Title = "You are in timeout",
+                    Content = $"You cannot send messages until {user.GetTimeoutEnd().Value.ToString("HH:mm:ss")} due to multiple reports.",
+                    CloseButtonText = "OK",
+                    XamlRoot = _window.Content.XamlRoot
+                };
+
+                await timeoutDialog.ShowAsync();
+                return;
+            }
+
             this.messageService.sendMessage(CurrentUserID, CurrentChatID, MessageContent);
             this.LoadMessagesForChat();
             MessageContent = "";
         }
 
+
         public ICommand SendImageCommand { get; }
         private async void SendImage()
         {
+            var user = userService.GetUserById(CurrentUserID);
+            var isInTimeout = userService.IsUserInTimeout(user);
+            System.Diagnostics.Debug.WriteLine($"User {user.GetUsername()} is in timeout: {isInTimeout}, Timeout end: {user.GetTimeoutEnd()}");
+
+            if (isInTimeout)
+            {
+                // Show a message to the user that they're in timeout
+                ContentDialog timeoutDialog = new ContentDialog
+                {
+                    Title = "You are in timeout",
+                    Content = $"You cannot send images until {user.GetTimeoutEnd().Value.ToString("HH:mm:ss")} due to multiple reports.",
+                    CloseButtonText = "OK",
+                    XamlRoot = _window.Content.XamlRoot
+                };
+
+                await timeoutDialog.ShowAsync();
+                return;
+            }
+
             var picker = new FileOpenPicker
             {
                 ViewMode = PickerViewMode.Thumbnail,
@@ -95,6 +128,7 @@ namespace SocialStuff.ViewModel
                 this.LoadMessagesForChat();
             }
         }
+
 
         public void ScrollToBottom()
         {
@@ -187,7 +221,6 @@ namespace SocialStuff.ViewModel
                     RequestMessage newRequestMessage = new RequestMessage(requestMessage.getMessageID(), requestMessage.getSenderID(), requestMessage.getChatID(), requestMessage.getStatus(), requestMessage.getAmount(), requestMessage.getDescription(), requestMessage.getCurrency());
                     newRequestMessage.SenderUsername = this.userService.GetUserById(requestMessage.getSenderID()).GetUsername();
                     ChatMessages.Add(newRequestMessage);
-
                 }
             }
 
@@ -207,16 +240,15 @@ namespace SocialStuff.ViewModel
         }
         private void ReportMessage(Message message)
         {
-            var reportWindow = new ReportWindow(userService, new ReportService(new Repository(), userService), message.getSenderID(), message.getMessageID());
+            var reportWindow = new ReportWindow(userService, new ReportService(userService.GetRepo(), userService), message.getSenderID(), message.getMessageID());
             reportWindow.Activate();
         }
+
 
         private void DeleteMessage(Message message)
         {
             messageService.deleteMessage(message.getMessageID());
             LoadMessagesForChat();
         }
-
     }
-
 }

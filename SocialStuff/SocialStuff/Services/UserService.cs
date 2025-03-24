@@ -1,19 +1,14 @@
-﻿using Microsoft.Data.SqlClient;
-using SocialStuff.Model;
+﻿using SocialStuff.Model;
 using SocialStuff.Data;
 using System;
 using System.Collections.Generic;
-using System.Data;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
 
 namespace SocialStuff.Services
 {
     public class UserService
     {
-        private Repository repo; 
+        private Repository repo;
         private int UserID;
 
         public UserService(Repository repo)
@@ -31,11 +26,11 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             var friend = GetUserById(newFriendID);
-            var friends = repo.GetFriendsIDs(userID); 
+            var friends = repo.GetFriendsIDs(userID);
 
             if (user != null && friend != null && !friends.Contains(newFriendID))
             {
-                repo.AddFriend(userID, newFriendID); 
+                repo.AddFriend(userID, newFriendID);
                 user.AddFriend(newFriendID);
             }
         }
@@ -48,7 +43,7 @@ namespace SocialStuff.Services
 
             if (user != null && friend != null && friends.Contains(oldFriendID))
             {
-                repo.DeleteFriend(userID, oldFriendID); 
+                repo.DeleteFriend(userID, oldFriendID);
                 user.RemoveFriend(oldFriendID);
             }
         }
@@ -90,7 +85,7 @@ namespace SocialStuff.Services
         {
             var user = GetUserById(userID);
             if (user == null) return new List<int>();
-            var friends = repo.GetUserFriendsList(userID); 
+            var friends = repo.GetUserFriendsList(userID);
 
             return friends
                        .Select(friendID => friendID)
@@ -113,7 +108,6 @@ namespace SocialStuff.Services
             return repo.GetUserFriendsList(userID);
         }
 
-
         public List<int> GetChatsByUser(int userID)
         {
             var chats = repo.GetChatsIDs(userID);
@@ -128,7 +122,7 @@ namespace SocialStuff.Services
 
             foreach (Chat chat in chats)
             {
-                if(chat.getUserIDsList().Contains(UserID))
+                if (chat.getUserIDsList().Contains(UserID))
                 {
                     currentUserChats.Add(chat);
                 }
@@ -157,23 +151,15 @@ namespace SocialStuff.Services
 
         public void MarkUserAsDangerousAndGiveTimeout(User user)
         {
-            // not sure if this should be done here or in user service
-            // if the user has been reported more than the limit then mark the user as dangerous and give him a timeout
-            if (user.GetReportedCount() > 3)
+            if (user.GetReportedCount() >= 1)
             {
-                //user.MarkAsDangerous();
-                //user.GiveTimeout(); this 2 functions in user class
-                //this needs to be done in the message service  
-
                 user.SetTimeoutEnd(DateTime.Now.AddMinutes(3));
             }
-          
         }
 
         public bool IsUserInTimeout(User user)
         {
             return user.GetTimeoutEnd() != null && user.GetTimeoutEnd() > DateTime.Now;
         }
-
     }
 }

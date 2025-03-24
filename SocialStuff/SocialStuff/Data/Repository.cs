@@ -13,7 +13,7 @@ namespace SocialStuff.Data
     public class Repository
     {
         private DatabaseConnection dbConnection;
-        private static int loggedInUserID = 1;
+        private static int loggedInUserID = 8;
 
         public Repository()
         {
@@ -202,7 +202,7 @@ namespace SocialStuff.Data
                 {
                     if (Convert.ToInt32(row1["messageid"]) == messageID)
                     {
-                        UserReports.Add(Convert.ToInt32(row1["userid"]));
+                        UserReports.Add(userID);
                     }
                 }
 

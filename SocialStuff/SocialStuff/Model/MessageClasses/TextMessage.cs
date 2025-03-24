@@ -42,7 +42,7 @@ namespace SocialStuff.Model.MessageClasses
             this.ChatID = chatID;
             this.Timestamp = timestamp;
             this.Content = content;
-            this.UsersReport = new List<int>();
+            this.UsersReport = usersReport;
         }
 
         public override string ToString() { return Content; }

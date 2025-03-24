@@ -1,11 +1,6 @@
 ﻿using SocialStuff.Data;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using SocialStuff.Services;
 using SocialStuff.Model;
+using System;
 
 namespace SocialStuff.Services
 {
@@ -17,12 +12,7 @@ namespace SocialStuff.Services
         public MessageService(Repository repo, UserService userService)
         {
             this.repository = repo;
-            this.userService = userService; 
-        }
-
-        public MessageService(Repository repo)
-        {
-            this.repository = repo;
+            this.userService = userService;
         }
 
         public Repository getRepo()
@@ -33,21 +23,29 @@ namespace SocialStuff.Services
         // Check if user is in timeout
         private bool IsUserInTimeout(int userID)
         {
-            var user = userService.GetUserById(userID);
-            return user != null && userService.IsUserInTimeout(user);
+            if (userService == null)
+            {
+                throw new InvalidOperationException("UserService is not initialized.");
+            }
+
+            User user = userService.GetUserById(userID);
+            bool isInTimeout = user != null && userService.IsUserInTimeout(user);
+            System.Diagnostics.Debug.WriteLine($"MessageService checking if user {user?.GetUsername()} is in timeout: {isInTimeout}");
+            return isInTimeout;
         }
+
 
         //for all the functionalities below, we checked if the user is in timeout
         public void sendMessage(int SenderID, int ChatID, string Content)
         {
-            if (IsUserInTimeout(SenderID)) return; 
+            if (this.IsUserInTimeout(SenderID)) return;
             this.repository.AddTextMessage(SenderID, ChatID, Content);
         }
 
         public void sendImage(int SenderID, int ChatID, string ImageURL)
         {
-            this.repository.AddImageMessage(repository.GetLoggedInUserID(), ChatID, ImageURL);
-
+            if (this.IsUserInTimeout(SenderID)) return;
+            this.repository.AddImageMessage(SenderID, ChatID, ImageURL);
         }
 
         public void deleteMessage(int MessageID)
@@ -67,6 +65,4 @@ namespace SocialStuff.Services
             this.repository.AddRequestMessage(userID, chatID, content, status, amount, currency);
         }
     }
-
 }
-

@@ -1,23 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Data;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
+using System.Timers;
 
 namespace SocialStuff.Model
 {
     public class User
     {
-
         private int UserId { get; set; }
         public string Username { get; set; }
         public string PhoneNumber { get; set; }
         private int ReportedCount { get; set; }
         private List<int> Friends { get; set; }
         private List<int> Chats { get; set; }
-
         private DateTime? TimeoutEnd { get; set; }
 
         public User() { }
@@ -68,8 +62,6 @@ namespace SocialStuff.Model
         public DateTime? GetTimeoutEnd() => TimeoutEnd;
         public void SetTimeoutEnd(DateTime? timeoutEnd) => TimeoutEnd = timeoutEnd;
 
-
-
         public override string ToString()
         {
             return $"User ID: {UserId}, " +
@@ -80,15 +72,41 @@ namespace SocialStuff.Model
                 $"Chats: {Chats}";
         }
 
-
-        public void IncreaseReportCount()
+        public string IncreaseReportCount()
         {
             ReportedCount++;
+            System.Diagnostics.Debug.WriteLine($"User {Username} report count increased to {ReportedCount}");
+
+            string message = "";
+            if (ReportedCount >= 1)
+            {
+                SetTimeoutEnd(DateTime.Now.AddMinutes(3));
+                System.Diagnostics.Debug.WriteLine($"User {Username} set in timeout until {TimeoutEnd}");
+                ResetReportCountAfterDelay();
+
+                message = $"User {Username} has been reported {ReportedCount} times and is now in timeout until {TimeoutEnd.Value:HH:mm:ss}";
+            }
+
+            return message;
         }
 
-        public void resetReportCount()
+
+
+        public void ResetReportCount()
         {
             ReportedCount = 0;
+        }
+
+        private void ResetReportCountAfterDelay()
+        {
+            Timer timer = new Timer(3 * 60 * 1000); // 3 minutes in milliseconds
+            timer.Elapsed += (sender, e) =>
+            {
+                ResetReportCount();
+                timer.Stop();
+                timer.Dispose();
+            };
+            timer.Start();
         }
 
         public void AddFriend(int friendID)

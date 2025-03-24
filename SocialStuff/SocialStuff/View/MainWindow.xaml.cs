@@ -42,7 +42,7 @@ namespace SocialStuff
             Repository repo = new Repository();
             userService = new UserService(repo);
             chatService = new ChatService(repo);
-            messageService = new MessageService(repo);
+            messageService = new MessageService(repo,userService);
         }
 
         private void Chat_Click(object sender, RoutedEventArgs e)

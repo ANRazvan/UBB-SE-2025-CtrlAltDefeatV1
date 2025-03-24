@@ -2,6 +2,7 @@
 using Microsoft.UI.Xaml.Controls;
 using SocialStuff.Model;
 using SocialStuff.Services;
+using System;
 using System.Collections.Generic;
 
 namespace SocialStuff.Views
@@ -34,7 +35,7 @@ namespace SocialStuff.Views
             }
         }
 
-        private void SubmitButton_Click(object sender, RoutedEventArgs e)
+        private async void SubmitButton_Click(object sender, RoutedEventArgs e)
         {
             string selectedCategory = (CategoryComboBox.SelectedItem as ComboBoxItem)?.Content.ToString();
             string reason = selectedCategory == "Other" ? OtherReasonTextBox.Text : selectedCategory;
@@ -45,9 +46,10 @@ namespace SocialStuff.Views
                 {
                     Title = "Error",
                     Content = "Please provide a reason for reporting.",
-                    CloseButtonText = "OK"
+                    CloseButtonText = "OK",
+                    XamlRoot = this.Content.XamlRoot
                 };
-                _ = dialog.ShowAsync();
+                await dialog.ShowAsync();
                 return;
             }
 
@@ -58,23 +60,34 @@ namespace SocialStuff.Views
 
             // Increase the reported count for the user
             User reportedUser = userService.GetUserById(reportedUserId);
-            reportedUser.IncreaseReportCount();
+            string reportMessage = reportedUser.IncreaseReportCount();
 
-            // Check if the user should be marked as dangerous
-            if (reportedUser.GetReportedCount() > 3)
+            userService.MarkUserAsDangerousAndGiveTimeout(reportedUser);
+
+            // Show report message if not empty
+            if (!string.IsNullOrEmpty(reportMessage))
             {
-                userService.MarkUserAsDangerousAndGiveTimeout(reportedUser);
+                var reportDialog = new ContentDialog
+                {
+                    Title = "User Reported",
+                    Content = reportMessage,
+                    CloseButtonText = "OK",
+                    XamlRoot = this.Content.XamlRoot
+                };
+                await reportDialog.ShowAsync();
             }
 
             var successDialog = new ContentDialog
             {
                 Title = "Success",
                 Content = "Report submitted successfully.",
-                CloseButtonText = "OK"
+                CloseButtonText = "OK",
+                XamlRoot = this.Content.XamlRoot
             };
-            _ = successDialog.ShowAsync();
+            await successDialog.ShowAsync();
             this.Close();
         }
+
 
         private void CancelButton_Click(object sender, RoutedEventArgs e)
         {
